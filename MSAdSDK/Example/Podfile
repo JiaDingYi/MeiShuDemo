@@ -1,0 +1,38 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+
+def common_pods
+  pod 'MSMobAdSDK/MS','2.5.0.0'
+  pod 'BaiduMobAdSDK', '5.370'
+  pod 'Ads-CN-Beta', '6.5.0.5', :subspecs => ['BUAdSDK', 'CSJMediation']
+  pod 'JADYun','2.6.4'
+  pod 'JADYunMotion','2.6.4'
+  pod 'KSAdSDK','3.3.69'
+  pod 'GDTMobSDK','4.15.10'
+  pod 'SigmobAd-iOS','4.11.1'
+  pod 'WechatOpenSDK', '~> 1.8.6'
+end
+
+target 'MSAdSDK_Example' do
+  common_pods
+  pod 'Masonry'
+  pod 'SDWebImage','5.8.4'
+  pod 'IQKeyboardManager'
+end
+
+target 'MSAdSDK-Example-Swift' do
+  common_pods
+  pod 'SnapKit', '~> 5.6.0'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      xcconfig_path = config.base_configuration_reference.real_path
+      xcconfig = File.read(xcconfig_path)
+      xcconfig_mod = xcconfig.gsub(/DT_TOOLCHAIN_DIR/, "TOOLCHAIN_DIR")
+      File.open(xcconfig_path, "w") { |file| file << xcconfig_mod }
+    end
+  end
+end

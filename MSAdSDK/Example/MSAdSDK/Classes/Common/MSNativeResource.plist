@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>modelType</key>
+		<string>0</string>
+		<key>title</key>
+		<string>什么是原生广告？</string>
+		<key>desc</key>
+		<string>对于原生广告的概念，IAB 在《原生广告手册》中提出了较为标准的描述：原生广告是与页面内容紧密关联，融入于整体设计，且与平台行为一致的广告，以至于用户感觉广告属于产品的一部分。</string>
+		<key>contentType</key>
+		<string>置顶</string>
+		<key>nowTime</key>
+		<string>1分钟前</string>
+		<key>icon</key>
+		<string>nativeIcon.png</string>
+	</dict>
+	<dict>
+		<key>modelType</key>
+		<string>1</string>
+		<key>title</key>
+		<string>什么是原生广告？</string>
+		<key>desc</key>
+		<string>对于原生广告的概念，IAB 在《原生广告手册》中提出了较为标准的描述：原生广告是与页面内容紧密关联，融入于整体设计，且与平台行为一致的广告，以至于用户感觉广告属于产品的一部分。</string>
+		<key>contentType</key>
+		<string>为您推荐</string>
+		<key>nowTime</key>
+		<string>2分钟前</string>
+		<key>icon</key>
+		<string>nativeIcon.png</string>
+	</dict>
+	<dict>
+		<key>modelType</key>
+		<string>3</string>
+		<key>title</key>
+		<string>什么是原生广告？</string>
+		<key>desc</key>
+		<string>对于原生广告的概念，IAB 在《原生广告手册》中提出了较为标准的描述：原生广告是与页面内容紧密关联，融入于整体设计，且与平台行为一致的广告，以至于用户感觉广告属于产品的一部分。</string>
+		<key>contentType</key>
+		<string>为您推荐</string>
+		<key>nowTime</key>
+		<string>3分钟前</string>
+		<key>icon</key>
+		<string>nativeIcon.png</string>
+	</dict>
+	<dict>
+		<key>modelType</key>
+		<string>2</string>
+		<key>title</key>
+		<string>什么是原生广告？</string>
+		<key>desc</key>
+		<string>对于原生广告的概念，IAB 在《原生广告手册》中提出了较为标准的描述：原生广告是与页面内容紧密关联，融入于整体设计，且与平台行为一致的广告，以至于用户感觉广告属于产品的一部分。</string>
+		<key>contentType</key>
+		<string>为您推荐</string>
+		<key>nowTime</key>
+		<string>10分钟前</string>
+		<key>icon</key>
+		<string>nativeIcon.png</string>
+	</dict>
+	<dict>
+		<key>modelType</key>
+		<string>1</string>
+		<key>title</key>
+		<string>什么是原生广告？</string>
+		<key>desc</key>
+		<string>对于原生广告的概念，IAB 在《原生广告手册》中提出了较为标准的描述：原生广告是与页面内容紧密关联，融入于整体设计，且与平台行为一致的广告，以至于用户感觉广告属于产品的一部分。</string>
+		<key>contentType</key>
+		<string>为您推荐</string>
+		<key>nowTime</key>
+		<string>20分钟前</string>
+		<key>icon</key>
+		<string>nativeIcon.png</string>
+	</dict>
+	<dict>
+		<key>modelType</key>
+		<string>3</string>
+		<key>title</key>
+		<string>什么是原生广告？</string>
+		<key>desc</key>
+		<string>对于原生广告的概念，IAB 在《原生广告手册》中提出了较为标准的描述：原生广告是与页面内容紧密关联，融入于整体设计，且与平台行为一致的广告，以至于用户感觉广告属于产品的一部分。</string>
+		<key>contentType</key>
+		<string>为您推荐</string>
+		<key>nowTime</key>
+		<string>30分钟前</string>
+		<key>icon</key>
+		<string>nativeIcon.png</string>
+	</dict>
+	<dict>
+		<key>modelType</key>
+		<string>0</string>
+		<key>title</key>
+		<string>什么是原生广告？</string>
+		<key>desc</key>
+		<string>对于原生广告的概念，IAB 在《原生广告手册》中提出了较为标准的描述：原生广告是与页面内容紧密关联，融入于整体设计，且与平台行为一致的广告，以至于用户感觉广告属于产品的一部分。</string>
+		<key>contentType</key>
+		<string>为您推荐</string>
+		<key>nowTime</key>
+		<string>1天前</string>
+		<key>icon</key>
+		<string>nativeIcon.png</string>
+	</dict>
+	<dict>
+		<key>modelType</key>
+		<string>2</string>
+		<key>title</key>
+		<string>什么是原生广告？</string>
+		<key>desc</key>
+		<string>对于原生广告的概念，IAB 在《原生广告手册》中提出了较为标准的描述：原生广告是与页面内容紧密关联，融入于整体设计，且与平台行为一致的广告，以至于用户感觉广告属于产品的一部分。</string>
+		<key>contentType</key>
+		<string>为您推荐</string>
+		<key>nowTime</key>
+		<string>2天前</string>
+		<key>icon</key>
+		<string>nativeIcon.png</string>
+	</dict>
+</array>
+</plist>

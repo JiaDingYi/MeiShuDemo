@@ -1,0 +1,37 @@
+{
+  "name": "MSAdSDKDemo",
+  "version": "0.1.0",
+  "summary": "Short description of MSAdSDK Demo Classes",
+  "description": "Short description of  MSAdSDK  Demo  Classes",
+  "homepage": "https://github.com/Liumao/MSAdSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Liumao": "12-wangwei@users.noreply.git.adxdata.com"
+  },
+  "source": {
+    "git": "https://github.com/Liumao/MSAdSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "vendored_frameworks": "MSAdSDK/Libs/MSAdSDK.framework",
+      "dependencies": {
+        "AFNetworking": [
+
+        ]
+      }
+    },
+    {
+      "name": "Demo",
+      "source_files": "MSAdSDK/Classes/Demo/**/*.{h,m}",
+      "prefix_header_contents": "#import 'MSAdSDK.h'"
+    }
+  ]
+}

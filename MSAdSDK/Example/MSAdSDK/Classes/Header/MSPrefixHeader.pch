@@ -1,0 +1,24 @@
+//
+//  MSPrefixHeader.pch
+//  MSAdSDKDev
+//
+//  Created by Liumaos on 2020/7/15.
+//  Copyright © 2020 XiXiHaha. All rights reserved.
+//
+
+#ifndef MSPrefixHeader_pch
+#define MSPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <MSAdSDK/MSAdSDK.h>
+#import <Masonry/Masonry.h>
+#import "MSQuickCreate.h"
+#import "MSLogger.h"
+#import "MSDeepLinkViewController.h"
+#import "MSTools.h"
+#import "MSMediaInfoModel.h"
+//>=穿山甲5200版本不可使用接口
+#define kCan_BUSDKInterface 0
+#endif /* MSPrefixHeader_pch */

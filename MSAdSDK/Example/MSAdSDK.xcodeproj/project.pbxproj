@@ -1,0 +1,1413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560A992E6ADE8231A5C9D20B /* Pods_MSAdSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78490591B563EA9C0DCA3F9E /* Pods_MSAdSDK_Example.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MSAppDelegate.m */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8A0242524E1FF21D745FA2B4 /* Pods_MSAdSDK_Example_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440B134949F00EEAA35612B4 /* Pods_MSAdSDK_Example_Swift.framework */; };
+		C47BF14F24EBBDB8002D6BD8 /* BDIdProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF10524EBBDB8002D6BD8 /* BDIdProvider.m */; };
+		C47BF15024EBBDB8002D6BD8 /* IAdIdProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF10624EBBDB8002D6BD8 /* IAdIdProvider.m */; };
+		C47BF15224EBBDB8002D6BD8 /* MSIdProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF10824EBBDB8002D6BD8 /* MSIdProvider.m */; };
+		C47BF15324EBBDB8002D6BD8 /* IdProviderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF11024EBBDB8002D6BD8 /* IdProviderFactory.m */; };
+		C47BF15424EBBDB8002D6BD8 /* GDTIdProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF11124EBBDB8002D6BD8 /* GDTIdProvider.m */; };
+		C47BF15524EBBDB8002D6BD8 /* BUIdProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF11224EBBDB8002D6BD8 /* BUIdProvider.m */; };
+		C47BF15624EBBDB8002D6BD8 /* MSDefaultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF11424EBBDB8002D6BD8 /* MSDefaultSet.m */; };
+		C47BF15724EBBDB8002D6BD8 /* MSQuickCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF11624EBBDB8002D6BD8 /* MSQuickCreate.m */; };
+		C47BF15824EBBDB8002D6BD8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF11924EBBDB8002D6BD8 /* HomeViewController.m */; };
+		C47BF15924EBBDB8002D6BD8 /* MSBaseAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF11B24EBBDB8002D6BD8 /* MSBaseAdViewController.m */; };
+		C47BF16624EBBDB8002D6BD8 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF13E24EBBDB8002D6BD8 /* MSViewController.m */; };
+		C47BF16724EBBDB8002D6BD8 /* BDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF14224EBBDB8002D6BD8 /* BDViewController.m */; };
+		C47BF16824EBBDB8002D6BD8 /* GDTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF14524EBBDB8002D6BD8 /* GDTViewController.m */; };
+		C47BF16924EBBDB8002D6BD8 /* BUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF14824EBBDB8002D6BD8 /* BUViewController.m */; };
+		C47BF16A24EBBDB8002D6BD8 /* MSDemoSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF14A24EBBDB8002D6BD8 /* MSDemoSplashViewController.m */; };
+		C47BF16B24EBBDB8002D6BD8 /* MSPidModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF14D24EBBDB8002D6BD8 /* MSPidModel.m */; };
+		F61B7BDB2A6E6EFC002F360A /* SplashAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B7BCC2A6E6EFB002F360A /* SplashAdViewController.swift */; };
+		F61B7BDC2A6E6EFC002F360A /* BannerAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B7BCE2A6E6EFB002F360A /* BannerAdViewController.swift */; };
+		F61B7BDD2A6E6EFC002F360A /* RewardAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B7BD02A6E6EFB002F360A /* RewardAdViewController.swift */; };
+		F61B7BDE2A6E6EFC002F360A /* FullVideoAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B7BD22A6E6EFC002F360A /* FullVideoAdViewController.swift */; };
+		F61B7BDF2A6E6EFC002F360A /* DrawAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B7BD42A6E6EFC002F360A /* DrawAdViewController.swift */; };
+		F61B7BE02A6E6EFC002F360A /* InterstiitialAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B7BD62A6E6EFC002F360A /* InterstiitialAdViewController.swift */; };
+		F61B7BE12A6E6EFC002F360A /* NativeExpressAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B7BD82A6E6EFC002F360A /* NativeExpressAdViewController.swift */; };
+		F61B7BE22A6E6EFC002F360A /* MSNativeSimpleCustomVideoAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B7BD92A6E6EFC002F360A /* MSNativeSimpleCustomVideoAdView.swift */; };
+		F61B7BE32A6E6EFC002F360A /* MSNativeSimpleCustomAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B7BDA2A6E6EFC002F360A /* MSNativeSimpleCustomAdView.swift */; };
+		F61B7BE92A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F61B7BE62A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.debug.xcconfig */; };
+		F61B7BEA2A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F61B7BE82A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.release.xcconfig */; };
+		F649B166264B7A54007E6565 /* MSDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F649B165264B7A54007E6565 /* MSDelegateViewController.m */; };
+		F649B16B264B7A72007E6565 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F649B16A264B7A72007E6565 /* KSViewController.m */; };
+		F649B16F264B7AC1007E6565 /* KSIdProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F649B16D264B7AC1007E6565 /* KSIdProvider.m */; };
+		F649B173264B7AD2007E6565 /* MSNativeResource.plist in Resources */ = {isa = PBXBuildFile; fileRef = F649B171264B7AD2007E6565 /* MSNativeResource.plist */; };
+		F649B174264B7AD2007E6565 /* nativeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F649B172264B7AD2007E6565 /* nativeIcon.png */; };
+		F649B178264B7B53007E6565 /* MSModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F649B177264B7B53007E6565 /* MSModuleViewController.m */; };
+		F64A74D5255BBF85007187A5 /* MSDeepLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64A74D4255BBF85007187A5 /* MSDeepLinkViewController.m */; };
+		F6513B4025076DC900EB9CF0 /* MSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F6513B3D25076DC800EB9CF0 /* MSTools.m */; };
+		F6513B4125076DC900EB9CF0 /* MSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F6513B3F25076DC900EB9CF0 /* MSLogger.m */; };
+		F657C615259498560054E119 /* JDIdProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F657C613259498560054E119 /* JDIdProvider.m */; };
+		F657C62625949E3E0054E119 /* JDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F657C62425949E3E0054E119 /* JDViewController.m */; };
+		F68983A2284453730051A63C /* MSCustomAdapterIdProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F68983A0284453730051A63C /* MSCustomAdapterIdProvider.m */; };
+		F68983A6284453940051A63C /* MSCPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F68983A4284453940051A63C /* MSCPViewController.m */; };
+		F691BCF72850B79400D21BD5 /* MSAdSDKCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691BCF62850B79400D21BD5 /* MSAdSDKCommon.swift */; };
+		F69F8D8228C98862007AB51E /* MediaCustomFeedAdMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D3828C98861007AB51E /* MediaCustomFeedAdMeta.m */; };
+		F69F8D8328C98862007AB51E /* MediaCustomNativeAdapterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D3928C98861007AB51E /* MediaCustomNativeAdapterDelegate.m */; };
+		F69F8D8428C98862007AB51E /* MediaCustomNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D3A28C98861007AB51E /* MediaCustomNativeAdapter.m */; };
+		F69F8D8528C98862007AB51E /* MediaCustomFeedVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D3B28C98861007AB51E /* MediaCustomFeedVideoView.m */; };
+		F69F8D9028C98862007AB51E /* MediaCustomVideoAdapterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D5A28C98862007AB51E /* MediaCustomVideoAdapterDelegate.m */; };
+		F69F8D9128C98862007AB51E /* MediaCustomVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D5C28C98862007AB51E /* MediaCustomVideoAdapter.m */; };
+		F69F8D9228C98862007AB51E /* MediaCustomPrerenderAdapterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D5F28C98862007AB51E /* MediaCustomPrerenderAdapterDelegate.m */; };
+		F69F8D9328C98862007AB51E /* MediaCustomPrerenderAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D6028C98862007AB51E /* MediaCustomPrerenderAdapter.m */; };
+		F69F8D9428C98862007AB51E /* MediaCustomSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D6428C98862007AB51E /* MediaCustomSplashAdapter.m */; };
+		F69F8D9528C98862007AB51E /* MediaCustomSplashDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D6728C98862007AB51E /* MediaCustomSplashDelegate.m */; };
+		F69F8D9628C98862007AB51E /* MediaCustomInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D6A28C98862007AB51E /* MediaCustomInterstitialAdapter.m */; };
+		F69F8D9728C98862007AB51E /* MediaCustomInterstitialDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D6B28C98862007AB51E /* MediaCustomInterstitialDelegate.m */; };
+		F69F8D9828C98862007AB51E /* MediaCustomFullScreenVideoAdapterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D6E28C98862007AB51E /* MediaCustomFullScreenVideoAdapterDelegate.m */; };
+		F69F8D9928C98862007AB51E /* MediaCustomFullScreenVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D6F28C98862007AB51E /* MediaCustomFullScreenVideoAdapter.m */; };
+		F69F8D9A28C98862007AB51E /* MediaSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D7228C98862007AB51E /* MediaSDKManager.m */; };
+		F69F8D9B28C98862007AB51E /* MediaCustomRewardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D7528C98862007AB51E /* MediaCustomRewardAdapter.m */; };
+		F69F8D9C28C98862007AB51E /* MediaCustomRewardAdapterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D7628C98862007AB51E /* MediaCustomRewardAdapterDelegate.m */; };
+		F69F8D9D28C98862007AB51E /* MediaCustomBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D7A28C98862007AB51E /* MediaCustomBannerAdapter.m */; };
+		F69F8D9E28C98862007AB51E /* MediaCustomBannerAdapterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D7B28C98862007AB51E /* MediaCustomBannerAdapterDelegate.m */; };
+		F69F8D9F28C98862007AB51E /* MediaCustomDrawAdapterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D8028C98862007AB51E /* MediaCustomDrawAdapterDelegate.m */; };
+		F69F8DA028C98862007AB51E /* MediaCustomDrawAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F8D8128C98862007AB51E /* MediaCustomDrawAdapter.m */; };
+		F6A9094C2A1766C000CE3B28 /* MSFullScreenVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909402A1766BF00CE3B28 /* MSFullScreenVideoViewController.m */; };
+		F6A9094D2A1766C000CE3B28 /* MSDrawAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909432A1766BF00CE3B28 /* MSDrawAdViewController.m */; };
+		F6A9094E2A1766C000CE3B28 /* MSDrawAdViewShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909442A1766BF00CE3B28 /* MSDrawAdViewShowController.m */; };
+		F6A9094F2A1766C000CE3B28 /* MSInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909482A1766C000CE3B28 /* MSInterstitialViewController.m */; };
+		F6A909502A1766C000CE3B28 /* MSBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9094B2A1766C000CE3B28 /* MSBannerViewController.m */; };
+		F6A909782A1766DE00CE3B28 /* MSRewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909522A1766DD00CE3B28 /* MSRewardVideoViewController.m */; };
+		F6A909792A1766DE00CE3B28 /* MSNativeTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909562A1766DE00CE3B28 /* MSNativeTestTableViewCell.m */; };
+		F6A9097A2A1766DE00CE3B28 /* MSNativeTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909592A1766DE00CE3B28 /* MSNativeTestModel.m */; };
+		F6A9097B2A1766DE00CE3B28 /* MSNativeSimpleVideoAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9095B2A1766DE00CE3B28 /* MSNativeSimpleVideoAdView.m */; };
+		F6A9097C2A1766DE00CE3B28 /* MSNativeFeedAdShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9095D2A1766DE00CE3B28 /* MSNativeFeedAdShowViewController.m */; };
+		F6A9097D2A1766DE00CE3B28 /* MSNativeSimpleImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9095F2A1766DE00CE3B28 /* MSNativeSimpleImageAdView.m */; };
+		F6A9097E2A1766DE00CE3B28 /* MSNativeFeedAdSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909622A1766DE00CE3B28 /* MSNativeFeedAdSimpleViewController.m */; };
+		F6A9097F2A1766DE00CE3B28 /* MSNativeVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909642A1766DE00CE3B28 /* MSNativeVideoCell.m */; };
+		F6A909802A1766DE00CE3B28 /* MSNativeAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909672A1766DE00CE3B28 /* MSNativeAdView.m */; };
+		F6A909812A1766DE00CE3B28 /* MSNativeFeedAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909682A1766DE00CE3B28 /* MSNativeFeedAdViewController.m */; };
+		F6A909822A1766DE00CE3B28 /* MSPrerenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909692A1766DE00CE3B28 /* MSPrerenderCell.m */; };
+		F6A909832A1766DE00CE3B28 /* FeedVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9096B2A1766DE00CE3B28 /* FeedVideoView.m */; };
+		F6A909842A1766DE00CE3B28 /* MSNativeImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9096D2A1766DE00CE3B28 /* MSNativeImageCell.m */; };
+		F6A909852A1766DE00CE3B28 /* MSSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909712A1766DE00CE3B28 /* MSSplashViewController.m */; };
+		F6A909862A1766DE00CE3B28 /* MSSplashSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909722A1766DE00CE3B28 /* MSSplashSettingView.m */; };
+		F6A909872A1766DE00CE3B28 /* MSVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A909762A1766DE00CE3B28 /* MSVideoAdViewController.m */; };
+		F6B7505D28DD97D9002E5C4C /* AdmobIdProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7505C28DD97D9002E5C4C /* AdmobIdProvider.m */; };
+		F6B7506028DD980F002E5C4C /* MSMediaInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7505E28DD980E002E5C4C /* MSMediaInfoModel.m */; };
+		F6B7506428DD9983002E5C4C /* AdMobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7506328DD9983002E5C4C /* AdMobViewController.m */; };
+		F6CFE9822A67B575001A0040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CFE9812A67B575001A0040 /* AppDelegate.swift */; };
+		F6CFE9862A67B575001A0040 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CFE9852A67B575001A0040 /* ViewController.swift */; };
+		F6CFE9892A67B575001A0040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CFE9872A67B575001A0040 /* Main.storyboard */; };
+		F6CFE98B2A67B577001A0040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CFE98A2A67B577001A0040 /* Assets.xcassets */; };
+		F6CFE98E2A67B577001A0040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CFE98C2A67B577001A0040 /* LaunchScreen.storyboard */; };
+		F6CFE9A32A67D14D001A0040 /* BaseAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CFE9A22A67D14D001A0040 /* BaseAdViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B8A64E5423569EBD618FCAE /* Pods-MSAdSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSAdSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-MSAdSDK_Example/Pods-MSAdSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		440B134949F00EEAA35612B4 /* Pods_MSAdSDK_Example_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSAdSDK_Example_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		499A5AD24DE9B7933490D0DF /* Pods-MSAdSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSAdSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-MSAdSDK_Example/Pods-MSAdSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* MSAdSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSAdSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* MSAdSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSAdSDK-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* MSAdSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSAdSDK-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78490591B563EA9C0DCA3F9E /* Pods_MSAdSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSAdSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47BF10524EBBDB8002D6BD8 /* BDIdProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDIdProvider.m; sourceTree = "<group>"; };
+		C47BF10624EBBDB8002D6BD8 /* IAdIdProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAdIdProvider.m; sourceTree = "<group>"; };
+		C47BF10824EBBDB8002D6BD8 /* MSIdProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSIdProvider.m; sourceTree = "<group>"; };
+		C47BF10924EBBDB8002D6BD8 /* GDTIdProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTIdProvider.h; sourceTree = "<group>"; };
+		C47BF10A24EBBDB8002D6BD8 /* IdProviderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdProviderFactory.h; sourceTree = "<group>"; };
+		C47BF10B24EBBDB8002D6BD8 /* BUIdProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUIdProvider.h; sourceTree = "<group>"; };
+		C47BF10C24EBBDB8002D6BD8 /* IAdIdProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAdIdProvider.h; sourceTree = "<group>"; };
+		C47BF10D24EBBDB8002D6BD8 /* BDIdProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDIdProvider.h; sourceTree = "<group>"; };
+		C47BF10E24EBBDB8002D6BD8 /* MSIdProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSIdProvider.h; sourceTree = "<group>"; };
+		C47BF11024EBBDB8002D6BD8 /* IdProviderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdProviderFactory.m; sourceTree = "<group>"; };
+		C47BF11124EBBDB8002D6BD8 /* GDTIdProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTIdProvider.m; sourceTree = "<group>"; };
+		C47BF11224EBBDB8002D6BD8 /* BUIdProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUIdProvider.m; sourceTree = "<group>"; };
+		C47BF11424EBBDB8002D6BD8 /* MSDefaultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDefaultSet.m; sourceTree = "<group>"; };
+		C47BF11524EBBDB8002D6BD8 /* MSQuickCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSQuickCreate.h; sourceTree = "<group>"; };
+		C47BF11624EBBDB8002D6BD8 /* MSQuickCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSQuickCreate.m; sourceTree = "<group>"; };
+		C47BF11724EBBDB8002D6BD8 /* MSDefaultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDefaultSet.h; sourceTree = "<group>"; };
+		C47BF11924EBBDB8002D6BD8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C47BF11B24EBBDB8002D6BD8 /* MSBaseAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBaseAdViewController.m; sourceTree = "<group>"; };
+		C47BF12224EBBDB8002D6BD8 /* MSBaseAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBaseAdViewController.h; sourceTree = "<group>"; };
+		C47BF13E24EBBDB8002D6BD8 /* MSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		C47BF13F24EBBDB8002D6BD8 /* MSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		C47BF14124EBBDB8002D6BD8 /* BDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDViewController.h; sourceTree = "<group>"; };
+		C47BF14224EBBDB8002D6BD8 /* BDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDViewController.m; sourceTree = "<group>"; };
+		C47BF14524EBBDB8002D6BD8 /* GDTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTViewController.m; sourceTree = "<group>"; };
+		C47BF14624EBBDB8002D6BD8 /* GDTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTViewController.h; sourceTree = "<group>"; };
+		C47BF14824EBBDB8002D6BD8 /* BUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUViewController.m; sourceTree = "<group>"; };
+		C47BF14924EBBDB8002D6BD8 /* BUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUViewController.h; sourceTree = "<group>"; };
+		C47BF14A24EBBDB8002D6BD8 /* MSDemoSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDemoSplashViewController.m; sourceTree = "<group>"; };
+		C47BF14B24EBBDB8002D6BD8 /* MSPidModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPidModel.h; sourceTree = "<group>"; };
+		C47BF14C24EBBDB8002D6BD8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C47BF14D24EBBDB8002D6BD8 /* MSPidModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPidModel.m; sourceTree = "<group>"; };
+		C47BF14E24EBBDB8002D6BD8 /* MSDemoSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDemoSplashViewController.h; sourceTree = "<group>"; };
+		F61B7BCC2A6E6EFB002F360A /* SplashAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashAdViewController.swift; sourceTree = "<group>"; };
+		F61B7BCE2A6E6EFB002F360A /* BannerAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerAdViewController.swift; sourceTree = "<group>"; };
+		F61B7BD02A6E6EFB002F360A /* RewardAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardAdViewController.swift; sourceTree = "<group>"; };
+		F61B7BD22A6E6EFC002F360A /* FullVideoAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullVideoAdViewController.swift; sourceTree = "<group>"; };
+		F61B7BD42A6E6EFC002F360A /* DrawAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawAdViewController.swift; sourceTree = "<group>"; };
+		F61B7BD62A6E6EFC002F360A /* InterstiitialAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstiitialAdViewController.swift; sourceTree = "<group>"; };
+		F61B7BD82A6E6EFC002F360A /* NativeExpressAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeExpressAdViewController.swift; sourceTree = "<group>"; };
+		F61B7BD92A6E6EFC002F360A /* MSNativeSimpleCustomVideoAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSNativeSimpleCustomVideoAdView.swift; sourceTree = "<group>"; };
+		F61B7BDA2A6E6EFC002F360A /* MSNativeSimpleCustomAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSNativeSimpleCustomAdView.swift; sourceTree = "<group>"; };
+		F61B7BE62A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-MSAdSDK-Example-Swift.debug.xcconfig"; path = "Target Support Files/Pods-MSAdSDK-Example-Swift/Pods-MSAdSDK-Example-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		F61B7BE82A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-MSAdSDK-Example-Swift.release.xcconfig"; path = "Target Support Files/Pods-MSAdSDK-Example-Swift/Pods-MSAdSDK-Example-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		F649B164264B7A54007E6565 /* MSDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDelegateViewController.h; sourceTree = "<group>"; };
+		F649B165264B7A54007E6565 /* MSDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDelegateViewController.m; sourceTree = "<group>"; };
+		F649B169264B7A72007E6565 /* KSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		F649B16A264B7A72007E6565 /* KSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		F649B16D264B7AC1007E6565 /* KSIdProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSIdProvider.m; sourceTree = "<group>"; };
+		F649B16E264B7AC1007E6565 /* KSIdProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSIdProvider.h; sourceTree = "<group>"; };
+		F649B171264B7AD2007E6565 /* MSNativeResource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MSNativeResource.plist; sourceTree = "<group>"; };
+		F649B172264B7AD2007E6565 /* nativeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nativeIcon.png; sourceTree = "<group>"; };
+		F649B176264B7B53007E6565 /* MSModuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSModuleViewController.h; sourceTree = "<group>"; };
+		F649B177264B7B53007E6565 /* MSModuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSModuleViewController.m; sourceTree = "<group>"; };
+		F64A74D3255BBF85007187A5 /* MSDeepLinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDeepLinkViewController.h; sourceTree = "<group>"; };
+		F64A74D4255BBF85007187A5 /* MSDeepLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDeepLinkViewController.m; sourceTree = "<group>"; };
+		F6513B3C25076DC800EB9CF0 /* MSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLogger.h; sourceTree = "<group>"; };
+		F6513B3D25076DC800EB9CF0 /* MSTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTools.m; sourceTree = "<group>"; };
+		F6513B3E25076DC800EB9CF0 /* MSTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTools.h; sourceTree = "<group>"; };
+		F6513B3F25076DC900EB9CF0 /* MSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLogger.m; sourceTree = "<group>"; };
+		F6513B4325076E2100EB9CF0 /* MSPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPrefixHeader.pch; sourceTree = "<group>"; };
+		F657C613259498560054E119 /* JDIdProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDIdProvider.m; sourceTree = "<group>"; };
+		F657C614259498560054E119 /* JDIdProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDIdProvider.h; sourceTree = "<group>"; };
+		F657C62425949E3E0054E119 /* JDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDViewController.m; sourceTree = "<group>"; };
+		F657C62525949E3E0054E119 /* JDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDViewController.h; sourceTree = "<group>"; };
+		F68983A0284453730051A63C /* MSCustomAdapterIdProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCustomAdapterIdProvider.m; sourceTree = "<group>"; };
+		F68983A1284453730051A63C /* MSCustomAdapterIdProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCustomAdapterIdProvider.h; sourceTree = "<group>"; };
+		F68983A4284453940051A63C /* MSCPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCPViewController.m; sourceTree = "<group>"; };
+		F68983A5284453940051A63C /* MSCPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCPViewController.h; sourceTree = "<group>"; };
+		F691BCF52850B79400D21BD5 /* MSAdSDK_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSAdSDK_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		F691BCF62850B79400D21BD5 /* MSAdSDKCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAdSDKCommon.swift; sourceTree = "<group>"; };
+		F69F8D3628C98861007AB51E /* MediaSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaSDKManager.h; sourceTree = "<group>"; };
+		F69F8D3828C98861007AB51E /* MediaCustomFeedAdMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomFeedAdMeta.m; sourceTree = "<group>"; };
+		F69F8D3928C98861007AB51E /* MediaCustomNativeAdapterDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomNativeAdapterDelegate.m; sourceTree = "<group>"; };
+		F69F8D3A28C98861007AB51E /* MediaCustomNativeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomNativeAdapter.m; sourceTree = "<group>"; };
+		F69F8D3B28C98861007AB51E /* MediaCustomFeedVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomFeedVideoView.m; sourceTree = "<group>"; };
+		F69F8D3C28C98861007AB51E /* MediaCustomNativeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomNativeAdapter.h; sourceTree = "<group>"; };
+		F69F8D3D28C98861007AB51E /* MediaCustomNativeAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomNativeAdapterDelegate.h; sourceTree = "<group>"; };
+		F69F8D3E28C98862007AB51E /* MediaCustomFeedAdMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomFeedAdMeta.h; sourceTree = "<group>"; };
+		F69F8D3F28C98862007AB51E /* MediaCustomFeedVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomFeedVideoView.h; sourceTree = "<group>"; };
+		F69F8D5A28C98862007AB51E /* MediaCustomVideoAdapterDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomVideoAdapterDelegate.m; sourceTree = "<group>"; };
+		F69F8D5B28C98862007AB51E /* MediaCustomVideoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomVideoAdapter.h; sourceTree = "<group>"; };
+		F69F8D5C28C98862007AB51E /* MediaCustomVideoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomVideoAdapter.m; sourceTree = "<group>"; };
+		F69F8D5D28C98862007AB51E /* MediaCustomVideoAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomVideoAdapterDelegate.h; sourceTree = "<group>"; };
+		F69F8D5F28C98862007AB51E /* MediaCustomPrerenderAdapterDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomPrerenderAdapterDelegate.m; sourceTree = "<group>"; };
+		F69F8D6028C98862007AB51E /* MediaCustomPrerenderAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomPrerenderAdapter.m; sourceTree = "<group>"; };
+		F69F8D6128C98862007AB51E /* MediaCustomPrerenderAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomPrerenderAdapterDelegate.h; sourceTree = "<group>"; };
+		F69F8D6228C98862007AB51E /* MediaCustomPrerenderAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomPrerenderAdapter.h; sourceTree = "<group>"; };
+		F69F8D6428C98862007AB51E /* MediaCustomSplashAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomSplashAdapter.m; sourceTree = "<group>"; };
+		F69F8D6528C98862007AB51E /* MediaCustomSplashDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomSplashDelegate.h; sourceTree = "<group>"; };
+		F69F8D6628C98862007AB51E /* MediaCustomSplashAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomSplashAdapter.h; sourceTree = "<group>"; };
+		F69F8D6728C98862007AB51E /* MediaCustomSplashDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomSplashDelegate.m; sourceTree = "<group>"; };
+		F69F8D6928C98862007AB51E /* MediaCustomInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomInterstitialDelegate.h; sourceTree = "<group>"; };
+		F69F8D6A28C98862007AB51E /* MediaCustomInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomInterstitialAdapter.m; sourceTree = "<group>"; };
+		F69F8D6B28C98862007AB51E /* MediaCustomInterstitialDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomInterstitialDelegate.m; sourceTree = "<group>"; };
+		F69F8D6C28C98862007AB51E /* MediaCustomInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomInterstitialAdapter.h; sourceTree = "<group>"; };
+		F69F8D6E28C98862007AB51E /* MediaCustomFullScreenVideoAdapterDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomFullScreenVideoAdapterDelegate.m; sourceTree = "<group>"; };
+		F69F8D6F28C98862007AB51E /* MediaCustomFullScreenVideoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomFullScreenVideoAdapter.m; sourceTree = "<group>"; };
+		F69F8D7028C98862007AB51E /* MediaCustomFullScreenVideoAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomFullScreenVideoAdapterDelegate.h; sourceTree = "<group>"; };
+		F69F8D7128C98862007AB51E /* MediaCustomFullScreenVideoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomFullScreenVideoAdapter.h; sourceTree = "<group>"; };
+		F69F8D7228C98862007AB51E /* MediaSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaSDKManager.m; sourceTree = "<group>"; };
+		F69F8D7428C98862007AB51E /* MediaCustomRewardAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomRewardAdapterDelegate.h; sourceTree = "<group>"; };
+		F69F8D7528C98862007AB51E /* MediaCustomRewardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomRewardAdapter.m; sourceTree = "<group>"; };
+		F69F8D7628C98862007AB51E /* MediaCustomRewardAdapterDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomRewardAdapterDelegate.m; sourceTree = "<group>"; };
+		F69F8D7728C98862007AB51E /* MediaCustomRewardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomRewardAdapter.h; sourceTree = "<group>"; };
+		F69F8D7928C98862007AB51E /* MediaCustomBannerAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomBannerAdapterDelegate.h; sourceTree = "<group>"; };
+		F69F8D7A28C98862007AB51E /* MediaCustomBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomBannerAdapter.m; sourceTree = "<group>"; };
+		F69F8D7B28C98862007AB51E /* MediaCustomBannerAdapterDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomBannerAdapterDelegate.m; sourceTree = "<group>"; };
+		F69F8D7C28C98862007AB51E /* MediaCustomBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomBannerAdapter.h; sourceTree = "<group>"; };
+		F69F8D7E28C98862007AB51E /* MediaCustomDrawAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomDrawAdapterDelegate.h; sourceTree = "<group>"; };
+		F69F8D7F28C98862007AB51E /* MediaCustomDrawAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCustomDrawAdapter.h; sourceTree = "<group>"; };
+		F69F8D8028C98862007AB51E /* MediaCustomDrawAdapterDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomDrawAdapterDelegate.m; sourceTree = "<group>"; };
+		F69F8D8128C98862007AB51E /* MediaCustomDrawAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCustomDrawAdapter.m; sourceTree = "<group>"; };
+		F6A9093F2A1766BF00CE3B28 /* MSFullScreenVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFullScreenVideoViewController.h; sourceTree = "<group>"; };
+		F6A909402A1766BF00CE3B28 /* MSFullScreenVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFullScreenVideoViewController.m; sourceTree = "<group>"; };
+		F6A909422A1766BF00CE3B28 /* MSDrawAdViewShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDrawAdViewShowController.h; sourceTree = "<group>"; };
+		F6A909432A1766BF00CE3B28 /* MSDrawAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDrawAdViewController.m; sourceTree = "<group>"; };
+		F6A909442A1766BF00CE3B28 /* MSDrawAdViewShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDrawAdViewShowController.m; sourceTree = "<group>"; };
+		F6A909452A1766BF00CE3B28 /* MSDrawAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDrawAdViewController.h; sourceTree = "<group>"; };
+		F6A909472A1766C000CE3B28 /* MSInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSInterstitialViewController.h; sourceTree = "<group>"; };
+		F6A909482A1766C000CE3B28 /* MSInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSInterstitialViewController.m; sourceTree = "<group>"; };
+		F6A9094A2A1766C000CE3B28 /* MSBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBannerViewController.h; sourceTree = "<group>"; };
+		F6A9094B2A1766C000CE3B28 /* MSBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBannerViewController.m; sourceTree = "<group>"; };
+		F6A909522A1766DD00CE3B28 /* MSRewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRewardVideoViewController.m; sourceTree = "<group>"; };
+		F6A909532A1766DD00CE3B28 /* MSRewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRewardVideoViewController.h; sourceTree = "<group>"; };
+		F6A909562A1766DE00CE3B28 /* MSNativeTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNativeTestTableViewCell.m; sourceTree = "<group>"; };
+		F6A909572A1766DE00CE3B28 /* MSNativeTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNativeTestModel.h; sourceTree = "<group>"; };
+		F6A909582A1766DE00CE3B28 /* MSNativeTestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNativeTestTableViewCell.h; sourceTree = "<group>"; };
+		F6A909592A1766DE00CE3B28 /* MSNativeTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNativeTestModel.m; sourceTree = "<group>"; };
+		F6A9095B2A1766DE00CE3B28 /* MSNativeSimpleVideoAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNativeSimpleVideoAdView.m; sourceTree = "<group>"; };
+		F6A9095C2A1766DE00CE3B28 /* MSNativeSimpleImageAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNativeSimpleImageAdView.h; sourceTree = "<group>"; };
+		F6A9095D2A1766DE00CE3B28 /* MSNativeFeedAdShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNativeFeedAdShowViewController.m; sourceTree = "<group>"; };
+		F6A9095E2A1766DE00CE3B28 /* MSNativeFeedAdSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNativeFeedAdSimpleViewController.h; sourceTree = "<group>"; };
+		F6A9095F2A1766DE00CE3B28 /* MSNativeSimpleImageAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNativeSimpleImageAdView.m; sourceTree = "<group>"; };
+		F6A909602A1766DE00CE3B28 /* MSNativeSimpleVideoAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNativeSimpleVideoAdView.h; sourceTree = "<group>"; };
+		F6A909612A1766DE00CE3B28 /* MSNativeFeedAdShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNativeFeedAdShowViewController.h; sourceTree = "<group>"; };
+		F6A909622A1766DE00CE3B28 /* MSNativeFeedAdSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNativeFeedAdSimpleViewController.m; sourceTree = "<group>"; };
+		F6A909642A1766DE00CE3B28 /* MSNativeVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNativeVideoCell.m; sourceTree = "<group>"; };
+		F6A909652A1766DE00CE3B28 /* MSNativeImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNativeImageCell.h; sourceTree = "<group>"; };
+		F6A909662A1766DE00CE3B28 /* FeedVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedVideoView.h; sourceTree = "<group>"; };
+		F6A909672A1766DE00CE3B28 /* MSNativeAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNativeAdView.m; sourceTree = "<group>"; };
+		F6A909682A1766DE00CE3B28 /* MSNativeFeedAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNativeFeedAdViewController.m; sourceTree = "<group>"; };
+		F6A909692A1766DE00CE3B28 /* MSPrerenderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPrerenderCell.m; sourceTree = "<group>"; };
+		F6A9096A2A1766DE00CE3B28 /* MSNativeVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNativeVideoCell.h; sourceTree = "<group>"; };
+		F6A9096B2A1766DE00CE3B28 /* FeedVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedVideoView.m; sourceTree = "<group>"; };
+		F6A9096C2A1766DE00CE3B28 /* MSNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNativeAdView.h; sourceTree = "<group>"; };
+		F6A9096D2A1766DE00CE3B28 /* MSNativeImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNativeImageCell.m; sourceTree = "<group>"; };
+		F6A9096E2A1766DE00CE3B28 /* MSNativeFeedAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNativeFeedAdViewController.h; sourceTree = "<group>"; };
+		F6A9096F2A1766DE00CE3B28 /* MSPrerenderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPrerenderCell.h; sourceTree = "<group>"; };
+		F6A909712A1766DE00CE3B28 /* MSSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSplashViewController.m; sourceTree = "<group>"; };
+		F6A909722A1766DE00CE3B28 /* MSSplashSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSplashSettingView.m; sourceTree = "<group>"; };
+		F6A909732A1766DE00CE3B28 /* MSSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSplashViewController.h; sourceTree = "<group>"; };
+		F6A909742A1766DE00CE3B28 /* MSSplashSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSplashSettingView.h; sourceTree = "<group>"; };
+		F6A909762A1766DE00CE3B28 /* MSVideoAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVideoAdViewController.m; sourceTree = "<group>"; };
+		F6A909772A1766DE00CE3B28 /* MSVideoAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVideoAdViewController.h; sourceTree = "<group>"; };
+		F6B7505B28DD97D9002E5C4C /* AdmobIdProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdmobIdProvider.h; sourceTree = "<group>"; };
+		F6B7505C28DD97D9002E5C4C /* AdmobIdProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdmobIdProvider.m; sourceTree = "<group>"; };
+		F6B7505E28DD980E002E5C4C /* MSMediaInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMediaInfoModel.m; sourceTree = "<group>"; };
+		F6B7505F28DD980F002E5C4C /* MSMediaInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMediaInfoModel.h; sourceTree = "<group>"; };
+		F6B7506228DD9983002E5C4C /* AdMobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobViewController.h; sourceTree = "<group>"; };
+		F6B7506328DD9983002E5C4C /* AdMobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMobViewController.m; sourceTree = "<group>"; };
+		F6CFE97F2A67B575001A0040 /* MSAdSDK-Example-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MSAdSDK-Example-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CFE9812A67B575001A0040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6CFE9852A67B575001A0040 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6CFE9882A67B575001A0040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6CFE98A2A67B577001A0040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6CFE98D2A67B577001A0040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6CFE98F2A67B577001A0040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CFE9A22A67D14D001A0040 /* BaseAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAdViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				560A992E6ADE8231A5C9D20B /* Pods_MSAdSDK_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0695DC057CF720C979FE32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0242524E1FF21D745FA2B4 /* Pods_MSAdSDK_Example_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AAFF66AF984D78051D46FE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F61B7BE62A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.debug.xcconfig */,
+				F61B7BE82A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.release.xcconfig */,
+				499A5AD24DE9B7933490D0DF /* Pods-MSAdSDK_Example.debug.xcconfig */,
+				1B8A64E5423569EBD618FCAE /* Pods-MSAdSDK_Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				6003F593195388D20070C39A /* Example for MSAdSDK */,
+				F6CFE9802A67B575001A0040 /* MSAdSDK-Example-Swift */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				2AAFF66AF984D78051D46FE7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* MSAdSDK_Example.app */,
+				F6CFE97F2A67B575001A0040 /* MSAdSDK-Example-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				78490591B563EA9C0DCA3F9E /* Pods_MSAdSDK_Example.framework */,
+				440B134949F00EEAA35612B4 /* Pods_MSAdSDK_Example_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for MSAdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C47BF10324EBBDB8002D6BD8 /* Classes */,
+				6003F59C195388D20070C39A /* MSAppDelegate.h */,
+				6003F59D195388D20070C39A /* MSAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F594195388D20070C39A /* Supporting Files */,
+				F691BCF62850B79400D21BD5 /* MSAdSDKCommon.swift */,
+				F691BCF52850B79400D21BD5 /* MSAdSDK_Example-Bridging-Header.h */,
+			);
+			name = "Example for MSAdSDK";
+			path = MSAdSDK;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* MSAdSDK-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* MSAdSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C47BF10324EBBDB8002D6BD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6513B4225076E2100EB9CF0 /* Header */,
+				C47BF10424EBBDB8002D6BD8 /* Adid */,
+				C47BF11324EBBDB8002D6BD8 /* Common */,
+				C47BF11824EBBDB8002D6BD8 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C47BF10424EBBDB8002D6BD8 /* Adid */ = {
+			isa = PBXGroup;
+			children = (
+				F649B16E264B7AC1007E6565 /* KSIdProvider.h */,
+				F649B16D264B7AC1007E6565 /* KSIdProvider.m */,
+				F657C614259498560054E119 /* JDIdProvider.h */,
+				F657C613259498560054E119 /* JDIdProvider.m */,
+				C47BF10D24EBBDB8002D6BD8 /* BDIdProvider.h */,
+				C47BF10524EBBDB8002D6BD8 /* BDIdProvider.m */,
+				C47BF10C24EBBDB8002D6BD8 /* IAdIdProvider.h */,
+				C47BF10624EBBDB8002D6BD8 /* IAdIdProvider.m */,
+				C47BF10924EBBDB8002D6BD8 /* GDTIdProvider.h */,
+				C47BF11124EBBDB8002D6BD8 /* GDTIdProvider.m */,
+				C47BF10E24EBBDB8002D6BD8 /* MSIdProvider.h */,
+				C47BF10824EBBDB8002D6BD8 /* MSIdProvider.m */,
+				F6B7505B28DD97D9002E5C4C /* AdmobIdProvider.h */,
+				F6B7505C28DD97D9002E5C4C /* AdmobIdProvider.m */,
+				C47BF10A24EBBDB8002D6BD8 /* IdProviderFactory.h */,
+				C47BF11024EBBDB8002D6BD8 /* IdProviderFactory.m */,
+				C47BF10B24EBBDB8002D6BD8 /* BUIdProvider.h */,
+				C47BF11224EBBDB8002D6BD8 /* BUIdProvider.m */,
+				F68983A1284453730051A63C /* MSCustomAdapterIdProvider.h */,
+				F68983A0284453730051A63C /* MSCustomAdapterIdProvider.m */,
+			);
+			path = Adid;
+			sourceTree = "<group>";
+		};
+		C47BF11324EBBDB8002D6BD8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F649B171264B7AD2007E6565 /* MSNativeResource.plist */,
+				F649B172264B7AD2007E6565 /* nativeIcon.png */,
+				F6513B3C25076DC800EB9CF0 /* MSLogger.h */,
+				F6513B3F25076DC900EB9CF0 /* MSLogger.m */,
+				F6513B3E25076DC800EB9CF0 /* MSTools.h */,
+				F6513B3D25076DC800EB9CF0 /* MSTools.m */,
+				C47BF11724EBBDB8002D6BD8 /* MSDefaultSet.h */,
+				C47BF11424EBBDB8002D6BD8 /* MSDefaultSet.m */,
+				C47BF11524EBBDB8002D6BD8 /* MSQuickCreate.h */,
+				C47BF11624EBBDB8002D6BD8 /* MSQuickCreate.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C47BF11824EBBDB8002D6BD8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C47BF14B24EBBDB8002D6BD8 /* MSPidModel.h */,
+				C47BF14D24EBBDB8002D6BD8 /* MSPidModel.m */,
+				F649B164264B7A54007E6565 /* MSDelegateViewController.h */,
+				F649B165264B7A54007E6565 /* MSDelegateViewController.m */,
+				F64A74D3255BBF85007187A5 /* MSDeepLinkViewController.h */,
+				F64A74D4255BBF85007187A5 /* MSDeepLinkViewController.m */,
+				C47BF14C24EBBDB8002D6BD8 /* HomeViewController.h */,
+				C47BF11924EBBDB8002D6BD8 /* HomeViewController.m */,
+				C47BF14E24EBBDB8002D6BD8 /* MSDemoSplashViewController.h */,
+				C47BF14A24EBBDB8002D6BD8 /* MSDemoSplashViewController.m */,
+				C47BF11A24EBBDB8002D6BD8 /* Module */,
+				C47BF13824EBBDB8002D6BD8 /* Platform */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C47BF11A24EBBDB8002D6BD8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C47BF12224EBBDB8002D6BD8 /* MSBaseAdViewController.h */,
+				C47BF11B24EBBDB8002D6BD8 /* MSBaseAdViewController.m */,
+				F6A909542A1766DE00CE3B28 /* MSNativeFeedAd */,
+				F6A909512A1766DD00CE3B28 /* RewardVideo */,
+				F6A909702A1766DE00CE3B28 /* Spalsh */,
+				F6A909752A1766DE00CE3B28 /* VideoAd */,
+				F6A909492A1766C000CE3B28 /* Banner */,
+				F6A909412A1766BF00CE3B28 /* DrawAd */,
+				F6A9093E2A1766BF00CE3B28 /* FullScreenVideo */,
+				F6A909462A1766C000CE3B28 /* Interstitial */,
+				F69F8D3528C98861007AB51E /* MediaCustomPlatform */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		C47BF13824EBBDB8002D6BD8 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				F649B176264B7B53007E6565 /* MSModuleViewController.h */,
+				F649B177264B7B53007E6565 /* MSModuleViewController.m */,
+				F6B7506128DD9983002E5C4C /* AdMob */,
+				F649B168264B7A71007E6565 /* KS */,
+				F657C62325949E3E0054E119 /* JD */,
+				F68983A3284453940051A63C /* CP */,
+				C47BF13D24EBBDB8002D6BD8 /* MS */,
+				C47BF14024EBBDB8002D6BD8 /* BD */,
+				C47BF14424EBBDB8002D6BD8 /* GDT */,
+				C47BF14724EBBDB8002D6BD8 /* BU */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		C47BF13D24EBBDB8002D6BD8 /* MS */ = {
+			isa = PBXGroup;
+			children = (
+				C47BF13E24EBBDB8002D6BD8 /* MSViewController.m */,
+				C47BF13F24EBBDB8002D6BD8 /* MSViewController.h */,
+			);
+			path = MS;
+			sourceTree = "<group>";
+		};
+		C47BF14024EBBDB8002D6BD8 /* BD */ = {
+			isa = PBXGroup;
+			children = (
+				C47BF14124EBBDB8002D6BD8 /* BDViewController.h */,
+				C47BF14224EBBDB8002D6BD8 /* BDViewController.m */,
+			);
+			path = BD;
+			sourceTree = "<group>";
+		};
+		C47BF14424EBBDB8002D6BD8 /* GDT */ = {
+			isa = PBXGroup;
+			children = (
+				C47BF14524EBBDB8002D6BD8 /* GDTViewController.m */,
+				C47BF14624EBBDB8002D6BD8 /* GDTViewController.h */,
+			);
+			path = GDT;
+			sourceTree = "<group>";
+		};
+		C47BF14724EBBDB8002D6BD8 /* BU */ = {
+			isa = PBXGroup;
+			children = (
+				C47BF14824EBBDB8002D6BD8 /* BUViewController.m */,
+				C47BF14924EBBDB8002D6BD8 /* BUViewController.h */,
+			);
+			path = BU;
+			sourceTree = "<group>";
+		};
+		F61B7BCB2A6E6EFB002F360A /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				F61B7BCC2A6E6EFB002F360A /* SplashAdViewController.swift */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		F61B7BCD2A6E6EFB002F360A /* banner */ = {
+			isa = PBXGroup;
+			children = (
+				F61B7BCE2A6E6EFB002F360A /* BannerAdViewController.swift */,
+			);
+			path = banner;
+			sourceTree = "<group>";
+		};
+		F61B7BCF2A6E6EFB002F360A /* reward */ = {
+			isa = PBXGroup;
+			children = (
+				F61B7BD02A6E6EFB002F360A /* RewardAdViewController.swift */,
+			);
+			path = reward;
+			sourceTree = "<group>";
+		};
+		F61B7BD12A6E6EFC002F360A /* fullVideo */ = {
+			isa = PBXGroup;
+			children = (
+				F61B7BD22A6E6EFC002F360A /* FullVideoAdViewController.swift */,
+			);
+			path = fullVideo;
+			sourceTree = "<group>";
+		};
+		F61B7BD32A6E6EFC002F360A /* draw */ = {
+			isa = PBXGroup;
+			children = (
+				F61B7BD42A6E6EFC002F360A /* DrawAdViewController.swift */,
+			);
+			path = draw;
+			sourceTree = "<group>";
+		};
+		F61B7BD52A6E6EFC002F360A /* interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				F61B7BD62A6E6EFC002F360A /* InterstiitialAdViewController.swift */,
+			);
+			path = interstitial;
+			sourceTree = "<group>";
+		};
+		F61B7BD72A6E6EFC002F360A /* nativeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				F61B7BD82A6E6EFC002F360A /* NativeExpressAdViewController.swift */,
+				F61B7BD92A6E6EFC002F360A /* MSNativeSimpleCustomVideoAdView.swift */,
+				F61B7BDA2A6E6EFC002F360A /* MSNativeSimpleCustomAdView.swift */,
+			);
+			path = nativeFeed;
+			sourceTree = "<group>";
+		};
+		F649B168264B7A71007E6565 /* KS */ = {
+			isa = PBXGroup;
+			children = (
+				F649B169264B7A72007E6565 /* KSViewController.h */,
+				F649B16A264B7A72007E6565 /* KSViewController.m */,
+			);
+			path = KS;
+			sourceTree = "<group>";
+		};
+		F6513B4225076E2100EB9CF0 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F6513B4325076E2100EB9CF0 /* MSPrefixHeader.pch */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F657C62325949E3E0054E119 /* JD */ = {
+			isa = PBXGroup;
+			children = (
+				F657C62425949E3E0054E119 /* JDViewController.m */,
+				F657C62525949E3E0054E119 /* JDViewController.h */,
+			);
+			path = JD;
+			sourceTree = "<group>";
+		};
+		F68983A3284453940051A63C /* CP */ = {
+			isa = PBXGroup;
+			children = (
+				F68983A4284453940051A63C /* MSCPViewController.m */,
+				F68983A5284453940051A63C /* MSCPViewController.h */,
+			);
+			path = CP;
+			sourceTree = "<group>";
+		};
+		F69F8D3528C98861007AB51E /* MediaCustomPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				F6B7505F28DD980F002E5C4C /* MSMediaInfoModel.h */,
+				F6B7505E28DD980E002E5C4C /* MSMediaInfoModel.m */,
+				F69F8D3628C98861007AB51E /* MediaSDKManager.h */,
+				F69F8D7228C98862007AB51E /* MediaSDKManager.m */,
+				F69F8D3728C98861007AB51E /* MediaCustomNativeAdapter */,
+				F69F8D5928C98862007AB51E /* MediaCustomVideoAdapter */,
+				F69F8D5E28C98862007AB51E /* MediaCustomPrerenderAdapter */,
+				F69F8D6328C98862007AB51E /* MediaCustomSplashAdapter */,
+				F69F8D6828C98862007AB51E /* MediaCustomInterstitialAdapter */,
+				F69F8D6D28C98862007AB51E /* MediaCustomFullScreenVideoAdapter */,
+				F69F8D7328C98862007AB51E /* MediaCustomRewardAdapter */,
+				F69F8D7828C98862007AB51E /* MediaCustomBannerAdapter */,
+				F69F8D7D28C98862007AB51E /* MediaCustomDrawAdapter */,
+			);
+			path = MediaCustomPlatform;
+			sourceTree = "<group>";
+		};
+		F69F8D3728C98861007AB51E /* MediaCustomNativeAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				F69F8D3E28C98862007AB51E /* MediaCustomFeedAdMeta.h */,
+				F69F8D3828C98861007AB51E /* MediaCustomFeedAdMeta.m */,
+				F69F8D3C28C98861007AB51E /* MediaCustomNativeAdapter.h */,
+				F69F8D3A28C98861007AB51E /* MediaCustomNativeAdapter.m */,
+				F69F8D3F28C98862007AB51E /* MediaCustomFeedVideoView.h */,
+				F69F8D3B28C98861007AB51E /* MediaCustomFeedVideoView.m */,
+				F69F8D3D28C98861007AB51E /* MediaCustomNativeAdapterDelegate.h */,
+				F69F8D3928C98861007AB51E /* MediaCustomNativeAdapterDelegate.m */,
+			);
+			path = MediaCustomNativeAdapter;
+			sourceTree = "<group>";
+		};
+		F69F8D5928C98862007AB51E /* MediaCustomVideoAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				F69F8D5B28C98862007AB51E /* MediaCustomVideoAdapter.h */,
+				F69F8D5C28C98862007AB51E /* MediaCustomVideoAdapter.m */,
+				F69F8D5D28C98862007AB51E /* MediaCustomVideoAdapterDelegate.h */,
+				F69F8D5A28C98862007AB51E /* MediaCustomVideoAdapterDelegate.m */,
+			);
+			path = MediaCustomVideoAdapter;
+			sourceTree = "<group>";
+		};
+		F69F8D5E28C98862007AB51E /* MediaCustomPrerenderAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				F69F8D5F28C98862007AB51E /* MediaCustomPrerenderAdapterDelegate.m */,
+				F69F8D6028C98862007AB51E /* MediaCustomPrerenderAdapter.m */,
+				F69F8D6128C98862007AB51E /* MediaCustomPrerenderAdapterDelegate.h */,
+				F69F8D6228C98862007AB51E /* MediaCustomPrerenderAdapter.h */,
+			);
+			path = MediaCustomPrerenderAdapter;
+			sourceTree = "<group>";
+		};
+		F69F8D6328C98862007AB51E /* MediaCustomSplashAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				F69F8D6428C98862007AB51E /* MediaCustomSplashAdapter.m */,
+				F69F8D6528C98862007AB51E /* MediaCustomSplashDelegate.h */,
+				F69F8D6628C98862007AB51E /* MediaCustomSplashAdapter.h */,
+				F69F8D6728C98862007AB51E /* MediaCustomSplashDelegate.m */,
+			);
+			path = MediaCustomSplashAdapter;
+			sourceTree = "<group>";
+		};
+		F69F8D6828C98862007AB51E /* MediaCustomInterstitialAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				F69F8D6928C98862007AB51E /* MediaCustomInterstitialDelegate.h */,
+				F69F8D6A28C98862007AB51E /* MediaCustomInterstitialAdapter.m */,
+				F69F8D6B28C98862007AB51E /* MediaCustomInterstitialDelegate.m */,
+				F69F8D6C28C98862007AB51E /* MediaCustomInterstitialAdapter.h */,
+			);
+			path = MediaCustomInterstitialAdapter;
+			sourceTree = "<group>";
+		};
+		F69F8D6D28C98862007AB51E /* MediaCustomFullScreenVideoAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				F69F8D6E28C98862007AB51E /* MediaCustomFullScreenVideoAdapterDelegate.m */,
+				F69F8D6F28C98862007AB51E /* MediaCustomFullScreenVideoAdapter.m */,
+				F69F8D7028C98862007AB51E /* MediaCustomFullScreenVideoAdapterDelegate.h */,
+				F69F8D7128C98862007AB51E /* MediaCustomFullScreenVideoAdapter.h */,
+			);
+			path = MediaCustomFullScreenVideoAdapter;
+			sourceTree = "<group>";
+		};
+		F69F8D7328C98862007AB51E /* MediaCustomRewardAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				F69F8D7428C98862007AB51E /* MediaCustomRewardAdapterDelegate.h */,
+				F69F8D7528C98862007AB51E /* MediaCustomRewardAdapter.m */,
+				F69F8D7628C98862007AB51E /* MediaCustomRewardAdapterDelegate.m */,
+				F69F8D7728C98862007AB51E /* MediaCustomRewardAdapter.h */,
+			);
+			path = MediaCustomRewardAdapter;
+			sourceTree = "<group>";
+		};
+		F69F8D7828C98862007AB51E /* MediaCustomBannerAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				F69F8D7928C98862007AB51E /* MediaCustomBannerAdapterDelegate.h */,
+				F69F8D7A28C98862007AB51E /* MediaCustomBannerAdapter.m */,
+				F69F8D7B28C98862007AB51E /* MediaCustomBannerAdapterDelegate.m */,
+				F69F8D7C28C98862007AB51E /* MediaCustomBannerAdapter.h */,
+			);
+			path = MediaCustomBannerAdapter;
+			sourceTree = "<group>";
+		};
+		F69F8D7D28C98862007AB51E /* MediaCustomDrawAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				F69F8D7E28C98862007AB51E /* MediaCustomDrawAdapterDelegate.h */,
+				F69F8D7F28C98862007AB51E /* MediaCustomDrawAdapter.h */,
+				F69F8D8028C98862007AB51E /* MediaCustomDrawAdapterDelegate.m */,
+				F69F8D8128C98862007AB51E /* MediaCustomDrawAdapter.m */,
+			);
+			path = MediaCustomDrawAdapter;
+			sourceTree = "<group>";
+		};
+		F6A9093E2A1766BF00CE3B28 /* FullScreenVideo */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9093F2A1766BF00CE3B28 /* MSFullScreenVideoViewController.h */,
+				F6A909402A1766BF00CE3B28 /* MSFullScreenVideoViewController.m */,
+			);
+			path = FullScreenVideo;
+			sourceTree = "<group>";
+		};
+		F6A909412A1766BF00CE3B28 /* DrawAd */ = {
+			isa = PBXGroup;
+			children = (
+				F6A909422A1766BF00CE3B28 /* MSDrawAdViewShowController.h */,
+				F6A909442A1766BF00CE3B28 /* MSDrawAdViewShowController.m */,
+				F6A909452A1766BF00CE3B28 /* MSDrawAdViewController.h */,
+				F6A909432A1766BF00CE3B28 /* MSDrawAdViewController.m */,
+			);
+			path = DrawAd;
+			sourceTree = "<group>";
+		};
+		F6A909462A1766C000CE3B28 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				F6A909472A1766C000CE3B28 /* MSInterstitialViewController.h */,
+				F6A909482A1766C000CE3B28 /* MSInterstitialViewController.m */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		F6A909492A1766C000CE3B28 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9094A2A1766C000CE3B28 /* MSBannerViewController.h */,
+				F6A9094B2A1766C000CE3B28 /* MSBannerViewController.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		F6A909512A1766DD00CE3B28 /* RewardVideo */ = {
+			isa = PBXGroup;
+			children = (
+				F6A909532A1766DD00CE3B28 /* MSRewardVideoViewController.h */,
+				F6A909522A1766DD00CE3B28 /* MSRewardVideoViewController.m */,
+			);
+			path = RewardVideo;
+			sourceTree = "<group>";
+		};
+		F6A909542A1766DE00CE3B28 /* MSNativeFeedAd */ = {
+			isa = PBXGroup;
+			children = (
+				F6A909552A1766DE00CE3B28 /* NativeModel */,
+				F6A9095A2A1766DE00CE3B28 /* Simple */,
+				F6A909632A1766DE00CE3B28 /* Advance */,
+			);
+			path = MSNativeFeedAd;
+			sourceTree = "<group>";
+		};
+		F6A909552A1766DE00CE3B28 /* NativeModel */ = {
+			isa = PBXGroup;
+			children = (
+				F6A909572A1766DE00CE3B28 /* MSNativeTestModel.h */,
+				F6A909592A1766DE00CE3B28 /* MSNativeTestModel.m */,
+				F6A909582A1766DE00CE3B28 /* MSNativeTestTableViewCell.h */,
+				F6A909562A1766DE00CE3B28 /* MSNativeTestTableViewCell.m */,
+			);
+			path = NativeModel;
+			sourceTree = "<group>";
+		};
+		F6A9095A2A1766DE00CE3B28 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9095C2A1766DE00CE3B28 /* MSNativeSimpleImageAdView.h */,
+				F6A9095F2A1766DE00CE3B28 /* MSNativeSimpleImageAdView.m */,
+				F6A909602A1766DE00CE3B28 /* MSNativeSimpleVideoAdView.h */,
+				F6A9095B2A1766DE00CE3B28 /* MSNativeSimpleVideoAdView.m */,
+				F6A9095E2A1766DE00CE3B28 /* MSNativeFeedAdSimpleViewController.h */,
+				F6A9095D2A1766DE00CE3B28 /* MSNativeFeedAdShowViewController.m */,
+				F6A909612A1766DE00CE3B28 /* MSNativeFeedAdShowViewController.h */,
+				F6A909622A1766DE00CE3B28 /* MSNativeFeedAdSimpleViewController.m */,
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
+		F6A909632A1766DE00CE3B28 /* Advance */ = {
+			isa = PBXGroup;
+			children = (
+				F6A909652A1766DE00CE3B28 /* MSNativeImageCell.h */,
+				F6A9096D2A1766DE00CE3B28 /* MSNativeImageCell.m */,
+				F6A9096A2A1766DE00CE3B28 /* MSNativeVideoCell.h */,
+				F6A909642A1766DE00CE3B28 /* MSNativeVideoCell.m */,
+				F6A9096F2A1766DE00CE3B28 /* MSPrerenderCell.h */,
+				F6A909692A1766DE00CE3B28 /* MSPrerenderCell.m */,
+				F6A909662A1766DE00CE3B28 /* FeedVideoView.h */,
+				F6A9096B2A1766DE00CE3B28 /* FeedVideoView.m */,
+				F6A9096C2A1766DE00CE3B28 /* MSNativeAdView.h */,
+				F6A909672A1766DE00CE3B28 /* MSNativeAdView.m */,
+				F6A9096E2A1766DE00CE3B28 /* MSNativeFeedAdViewController.h */,
+				F6A909682A1766DE00CE3B28 /* MSNativeFeedAdViewController.m */,
+			);
+			path = Advance;
+			sourceTree = "<group>";
+		};
+		F6A909702A1766DE00CE3B28 /* Spalsh */ = {
+			isa = PBXGroup;
+			children = (
+				F6A909742A1766DE00CE3B28 /* MSSplashSettingView.h */,
+				F6A909722A1766DE00CE3B28 /* MSSplashSettingView.m */,
+				F6A909732A1766DE00CE3B28 /* MSSplashViewController.h */,
+				F6A909712A1766DE00CE3B28 /* MSSplashViewController.m */,
+			);
+			path = Spalsh;
+			sourceTree = "<group>";
+		};
+		F6A909752A1766DE00CE3B28 /* VideoAd */ = {
+			isa = PBXGroup;
+			children = (
+				F6A909772A1766DE00CE3B28 /* MSVideoAdViewController.h */,
+				F6A909762A1766DE00CE3B28 /* MSVideoAdViewController.m */,
+			);
+			path = VideoAd;
+			sourceTree = "<group>";
+		};
+		F6B7506128DD9983002E5C4C /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				F6B7506228DD9983002E5C4C /* AdMobViewController.h */,
+				F6B7506328DD9983002E5C4C /* AdMobViewController.m */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		F6CFE9802A67B575001A0040 /* MSAdSDK-Example-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F6CFE9932A67BF04001A0040 /* Ads */,
+				F6CFE9812A67B575001A0040 /* AppDelegate.swift */,
+				F6CFE9852A67B575001A0040 /* ViewController.swift */,
+				F6CFE9872A67B575001A0040 /* Main.storyboard */,
+				F6CFE98A2A67B577001A0040 /* Assets.xcassets */,
+				F6CFE98C2A67B577001A0040 /* LaunchScreen.storyboard */,
+				F6CFE98F2A67B577001A0040 /* Info.plist */,
+			);
+			path = "MSAdSDK-Example-Swift";
+			sourceTree = "<group>";
+		};
+		F6CFE9932A67BF04001A0040 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				F6CFE9A22A67D14D001A0040 /* BaseAdViewController.swift */,
+				F61B7BCD2A6E6EFB002F360A /* banner */,
+				F61B7BD32A6E6EFC002F360A /* draw */,
+				F61B7BD12A6E6EFC002F360A /* fullVideo */,
+				F61B7BD52A6E6EFC002F360A /* interstitial */,
+				F61B7BD72A6E6EFC002F360A /* nativeFeed */,
+				F61B7BCF2A6E6EFB002F360A /* reward */,
+				F61B7BCB2A6E6EFB002F360A /* splash */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* MSAdSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MSAdSDK_Example" */;
+			buildPhases = (
+				77E8C4A9805B20197B96E37C /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSAdSDK_Example;
+			productName = MSAdSDK;
+			productReference = 6003F58A195388D20070C39A /* MSAdSDK_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6CFE97E2A67B575001A0040 /* MSAdSDK-Example-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61B7BE72A6E924C002F360A /* Build configuration list for PBXNativeTarget "MSAdSDK-Example-Swift" */;
+			buildPhases = (
+				676F9F35151568F2E7EE86A5 /* [CP] Check Pods Manifest.lock */,
+				F6CFE97B2A67B575001A0040 /* Sources */,
+				F6CFE97D2A67B575001A0040 /* Resources */,
+				F0695DC057CF720C979FE32E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MSAdSDK-Example-Swift";
+			productName = "MSAdSDK-Example-Swift";
+			productReference = F6CFE97F2A67B575001A0040 /* MSAdSDK-Example-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Liumao;
+				TargetAttributes = {
+					F6CFE97E2A67B575001A0040 = {
+						CreatedOnToolsVersion = 13.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "MSAdSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* MSAdSDK_Example */,
+				F6CFE97E2A67B575001A0040 /* MSAdSDK-Example-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				F649B174264B7AD2007E6565 /* nativeIcon.png in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				F649B173264B7AD2007E6565 /* MSNativeResource.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CFE97D2A67B575001A0040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CFE98E2A67B577001A0040 /* LaunchScreen.storyboard in Resources */,
+				F61B7BEA2A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.release.xcconfig in Resources */,
+				F6CFE98B2A67B577001A0040 /* Assets.xcassets in Resources */,
+				F61B7BE92A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.debug.xcconfig in Resources */,
+				F6CFE9892A67B575001A0040 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		676F9F35151568F2E7EE86A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSAdSDK-Example-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E8C4A9805B20197B96E37C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSAdSDK_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F8D9328C98862007AB51E /* MediaCustomPrerenderAdapter.m in Sources */,
+				F68983A2284453730051A63C /* MSCustomAdapterIdProvider.m in Sources */,
+				F6A909802A1766DE00CE3B28 /* MSNativeAdView.m in Sources */,
+				C47BF16724EBBDB8002D6BD8 /* BDViewController.m in Sources */,
+				F649B16B264B7A72007E6565 /* KSViewController.m in Sources */,
+				F6A9094F2A1766C000CE3B28 /* MSInterstitialViewController.m in Sources */,
+				F69F8D8228C98862007AB51E /* MediaCustomFeedAdMeta.m in Sources */,
+				F69F8DA028C98862007AB51E /* MediaCustomDrawAdapter.m in Sources */,
+				F69F8D9128C98862007AB51E /* MediaCustomVideoAdapter.m in Sources */,
+				F69F8D9928C98862007AB51E /* MediaCustomFullScreenVideoAdapter.m in Sources */,
+				F6A9094E2A1766C000CE3B28 /* MSDrawAdViewShowController.m in Sources */,
+				F6A9097A2A1766DE00CE3B28 /* MSNativeTestModel.m in Sources */,
+				F69F8D9A28C98862007AB51E /* MediaSDKManager.m in Sources */,
+				F64A74D5255BBF85007187A5 /* MSDeepLinkViewController.m in Sources */,
+				F6A9097D2A1766DE00CE3B28 /* MSNativeSimpleImageAdView.m in Sources */,
+				F69F8D9D28C98862007AB51E /* MediaCustomBannerAdapter.m in Sources */,
+				F6A909842A1766DE00CE3B28 /* MSNativeImageCell.m in Sources */,
+				F6A909502A1766C000CE3B28 /* MSBannerViewController.m in Sources */,
+				C47BF15024EBBDB8002D6BD8 /* IAdIdProvider.m in Sources */,
+				F68983A6284453940051A63C /* MSCPViewController.m in Sources */,
+				F6A909812A1766DE00CE3B28 /* MSNativeFeedAdViewController.m in Sources */,
+				F6A9097E2A1766DE00CE3B28 /* MSNativeFeedAdSimpleViewController.m in Sources */,
+				F657C615259498560054E119 /* JDIdProvider.m in Sources */,
+				C47BF15924EBBDB8002D6BD8 /* MSBaseAdViewController.m in Sources */,
+				F6A909832A1766DE00CE3B28 /* FeedVideoView.m in Sources */,
+				C47BF15424EBBDB8002D6BD8 /* GDTIdProvider.m in Sources */,
+				F657C62625949E3E0054E119 /* JDViewController.m in Sources */,
+				C47BF16924EBBDB8002D6BD8 /* BUViewController.m in Sources */,
+				C47BF16B24EBBDB8002D6BD8 /* MSPidModel.m in Sources */,
+				F6A9097F2A1766DE00CE3B28 /* MSNativeVideoCell.m in Sources */,
+				F69F8D9828C98862007AB51E /* MediaCustomFullScreenVideoAdapterDelegate.m in Sources */,
+				F69F8D8428C98862007AB51E /* MediaCustomNativeAdapter.m in Sources */,
+				F69F8D8328C98862007AB51E /* MediaCustomNativeAdapterDelegate.m in Sources */,
+				F69F8D9228C98862007AB51E /* MediaCustomPrerenderAdapterDelegate.m in Sources */,
+				F649B166264B7A54007E6565 /* MSDelegateViewController.m in Sources */,
+				F691BCF72850B79400D21BD5 /* MSAdSDKCommon.swift in Sources */,
+				C47BF16624EBBDB8002D6BD8 /* MSViewController.m in Sources */,
+				F69F8D9B28C98862007AB51E /* MediaCustomRewardAdapter.m in Sources */,
+				F69F8D9528C98862007AB51E /* MediaCustomSplashDelegate.m in Sources */,
+				C47BF16A24EBBDB8002D6BD8 /* MSDemoSplashViewController.m in Sources */,
+				C47BF14F24EBBDB8002D6BD8 /* BDIdProvider.m in Sources */,
+				F6A909822A1766DE00CE3B28 /* MSPrerenderCell.m in Sources */,
+				C47BF15524EBBDB8002D6BD8 /* BUIdProvider.m in Sources */,
+				6003F59E195388D20070C39A /* MSAppDelegate.m in Sources */,
+				F69F8D9728C98862007AB51E /* MediaCustomInterstitialDelegate.m in Sources */,
+				F6A909852A1766DE00CE3B28 /* MSSplashViewController.m in Sources */,
+				F6B7506028DD980F002E5C4C /* MSMediaInfoModel.m in Sources */,
+				C47BF15724EBBDB8002D6BD8 /* MSQuickCreate.m in Sources */,
+				C47BF15624EBBDB8002D6BD8 /* MSDefaultSet.m in Sources */,
+				F649B178264B7B53007E6565 /* MSModuleViewController.m in Sources */,
+				F649B16F264B7AC1007E6565 /* KSIdProvider.m in Sources */,
+				F6A9097B2A1766DE00CE3B28 /* MSNativeSimpleVideoAdView.m in Sources */,
+				C47BF16824EBBDB8002D6BD8 /* GDTViewController.m in Sources */,
+				F69F8D9C28C98862007AB51E /* MediaCustomRewardAdapterDelegate.m in Sources */,
+				F6A909862A1766DE00CE3B28 /* MSSplashSettingView.m in Sources */,
+				F6513B4025076DC900EB9CF0 /* MSTools.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				C47BF15224EBBDB8002D6BD8 /* MSIdProvider.m in Sources */,
+				F69F8D9428C98862007AB51E /* MediaCustomSplashAdapter.m in Sources */,
+				F6A9097C2A1766DE00CE3B28 /* MSNativeFeedAdShowViewController.m in Sources */,
+				F6A909792A1766DE00CE3B28 /* MSNativeTestTableViewCell.m in Sources */,
+				F6B7505D28DD97D9002E5C4C /* AdmobIdProvider.m in Sources */,
+				F69F8D9E28C98862007AB51E /* MediaCustomBannerAdapterDelegate.m in Sources */,
+				F69F8D8528C98862007AB51E /* MediaCustomFeedVideoView.m in Sources */,
+				C47BF15324EBBDB8002D6BD8 /* IdProviderFactory.m in Sources */,
+				C47BF15824EBBDB8002D6BD8 /* HomeViewController.m in Sources */,
+				F6B7506428DD9983002E5C4C /* AdMobViewController.m in Sources */,
+				F6A909872A1766DE00CE3B28 /* MSVideoAdViewController.m in Sources */,
+				F69F8D9028C98862007AB51E /* MediaCustomVideoAdapterDelegate.m in Sources */,
+				F69F8D9F28C98862007AB51E /* MediaCustomDrawAdapterDelegate.m in Sources */,
+				F6A909782A1766DE00CE3B28 /* MSRewardVideoViewController.m in Sources */,
+				F69F8D9628C98862007AB51E /* MediaCustomInterstitialAdapter.m in Sources */,
+				F6A9094D2A1766C000CE3B28 /* MSDrawAdViewController.m in Sources */,
+				F6A9094C2A1766C000CE3B28 /* MSFullScreenVideoViewController.m in Sources */,
+				F6513B4125076DC900EB9CF0 /* MSLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CFE97B2A67B575001A0040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CFE9862A67B575001A0040 /* ViewController.swift in Sources */,
+				F61B7BDC2A6E6EFC002F360A /* BannerAdViewController.swift in Sources */,
+				F61B7BDD2A6E6EFC002F360A /* RewardAdViewController.swift in Sources */,
+				F61B7BE02A6E6EFC002F360A /* InterstiitialAdViewController.swift in Sources */,
+				F6CFE9A32A67D14D001A0040 /* BaseAdViewController.swift in Sources */,
+				F61B7BE22A6E6EFC002F360A /* MSNativeSimpleCustomVideoAdView.swift in Sources */,
+				F61B7BDE2A6E6EFC002F360A /* FullVideoAdViewController.swift in Sources */,
+				F61B7BDB2A6E6EFC002F360A /* SplashAdViewController.swift in Sources */,
+				F61B7BE12A6E6EFC002F360A /* NativeExpressAdViewController.swift in Sources */,
+				F6CFE9822A67B575001A0040 /* AppDelegate.swift in Sources */,
+				F61B7BE32A6E6EFC002F360A /* MSNativeSimpleCustomAdView.swift in Sources */,
+				F61B7BDF2A6E6EFC002F360A /* DrawAdViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F6CFE9872A67B575001A0040 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6CFE9882A67B575001A0040 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6CFE98C2A67B577001A0040 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6CFE98D2A67B577001A0040 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499A5AD24DE9B7933490D0DF /* Pods-MSAdSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MSAdSDK/Classes/TestTool",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/MSAdSDK/Classes/Header/MSPrefixHeader.pch";
+				INFOPLIST_FILE = "MSAdSDK/MSAdSDK-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8A64E5423569EBD618FCAE /* Pods-MSAdSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MSAdSDK/Classes/TestTool",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/MSAdSDK/Classes/Header/MSPrefixHeader.pch";
+				INFOPLIST_FILE = "MSAdSDK/MSAdSDK-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F61B7BE42A6E8BB1002F360A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61B7BE62A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.debug.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "$(SRCROOT)/MSAdSDK-Example-Swift/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.MSAdSDK-Example-Swift";
+				PRODUCT_NAME = "MSAdSDK-Example-Swift";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F61B7BE52A6E8BB1002F360A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61B7BE82A6E924C002F360A /* Pods-MSAdSDK-Example-Swift.release.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = "$(SRCROOT)/MSAdSDK-Example-Swift/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.MSAdSDK-Example-Swift";
+				PRODUCT_NAME = "MSAdSDK-Example-Swift";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "MSAdSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MSAdSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61B7BE72A6E924C002F360A /* Build configuration list for PBXNativeTarget "MSAdSDK-Example-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61B7BE42A6E8BB1002F360A /* Debug */,
+				F61B7BE52A6E8BB1002F360A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

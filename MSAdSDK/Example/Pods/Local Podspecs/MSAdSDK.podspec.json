@@ -1,0 +1,45 @@
+{
+  "name": "MSAdSDK",
+  "version": "0.0.9",
+  "summary": "Mobile AD SDK For iOS.",
+  "homepage": "https://github.com/adxdata/MSMobAdSDK-iOS",
+  "license": "MIT",
+  "authors": {
+    "Lei Dai": "dailei@adxdata.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://git.adxdata.com/meishu/MSMobAdSDK-iOS.git",
+    "tag": "0.0.9"
+  },
+  "frameworks": [
+    "AdSupport",
+    "AVFoundation",
+    "CoreLocation",
+    "CoreMedia",
+    "CoreMotion",
+    "CoreTelephony",
+    "MessageUI",
+    "QuartzCore",
+    "SafariServices",
+    "Security",
+    "StoreKit",
+    "SystemConfiguration",
+    "WebKit"
+  ],
+  "libraries": [
+    "c++",
+    "resolv.9",
+    "xml2",
+    "z"
+  ],
+  "vendored_frameworks": "MSAdSDK/Libs/MSAdSDK.framework",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  },
+  "resources": "MSAdSDK/Libs/MSAdBundle.bundle"
+}
