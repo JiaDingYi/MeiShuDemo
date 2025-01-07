@@ -1,16 +1,74 @@
 PODS:
+  - Ads-CN-Beta/BUAdSDK (6.5.0.5)
+  - Ads-CN-Beta/CSJMediation (6.5.0.5):
+    - Ads-CN-Beta/BUAdSDK
+  - BaiduMobAdSDK (5.370)
+  - GDTMobSDK (4.15.10)
+  - IQKeyboardManager (6.5.19)
+  - JADYun (2.6.4)
+  - JADYunMotion (2.6.4)
+  - KSAdSDK (3.3.69)
   - Masonry (1.1.0)
+  - MSMobAdSDK/MotionLess (2.5.0.0)
+  - MSMobAdSDK/MS (2.5.0.0):
+    - MSMobAdSDK/MotionLess
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - SigmobAd-iOS (4.11.1):
+    - SigmobAd-iOS/WindSDK (= 4.11.1)
+  - SigmobAd-iOS/WindSDK (4.11.1)
+  - SnapKit (5.6.0)
+  - WechatOpenSDK (1.8.7.1)
 
 DEPENDENCIES:
+  - Ads-CN-Beta/BUAdSDK (= 6.5.0.5)
+  - Ads-CN-Beta/CSJMediation (= 6.5.0.5)
+  - BaiduMobAdSDK (= 5.370)
+  - GDTMobSDK (= 4.15.10)
+  - IQKeyboardManager
+  - JADYun (= 2.6.4)
+  - JADYunMotion (= 2.6.4)
+  - KSAdSDK (= 3.3.69)
   - Masonry
+  - MSMobAdSDK/MS (= 2.5.0.0)
+  - SDWebImage (= 5.8.4)
+  - SigmobAd-iOS (= 4.11.1)
+  - SnapKit (~> 5.6.0)
+  - WechatOpenSDK (~> 1.8.6)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Ads-CN-Beta
+    - BaiduMobAdSDK
+    - GDTMobSDK
+    - IQKeyboardManager
+    - JADYun
+    - JADYunMotion
+    - KSAdSDK
+    - MSMobAdSDK
+    - SDWebImage
+    - SigmobAd-iOS
+    - SnapKit
+    - WechatOpenSDK
   trunk:
     - Masonry
 
 SPEC CHECKSUMS:
+  Ads-CN-Beta: 04bceb36d1e1bb6cca3e857ae8c5fe4a5a371aa9
+  BaiduMobAdSDK: ee04dd31ab0a3a1a1d4d025b29b24c2ee763e708
+  GDTMobSDK: 17a7af711cf6b7c8a3a0a4edc3916dc2467877e9
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
+  JADYun: aebe6e9ee5d65258ea2b68d8babc2e7667fa1c94
+  JADYunMotion: 8582f2bc21fd1ca6c5f57f0d47d4e182cdca11cd
+  KSAdSDK: 6567620e4ebe6064b9a1a3c8de111c4842a31160
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MSMobAdSDK: 9e2a9013bcc74fe799dcd59a38073d5e2a4b01a8
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  SigmobAd-iOS: bf8f8f6c504fbf2f1150646dd160de42fb0164bb
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
 
-PODFILE CHECKSUM: 24815fd41e5e8d0a058cf846746a66fe99e23407
+PODFILE CHECKSUM: afe5be76f41dbf4acd4d513925afd95375acb12a
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.15.2

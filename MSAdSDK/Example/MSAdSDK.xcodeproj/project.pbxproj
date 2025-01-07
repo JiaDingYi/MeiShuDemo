@@ -830,9 +830,9 @@
 				F6A909602A1766DE00CE3B28 /* MSNativeSimpleVideoAdView.h */,
 				F6A9095B2A1766DE00CE3B28 /* MSNativeSimpleVideoAdView.m */,
 				F6A9095E2A1766DE00CE3B28 /* MSNativeFeedAdSimpleViewController.h */,
+				F6A909622A1766DE00CE3B28 /* MSNativeFeedAdSimpleViewController.m */,
 				F6A9095D2A1766DE00CE3B28 /* MSNativeFeedAdShowViewController.m */,
 				F6A909612A1766DE00CE3B28 /* MSNativeFeedAdShowViewController.h */,
-				F6A909622A1766DE00CE3B28 /* MSNativeFeedAdSimpleViewController.m */,
 			);
 			path = Simple;
 			sourceTree = "<group>";
@@ -925,6 +925,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				ED8A0F73DA2934FB62E602BD /* [CP] Embed Pods Frameworks */,
+				5D67079A8B15211988E62EB3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -943,6 +945,8 @@
 				F6CFE97B2A67B575001A0040 /* Sources */,
 				F6CFE97D2A67B575001A0040 /* Resources */,
 				F0695DC057CF720C979FE32E /* Frameworks */,
+				47000739A2A64B16C2252C5D /* [CP] Embed Pods Frameworks */,
+				50D48DF7F490B238A83C127D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -964,6 +968,9 @@
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Liumao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8XJQRXQM72;
+					};
 					F6CFE97E2A67B575001A0040 = {
 						CreatedOnToolsVersion = 13.4.1;
 						ProvisioningStyle = Automatic;
@@ -1018,6 +1025,74 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		47000739A2A64B16C2252C5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSAdSDK-Example-Swift/Pods-MSAdSDK-Example-Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KSAdSDK/KSAdSDK.framework/KSAdSDK",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSAdSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSAdSDK-Example-Swift/Pods-MSAdSDK-Example-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50D48DF7F490B238A83C127D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSAdSDK-Example-Swift/Pods-MSAdSDK-Example-Swift-resources.sh",
+				"${PODS_ROOT}/Ads-CN-Beta/SDK/CSJAdSDK.bundle",
+				"${PODS_ROOT}/BaiduMobAdSDK/baidumobadsdk.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
+				"${PODS_ROOT}/MSMobAdSDK/MSMobAdSDK/MSAdSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CSJAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/baidumobadsdk.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MSAdSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSAdSDK-Example-Swift/Pods-MSAdSDK-Example-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D67079A8B15211988E62EB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSAdSDK_Example/Pods-MSAdSDK_Example-resources.sh",
+				"${PODS_ROOT}/Ads-CN-Beta/SDK/CSJAdSDK.bundle",
+				"${PODS_ROOT}/BaiduMobAdSDK/baidumobadsdk.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
+				"${PODS_ROOT}/MSMobAdSDK/MSMobAdSDK/MSAdSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CSJAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/baidumobadsdk.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MSAdSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSAdSDK_Example/Pods-MSAdSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		676F9F35151568F2E7EE86A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1060,6 +1135,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED8A0F73DA2934FB62E602BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSAdSDK_Example/Pods-MSAdSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KSAdSDK/KSAdSDK.framework/KSAdSDK",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSAdSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSAdSDK_Example/Pods-MSAdSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1312,6 +1411,7 @@
 			baseConfigurationReference = 499A5AD24DE9B7933490D0DF /* Pods-MSAdSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8XJQRXQM72;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1321,7 +1421,7 @@
 				GCC_PREFIX_HEADER = "${SRCROOT}/MSAdSDK/Classes/Header/MSPrefixHeader.pch";
 				INFOPLIST_FILE = "MSAdSDK/MSAdSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.MSAdSDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -1333,6 +1433,7 @@
 			baseConfigurationReference = 1B8A64E5423569EBD618FCAE /* Pods-MSAdSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8XJQRXQM72;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1342,7 +1443,7 @@
 				GCC_PREFIX_HEADER = "${SRCROOT}/MSAdSDK/Classes/Header/MSPrefixHeader.pch";
 				INFOPLIST_FILE = "MSAdSDK/MSAdSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.MSAdSDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
