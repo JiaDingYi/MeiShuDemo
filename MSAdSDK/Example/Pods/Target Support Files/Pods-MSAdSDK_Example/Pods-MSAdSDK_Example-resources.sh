@@ -101,12 +101,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/BaiduMobAdSDK/baidumobadsdk.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle"
   install_resource "${PODS_ROOT}/MSMobAdSDK/MSMobAdSDK/MSAdSDK.bundle"
+  install_resource "${PODS_ROOT}/MentaVlionBaseSDK/MVBaseSDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/Ads-CN-Beta/SDK/CSJAdSDK.bundle"
   install_resource "${PODS_ROOT}/BaiduMobAdSDK/baidumobadsdk.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle"
   install_resource "${PODS_ROOT}/MSMobAdSDK/MSMobAdSDK/MSAdSDK.bundle"
+  install_resource "${PODS_ROOT}/MentaVlionBaseSDK/MVBaseSDK.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
