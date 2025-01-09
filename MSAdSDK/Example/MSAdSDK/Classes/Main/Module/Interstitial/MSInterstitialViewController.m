@@ -30,7 +30,7 @@
     [super viewDidDisappear:animated];
 }
 - (void)loadAd:(UIButton *)sender {
-    NSString *pid = self.defaultPidTF.text.length ? self.defaultPidTF.text : self.defaultPid;
+    NSString *pid = @"1061835";
     self.playBtn.enabled = NO;
     self.statusLabel.text = @"加载中";
     MSInterstitialAdConfigParams *adParam = [[MSInterstitialAdConfigParams alloc]init];
