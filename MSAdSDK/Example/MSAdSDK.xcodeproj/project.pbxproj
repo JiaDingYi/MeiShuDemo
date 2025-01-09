@@ -691,9 +691,9 @@
 		F69F8D6328C98862007AB51E /* MediaCustomSplashAdapter */ = {
 			isa = PBXGroup;
 			children = (
+				F69F8D6628C98862007AB51E /* MediaCustomSplashAdapter.h */,
 				F69F8D6428C98862007AB51E /* MediaCustomSplashAdapter.m */,
 				F69F8D6528C98862007AB51E /* MediaCustomSplashDelegate.h */,
-				F69F8D6628C98862007AB51E /* MediaCustomSplashAdapter.h */,
 				F69F8D6728C98862007AB51E /* MediaCustomSplashDelegate.m */,
 			);
 			path = MediaCustomSplashAdapter;
@@ -703,9 +703,9 @@
 			isa = PBXGroup;
 			children = (
 				F69F8D6928C98862007AB51E /* MediaCustomInterstitialDelegate.h */,
-				F69F8D6A28C98862007AB51E /* MediaCustomInterstitialAdapter.m */,
 				F69F8D6B28C98862007AB51E /* MediaCustomInterstitialDelegate.m */,
 				F69F8D6C28C98862007AB51E /* MediaCustomInterstitialAdapter.h */,
+				F69F8D6A28C98862007AB51E /* MediaCustomInterstitialAdapter.m */,
 			);
 			path = MediaCustomInterstitialAdapter;
 			sourceTree = "<group>";

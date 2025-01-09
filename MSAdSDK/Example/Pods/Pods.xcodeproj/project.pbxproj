@@ -9,21 +9,21 @@
 /* Begin PBXAggregateTarget section */
 		3294C8432378A95DD29FE26AF03C6A08 /* MentaVlionAdapter */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A238FE160B91CBA956EC3289611709DA /* Build configuration list for PBXAggregateTarget "MentaVlionAdapter" */;
+			buildConfigurationList = F82BFF6AC38C35F43D7A5FB7D604A6FC /* Build configuration list for PBXAggregateTarget "MentaVlionAdapter" */;
 			buildPhases = (
-				273B1DD921E3D29A916AAB50E88437C9 /* [CP] Copy XCFrameworks */,
+				B0B36BA4883623C222BDF26270A4FA86 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				8A555F40B11128C06EC54293759A2A23 /* PBXTargetDependency */,
-				7169858F73AACC33C23821A2B23C7AEB /* PBXTargetDependency */,
+				7C4CB2F481C379BDDAF57B219E5A5FE0 /* PBXTargetDependency */,
+				88533A271465657751C11AA12A1C8121 /* PBXTargetDependency */,
 			);
 			name = MentaVlionAdapter;
 		};
 		43C7119E41ACFA59D7184DC1DA32FFFC /* MentaVlionBaseSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8BD25758BEC0AAC8929EF04114B79F9D /* Build configuration list for PBXAggregateTarget "MentaVlionBaseSDK" */;
+			buildConfigurationList = EC8257176142BA1C08F3AAD3FBE78062 /* Build configuration list for PBXAggregateTarget "MentaVlionBaseSDK" */;
 			buildPhases = (
-				A38F0604214DD42949AEC77095AA0AF9 /* [CP] Copy XCFrameworks */,
+				FF0898ECD303A2B27410D2E50DDD770E /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -51,12 +51,12 @@
 		};
 		6D856865A6978DD11D0A7DC992E25512 /* MentaUnifiedSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = DE5F3FC89AA300E2F4B135FE9F3BD649 /* Build configuration list for PBXAggregateTarget "MentaUnifiedSDK" */;
+			buildConfigurationList = FC02D85BD615B1B770E4AAF3C7443347 /* Build configuration list for PBXAggregateTarget "MentaUnifiedSDK" */;
 			buildPhases = (
-				71F9A370FB0E1EF81D093B3AF2CD725A /* [CP] Copy XCFrameworks */,
+				6961317C7941CF33491689505CFBD6F1 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				35DD8A07AD1CD28557E4CC200470A13A /* PBXTargetDependency */,
+				0B8EF5A147814B8F72DB504731098933 /* PBXTargetDependency */,
 			);
 			name = MentaUnifiedSDK;
 		};
@@ -85,7 +85,7 @@
 				F7E5B12641174EFC1D5DE61C4BBE42F4 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				F11FA191A69DB072C89DA5ED901B0C8F /* PBXTargetDependency */,
+				2DD56D4F0A2379F2F441530C1C48CD9C /* PBXTargetDependency */,
 			);
 			name = JADYun;
 		};
@@ -110,12 +110,12 @@
 		};
 		A6854CB0F4ADAA053FCEA87B8D75AD15 /* MentaVlionSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 31620CB76C6C2D739456B1E0B7DB8F3D /* Build configuration list for PBXAggregateTarget "MentaVlionSDK" */;
+			buildConfigurationList = 67E4CD48382E3CDF36E5406ABFAC9A8C /* Build configuration list for PBXAggregateTarget "MentaVlionSDK" */;
 			buildPhases = (
-				84FD145710CE04432B078D256FC583B8 /* [CP] Copy XCFrameworks */,
+				3E33C0D220942646794288BBD459D54F /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				FF26AB018F05FEB1EA6CC57517F499D4 /* PBXTargetDependency */,
+				02284ACEFAA1AEBDABA8DF47E5058CDC /* PBXTargetDependency */,
 			);
 			name = MentaVlionSDK;
 		};
@@ -131,9 +131,9 @@
 		};
 		FB8CEE15122EBA879AC9DF749058D43A /* MSMobAdSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9A3BBCDD961A60C7E5F565E91F22170E /* Build configuration list for PBXAggregateTarget "MSMobAdSDK" */;
+			buildConfigurationList = B6F60F781D0F9BFB6BA642170CBF94CB /* Build configuration list for PBXAggregateTarget "MSMobAdSDK" */;
 			buildPhases = (
-				8B2A19A17DB642BDEB8414734FD0AF04 /* [CP] Copy XCFrameworks */,
+				E04CA63412A4BFC462998F1BF4349FDB /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -166,10 +166,10 @@
 		170F42F246537BCE20A4375111E5E156 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BAF4670739B7F91C577CA5856F3009 /* ConstraintDirectionalInsetTarget.swift */; };
 		1B9D8386A8FFB1D6F356D2CF34C963C8 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AE600CC1A51131995B8A958AD1ADA5 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BEC2CB950AC6CB5CB16FE696631518C /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA52F723CBEF4424847EC2D4F36278B /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CF826F2FC6E6D6C24E2B28E2389370C /* MSMTACustomAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE93560E19919990BADF8868C582750A /* MSMTACustomAdapter-dummy.m */; };
 		1D00181E61A74B66B145897150943E83 /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2B4E851BF8D151859DCE8E132E1430 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D101ED70628FF67FED8B56667E9A199 /* SDFileAttributeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED8E1531602FF5DC14A67D1F95B9EE0 /* SDFileAttributeHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1EC5818112422B6CC1D6F87906BA6186 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7013EE64702EA59808E0BE2D1B6E021 /* LayoutConstraint.swift */; };
+		21790FA9014DA845227D5F921DB8A1D2 /* MSMTACustomInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FE0EFE3E16E575E884149C7C30F312 /* MSMTACustomInterstitialAdapter.m */; };
 		220541411BE5D33389649B52178BCA3B /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5067C5D0B695F962AA640B42DC9CAF7 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		240202AD1C01F1C9F0E89B816F9972CA /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C15382E2A22373B3004C68AED10E6B /* IQKeyboardManager.m */; };
 		2578F1AA935D6A5820CE29212FD7B937 /* SDWebImageDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 198AF896AB6D6C648F1622D47F5C5BC1 /* SDWebImageDownloaderConfig.m */; };
@@ -191,10 +191,10 @@
 		31AAD95AED96CD0A09A0D807DC4F3FC6 /* SDWebImageOptionsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = D1830B59A63EBCEA7EA6B1A37EEDC873 /* SDWebImageOptionsProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32072AD29FA65801AE2E3B31B7425F92 /* SDDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 985AADDAC0807998B2996F2A1D687DEF /* SDDiskCache.m */; };
 		342F2B19B27DDC5711C0FD210F524B8E /* SDAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C3CABC0FF9A30965C2A34986FFAA32 /* SDAssociatedObject.m */; };
-		346D7D24472CA0616CEBAEF29B4B1F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3964617E5C241BE3E12D8F1D88607841 /* Foundation.framework */; };
 		3633C9EA1A5BF660AFCEC0277A964F83 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8936F04ACCB94E51AA2A5C70D7B8E2BE /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37B890ABDC7DD441E6AA662325D412E6 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 466E23ABA1F96362C8276C84C47635D3 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		387210388C328D180F192D734B3ECFEC /* SDImageHEICCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB01EDD85CE8D485AC7969821013033 /* SDImageHEICCoder.m */; };
+		3881A35A0A2589B246F36EAC8A3C956E /* JADYun.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24428E02BADFE978E022EA1E0CBDA519 /* JADYun.bundle */; };
 		3926B57B34744FC137DA044C9F7B3BB1 /* SDGraphicsImageRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DD9A88CF5686F707C16B9964F8B42A /* SDGraphicsImageRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BFB114626B50E821338887FBBFDE505 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3964617E5C241BE3E12D8F1D88607841 /* Foundation.framework */; };
 		3C62862A6CEBEEE520D094DC2A84B237 /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C0C576A262D9B5E4D4FE842F1FDF3D /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -203,7 +203,7 @@
 		3E441A7319128FBE5F70081B294AC729 /* SDWebImageDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 009A3089D0685D8E2358240CB639F4B3 /* SDWebImageDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FFA3134DCCF9A2D213612F07374D3F5 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B158DC429DA968D3238D7CA0DB6AFA /* ConstraintView+Extensions.swift */; };
 		4072C8C5BC02D9636C6E20529184CCB0 /* SDWebImageDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6EFC1A04723D3A4425289F5D926B5 /* SDWebImageDefine.m */; };
-		42BEC10ECC9FA0B9AE61D042674F6FB3 /* JADYun.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24428E02BADFE978E022EA1E0CBDA519 /* JADYun.bundle */; };
+		418C6A0E7734D421293844011197C8F9 /* MSMTACustomSplashDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3C9E3CA0782A63B441334C868613CB /* MSMTACustomSplashDelegate.m */; };
 		44339C00EEAC1F42F4BD9F5FC1C93FA0 /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4266AC2F9B384266DE3219DB33F3A1FA /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4471676741D2C5ADBDAB0F4CAEE5C789 /* SDDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA5D02C597B4A76B7638795F37457AE /* SDDisplayLink.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44848FF4F040165BB18D57E8D1CC8020 /* SDImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 360B359E5CB2A745C37F02D4E5285693 /* SDImageFrame.m */; };
@@ -212,6 +212,7 @@
 		45D154FB1764F3AABC084209CA1C801E /* SDImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 501F92400FFD874F43B44E33B772E5AA /* SDImageCoder.m */; };
 		46BB28F62F6521E1CA1BB3A729629041 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D673941813D9CA4EFFC6C32109054DC5 /* QuartzCore.framework */; };
 		47C4F0EEF88AB2207B80B8D8D32F17F8 /* SDImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9968BFB1E1A69CEAF75F92C42FC437BE /* SDImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4906888697FCFE61F80A1DF4021AFA5B /* MSMTACustomInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = B67F924C4FA4A9DAE3796C4FD9C9AC11 /* MSMTACustomInterstitialAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49264E9146AEB6B8E83E5AE6CF7E4F75 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 97313C5DACD1AE26034E236FB2879AEF /* UIImageView+WebCache.m */; };
 		492ACA2F8629AA0952B693A1931B6224 /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E71943E86BB375EF40F744949CFD7C /* UIImage+Transform.m */; };
 		4A04E473D818CBCA3A3F00C88415B82D /* SDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689F057104DE0BF72CD08FFDBFDE3E6 /* SDWeakProxy.m */; };
@@ -221,18 +222,17 @@
 		4F490B580C00F3153CACC04743E6C12F /* SDWebImageDownloaderResponseModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F358838C1926FD843025E810C71F0E /* SDWebImageDownloaderResponseModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F5D0D5A3C67274E6ED789FEFCA4BCD4 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23163C79155899E1CE9A3C6F638D186 /* ConstraintDescription.swift */; };
 		4F634689BE2B27352FE92383B024BF57 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4A9BED49E0FE1319AF2F30B458FFB /* LayoutConstraintItem.swift */; };
-		4F883746E71BD5235DC2E7572794D743 /* MSMTACustomNativeAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = F70B2C42E52AD89129FF5E23BD11AED1 /* MSMTACustomNativeAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5037570FEB63C8B08098E7319F580422 /* SDImageHEICCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8060C81D41ACA9896C422F84B94DA34C /* SDImageHEICCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5168D44DF080951F61A7DA9D0442885E /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43241A64F915CDC42FE1FC1B01F133 /* ConstraintInsetTarget.swift */; };
 		52076D385B3223B488596AB32082FD42 /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9AE9D400791B48B06435C7C88AFE83 /* ConstraintMakerRelatable+Extensions.swift */; };
 		523AF04B726E1996CFC31A9A7DFD0E79 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F2F52DD6A0F76933EC911970FFFE70 /* Debugging.swift */; };
 		5382F7678E8B235CB8FD066BDBE24612 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C52E15542E59CE11515820518DFDA3 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53A5E1A1A6B10465A12BE40E108C8D48 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A714E5CACCCC3C3DC46410460F37248 /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E6634A407FCF6DE91C81B7005B124E /* MSMTACustomSplashDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A19983F92ACC35F2B956E348E7E439 /* MSMTACustomSplashDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56E800EB3B2BE8AE0BA45A30974D7920 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C847C6CFD521DF0587989E39A378D /* Masonry-dummy.m */; };
 		59F8AD263AD7BBC760F7405695F6653B /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D9C16631363E3EBBB783E4F719B5BB /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B08596E856E4CC2F34A8A2372F9F764 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC92CD4C759FCE7D1C2234FE1AA24D31 /* NSArray+MASAdditions.m */; };
 		5B43E6FFB3C3B0DE1C7CEF20B6E172CF /* Pods-MSAdSDK-Example-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 892C57057E6B8BE11BDFF253B9B5EFE8 /* Pods-MSAdSDK-Example-Swift-dummy.m */; };
-		5BB57E78BA73FE32D512E5443B68B49F /* MSMTACustomBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB566D5FEB3759BE23330D1ABB24711 /* MSMTACustomBannerAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C88E1B78D6724C19D070FCCE10704CB /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D46CC00273CBB708B0669226E65AAA5 /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D9A94E3403042402C0666CD94BAE183 /* SDImageHEICCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5D751282278A23BCCFE3A7F85FA920 /* SDImageHEICCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DC8C4F0F23982E81CC41542FB030088 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D0C5B47B2985FFD692F322FFC893E6 /* IQToolbar.m */; };
@@ -256,7 +256,9 @@
 		6ED9647E15F23137883BBBDE85004207 /* SDImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = E90A4FFA8D622CF12F6B2EA4DF5F8742 /* SDImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		700BA5C6D7BFE8251E95B6AAC1AEADE7 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DCCCE909DA9199BBB75997DD78BAE6FE /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70B985B70C896CFCA8A6BF71DB971EDD /* SDWebImageDownloaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B29E0716D9724FF7D2FA61D1CE2B22 /* SDWebImageDownloaderConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7201951B71D98058B001F084E3D50A0B /* MSMTACustomNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B20BE4DF3809B48E2EEC4053E7649 /* MSMTACustomNativeAdapter.m */; };
 		7218EFCABC7F5485EF5D44CC8F3EF5FC /* SDMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B852B6E84D78538F7BFF655B48B60 /* SDMemoryCache.m */; };
+		7272490EDA008950E8CD644E7924131C /* MSMTACustomSplashAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F97FCBC7A3A2CAFEC6E78813794BC30 /* MSMTACustomSplashAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73468C19F7491D87D304C8B37F539762 /* SDImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A63F451A6C5A3B38E9A7758395B3F161 /* SDImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D18780F103B39B99B4B8C7E5124E54 /* SDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 34446E2B2117D55594EB7CEB5CC5DE51 /* SDWeakProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		757268B150D3C6C5B6B4BDFC6BB32823 /* SDImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 711E03C3D2728A6B615DF40A6FCE5274 /* SDImageTransformer.m */; };
@@ -267,18 +269,16 @@
 		78CF21034CF386F766531113CDE6FD0C /* SDImageIOAnimatedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5587C07B6F76C125CD10FA3C7262F2 /* SDImageIOAnimatedCoder.m */; };
 		7A060266F74D803304A90D6053FD1466 /* SDAsyncBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12148C0E7EE4998550D2DF63F5CCA204 /* SDAsyncBlockOperation.m */; };
 		7B05E2F71AB016ABA248FEBC95F9DE98 /* UIImage+ExtendedCacheData.h in Headers */ = {isa = PBXBuildFile; fileRef = C09E8D80A42D9267A92489DBF21E0EE7 /* UIImage+ExtendedCacheData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BE8634FC881C8E389A91EE6EB3CEE0F /* MSMTACustomNativeAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC44692528B74518E8628515ADF4880 /* MSMTACustomNativeAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C5505A2D3F2A697A5F324787061F4B7 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B5355715291426506A0915284ED530F8 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D9D7292BDD4DE452AA91BA5BADC351B /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9676120EDDE589FF7ACDBDD12A1A1119 /* ConstraintRelatableTarget.swift */; };
 		7EA54D82094944541E95CB5041773FC4 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA5B08EB5B49AF2D3CDD0608C85B26 /* IQKeyboardReturnKeyHandler.m */; };
-		7F32D5A5F9DB7D214E103C4D0561142F /* MSMTACustomRewardVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E79858075967AE38B1B482E669B86401 /* MSMTACustomRewardVideoAdapter.m */; };
 		80BC5DE1CE16235D6166643E18874114 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = FC248301F8FF5EF4B6981B3E9C3251ED /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		81284AE129F128B5B61742F7F6188111 /* SDAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2848B7227AEFAACB228B14B0F02ACF57 /* SDAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		813BE4C96A6D39C13EC50C6CD164F0AF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 621609D6B1948E60F887697E8DBD7672 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81FD28991B29ADDD8B82B6428E399246 /* SDAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 305E93C994118C2CB0C3594171AE4190 /* SDAnimatedImageView.m */; };
-		824ADF6775A3AFBEB721D83C421C2281 /* MSMTACustomAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B900FB7754E3970897D7FE24BBFE5FC /* MSMTACustomAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8343EE76CEBA5FAEB370850CEFDFDD07 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 237352242A1305886D84C5E036918596 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		836F7C86B67D8B9DC07E92DA3454E86C /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F197A24560172FD5A0BE9088108911C /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84E6021D93FC882841A9F6E1ED645FD7 /* MSMTACustomSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F96287B9B57CA7E4E22701BB1C476AB /* MSMTACustomSplashAdapter.m */; };
 		850D927656D8032DE446E47C6D2425C1 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA04BC3080DDF56D76D13C4F9D7C79A /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85404A9EC805CB6DC3504E405A197C5D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBDDF0554D720E199E1094AAEC3D171 /* ImageIO.framework */; };
 		865C28AE09B6BA459C1202E2577762AE /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F364CC301C609925ACC84D5477FB8C4C /* ConstraintInsets.swift */; };
@@ -287,15 +287,16 @@
 		88F1D31416C29C110EAEEE1C4B57D8AA /* SDImageLoadersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 27FE336FD5E3BB7C7BDB61D4053E5B81 /* SDImageLoadersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8915C10368B7024103B75A5220ADBD6C /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31547D85E955E059327DAB8206572E /* ConstraintLayoutGuideDSL.swift */; };
 		891D37BB705F174CEF05F674A9DE9426 /* SDImageCachesManagerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A88CC6D832A6F1A22EC93BDD232647E /* SDImageCachesManagerOperation.m */; };
-		892E5EE3A02F8018678E3A1B6DEDDE66 /* MSMTACustomRewardVideoAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 522AEEA3C3DE14FA5160E3DB7A719625 /* MSMTACustomRewardVideoAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A552B6B2297D17712459DD679FED5E8 /* Pods-MSAdSDK-Example-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 351DC158D855D09F6C9DC732E355EC7B /* Pods-MSAdSDK-Example-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C2CD923B27029D3C602AF7638F02DF6 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E00AB8AD1CBC4FECC1ED39FEBD117D8F /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6C7E25C5A24C936F81823978190E96 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 39FCB2D88ACDB9BF566FDEB109B95D4C /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB214F2AC38380FEA8D3EB525EB287A /* MSMTACustomRewardVideoAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E264A6E565CC7835B2C2F3866C5B8A8E /* MSMTACustomRewardVideoAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FC3018F3BE0FE96AA5717BD0E0BA53E /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19CC0ABE76DFFAF565D4FB3B4DF9499 /* ConstraintConstantTarget.swift */; };
 		8FD7AE5EE36CEAEAE366E2DCCE2A260A /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1116EBCDD97601F4325E3649142CD75 /* ConstraintLayoutGuide.swift */; };
 		8FF7B6477BFA6E6ABA168E1417291D5F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 44951DE36DF9A1200A0E769ED710EB74 /* MASCompositeConstraint.m */; };
 		900A5C5A3E1C97C27A6B5C0FE7730FA7 /* SDImageAPNGCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC5FC0EFCCE46382A8BB8D17E0A59C4 /* SDImageAPNGCoder.m */; };
 		911C849AE4974FF489B89723DDE6CF46 /* SDWebImageDownloaderRequestModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = D8986AF1459F30B07BB0F05EDF17CCC1 /* SDWebImageDownloaderRequestModifier.m */; };
+		92F19A583C57DBC388AF42E00ADB6B46 /* MSMTACustomBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3AE0B3ECFCA4D59BFF6C0FD6E12862 /* MSMTACustomBannerAdapter.m */; };
 		940EF9188EB57DE97F713008D8211FCC /* NSBezierPath+SDRoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = D88223931372FB27DC936C5FE7096C87 /* NSBezierPath+SDRoundedCorners.m */; };
 		96A1F1321F5C5ED5574CC5EE4642A3C7 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDB3EC831B77899DBC6C9C01DC020E7 /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9989AC78A24921A1E0A06102E31E16BE /* SDAsyncBlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0B932269BB709EE141294195239E37 /* SDAsyncBlockOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -303,17 +304,15 @@
 		9B2E19FB0E083B2DF5BCEE7AEA7D23B7 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 15765A3A58C2BB9C3C068DC304C5D918 /* IQUIScrollView+Additions.m */; };
 		9B50D6DAB4A7184D20836614A9CE3F98 /* SDImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5AB259B46C2FAA8A45656AFD616D7E /* SDImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DFD0D20BC411A061082117276676CC5 /* SDInternalMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A3940E0AA045287C3624DFD73D45A53A /* SDInternalMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9E3A103A0F87AF07897064951DD932F1 /* MSMTACustomSplashAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = F51CAF061E607625D5216052723EA1DB /* MSMTACustomSplashAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0A57B1309557D3F550F1ACB5EDE90B /* MSMTACustomSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC2304DD24C9724DFDB660FB315CEB /* MSMTACustomSplashAdapter.m */; };
 		9EFEA7BB9D711A84722221899CAA6BBC /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3438B299DA4D6CEB59B876BF1FD8437D /* ConstraintMakerEditable.swift */; };
 		9F6DDC99B06FB9B01FF539E0CE8AF3EE /* SDImageCachesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 281723147E70F310813EAB8F690D2D8A /* SDImageCachesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A091A4D7763E57E8E41722FF4A0973FC /* SDAnimatedImagePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC93C164EABA7CE0AB2169EE52BC5FE /* SDAnimatedImagePlayer.m */; };
 		A349F5C6E34038016B7A1916BE4DAEF7 /* UIColor+SDHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AE5E9B9B52C7C758D6617FD9740BB1 /* UIColor+SDHexString.m */; };
-		A4685AEAE4B0A44017924F2C13E68C52 /* MSMTACustomInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A527E1563A7AE192139B1458886C91A /* MSMTACustomInterstitialAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5E8E2D43F21081902EF548E1CDFB8AA /* NSImage+Compatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AF46C0BC2E7BA5BBBA564B35F6A2DB /* NSImage+Compatibility.m */; };
 		A7FCB4F4CB953D480648A40E683066B5 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = DF38B1A876A337D8D4E1A41A8A6FBE5B /* UIImage+MultiFormat.m */; };
 		A86ABB1D7881CD6DDA70FF37A1D72C65 /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 80B357171CD058B32AFEEB21071CE69A /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAD179F3F6D69812270BED2CD0303E8D /* SDImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D598298FDE30BE27570F9587BB20A716 /* SDImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB1EBB51C4E15420AED13E73EBA6620F /* MSMTACustomInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC06CCAE9648AEA52156B5D387D92302 /* MSMTACustomInterstitialAdapter.m */; };
 		ADEFAE997CA363D5D67ED180F20A1B56 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF95F3A66A1735EAA8F9EC0B3C92ECE /* ConstraintView.swift */; };
 		AE7B02645B8F769CA5F215EE8F7CC5B0 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 889D96B57994169C0B2779535580A7F0 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B33B1C9C0E7928A44110CB5615B6EA7F /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 420FD87862222EC9ECDDC46239400858 /* SDAnimatedImageRep.m */; };
@@ -336,7 +335,6 @@
 		BF22D137EF6324675FA50080C5D93C00 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A72710F07A0BBE968A918F3D0835B23 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF61A9638C4046244F7504489D6627BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A260983254EF2D214865E91D3787B2 /* CoreGraphics.framework */; };
 		C080CEB67AF68004A94439C4AA5DAAE8 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C2D83A4E1A70749F6685B08DAF7555 /* ConstraintPriority.swift */; };
-		C138E48BC3A350B32A53E57DB0E0D9FD /* MSMTACustomBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A766FDC51A77AF0E42ED35CD5A108E /* MSMTACustomBannerAdapter.m */; };
 		C17F465798D66E92368B08038F84738F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3964617E5C241BE3E12D8F1D88607841 /* Foundation.framework */; };
 		C2068AEACC2D9C7F1FFE41AA25B12A68 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F6B5E2144C301D29DC8AE6D3FF95B5 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C21EB9B393A3A2EF8A3B3FA2C7569726 /* UIColor+SDHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1716FA597D1B3936ED82377E9B6B692E /* UIColor+SDHexString.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -374,7 +372,8 @@
 		D6FE9669FE06CB8D4FDCC015621C8C66 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = B933520F7AA60F660253F47555D712FB /* SDWebImageCompat.m */; };
 		D779EA41A9326B9EA4D78B31934BB72F /* SDDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C41358E736636003F149F1677DD67753 /* SDDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D788BA4B9E8186271BA75CA52B30502C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86566A02542812115369CC9EFB250E /* View+MASAdditions.m */; };
-		D807B5641D7A37B214DC645526C058A8 /* MSMTACustomNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7158856053A7E25D36042A1A9494C31D /* MSMTACustomNativeAdapter.m */; };
+		D7D5BF4175490BD7CA5A4F071546C14B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3964617E5C241BE3E12D8F1D88607841 /* Foundation.framework */; };
+		D94B6AB2DC8E9850E98173D31FED2CD5 /* MSMTACustomRewardVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD456DC3F2B3E7C348A35EB809607A5 /* MSMTACustomRewardVideoAdapter.m */; };
 		DA9C521717BC8E266DC3088AD1F7BF68 /* SDWebImageTransitionInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = A9023061212434FDA966F6E3C2A2DB47 /* SDWebImageTransitionInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DAD916F0D647EA2AFD6FD8F9BD4CBFFC /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13252873FCC1CB2A4B997F2FF579CBF7 /* ConstraintDSL.swift */; };
 		DBA9500CBBA5FF6FCBBA115AE4D12152 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D44CE2B73582943DCBE7FF4BC6F618 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -386,10 +385,11 @@
 		E3711E4B5BE0F14ED8F6AAD520E834A6 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CD510D9F771832CCF2A06986338179 /* SDImageCacheConfig.m */; };
 		E5748168054D579839F6E8A773B2FB81 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 36409B4D5278A0DACE6E5E213DFD63BC /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5EDE065969A8CB0955293D5BE453BA2 /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 2549BE971D31491E48E24D7BB42EC885 /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8B986191F06CD6E44E05AE2C7F0A15F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 23114AB11ED3322598EE789865C1A0D5 /* PrivacyInfo.xcprivacy */; };
+		E6F1781511266BCDC4B88AB2F7B56945 /* MSMTACustomAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B2D5CDA49EDEF712DCBA58BCBEC887 /* MSMTACustomAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E930A5612DC6D120BE040AD17C6D1BCD /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DC76A42CADA64BFE7909F470433AA0 /* MASViewAttribute.m */; };
 		E9E7D3CCBCAE772D800A7B5E1BE234D0 /* UIImage+Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 54492F58950C2F4692DF517E36BDE511 /* UIImage+Metadata.m */; };
 		EAEEC4A6ABB4CA930A8EE93370231B04 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F59578EA8BB679E3F9C52D0F0710AA /* ConstraintLayoutSupport.swift */; };
+		EC1304489540A4879C09F11A50065577 /* MSMTACustomAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE1B03A282088507F0674BF8926862 /* MSMTACustomAdapter-dummy.m */; };
 		EC5BF58EC0CA30670411B889762A0E67 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6A93F097187E11149EEE914E0A748F /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC7215177F5D8266143580AFB9AFDB07 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AC7ACA966422774F66BB9366B6958C /* ConstraintConfig.swift */; };
 		EC9B34262AED632D7EFB49804337648E /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = D75109B6D9BC04E73654B5CB9AA7CA69 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -402,7 +402,9 @@
 		F55316FA1EF8CD28CF28E2E52C10507C /* SDWebImageCacheSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = E4699A8CF030F0D314104204A4EC232E /* SDWebImageCacheSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6D1C960368EB1E067ABD0BFF707FC56 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF8A0B99A8C19F2D9AA6D07D070AD9C /* MASConstraintMaker.m */; };
 		F702C18AED86FD3192868E4B3A46DA76 /* SDWebImageDownloaderDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FD36CD357D0C9DE8C2EEB28B925D5E88 /* SDWebImageDownloaderDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7784DDC97D24343645B7033A3B1F20D /* MSMTACustomBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBFE29DBABE87EF947A731FED8CE8E2 /* MSMTACustomBannerAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77899E2D4F363684325999FD01E750C /* Pods-MSAdSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F484DDA6680F8BE4E5452A0BD5B6EA54 /* Pods-MSAdSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A050F35FA57A0CA35EBC05F2DDB5E1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 23114AB11ED3322598EE789865C1A0D5 /* PrivacyInfo.xcprivacy */; };
 		F951854161745E08D24CF9737B740C1C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58190D0C60BA311BF6987895612EEE7A /* ConstraintRelation.swift */; };
 		FA5339A15CF1BEBB355E434003CE48D9 /* SDAssociatedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F2EE583545B4482EFC97046EC61922 /* SDAssociatedObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FBC30C9080649E5F14AC908BBC85F71E /* SDGraphicsImageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B62150F223AA85AEF7C7B9634CBFD /* SDGraphicsImageRenderer.m */; };
@@ -415,306 +417,306 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01BF8191BEF614E7599C090AEF06091F /* PBXContainerItemProxy */ = {
+		0A911460A0CEEAD2671877825E260ABD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6854CB0F4ADAA053FCEA87B8D75AD15;
-			remoteInfo = MentaVlionSDK;
+			remoteGlobalIDString = 6F2BDBDBBAD8487EF4614E1D729C5DD0;
+			remoteInfo = GDTMobSDK;
 		};
-		1E5356B469C1DD3C9244BFD627CEB544 /* PBXContainerItemProxy */ = {
+		0C54FE61B878A1776D35145E97E72927 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A33942C0A3A0CED25749EF27F05ED387;
 			remoteInfo = BaiduMobAdSDK;
 		};
-		1F66B23D25391CA8402C409950F20911 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 43C7119E41ACFA59D7184DC1DA32FFFC;
-			remoteInfo = MentaVlionBaseSDK;
-		};
-		215B3866AE29C7193C778DE435649177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 43C7119E41ACFA59D7184DC1DA32FFFC;
-			remoteInfo = MentaVlionBaseSDK;
-		};
-		2442AFFD3239D30210B49B1BD34EDA02 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 53DB8EFBB54B636ACDC70272323792EC;
-			remoteInfo = KSAdSDK;
-		};
-		24D213C20F8A210A4C7BD78D6E5C3A2C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 940F0EDB82A2640A378CA0D36C9E53F7;
-			remoteInfo = JADYun;
-		};
-		313E1FD34AB5238B4CDC3540387CC3C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 940F0EDB82A2640A378CA0D36C9E53F7;
-			remoteInfo = JADYun;
-		};
-		34212BA9329078D09BE8372CD113263F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 43C7119E41ACFA59D7184DC1DA32FFFC;
-			remoteInfo = MentaVlionBaseSDK;
-		};
-		35DC7EC9A00A1B4B4FE21F083EF0BC5E /* PBXContainerItemProxy */ = {
+		0D65AA71B3F2A4426A9D15ECECB668B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FB8CEE15122EBA879AC9DF749058D43A;
 			remoteInfo = MSMobAdSDK;
 		};
-		37394CB1BA23BA2A2A5AC5CCF68B38F9 /* PBXContainerItemProxy */ = {
+		11C1F89785BA1D9070BCBF5333FC5AD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9822EC319158EDF9A392330FE643BC4E;
-			remoteInfo = "Ads-CN-Beta";
+			remoteGlobalIDString = 43C7119E41ACFA59D7184DC1DA32FFFC;
+			remoteInfo = MentaVlionBaseSDK;
 		};
-		3822BE6F1FE574776EFB11FE529B6D8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A6854CB0F4ADAA053FCEA87B8D75AD15;
-			remoteInfo = MentaVlionSDK;
-		};
-		3F1AF0005B52649132FABDA9F5DAC3EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
-			remoteInfo = WechatOpenSDK;
-		};
-		4897A22CFEAC665E45E68510A633F614 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F3EE63E360628606EA2A542CAD97FADF;
-			remoteInfo = MSMTACustomAdapter;
-		};
-		4BEFFAB5103F850F9CE6385CCF410E04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
-			remoteInfo = WechatOpenSDK;
-		};
-		4C5163DC1D9EEC5525D1A3C66C43EF45 /* PBXContainerItemProxy */ = {
+		1D4DF3C9E6FBD7A9D58E2AB22EFD3294 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 53DB8EFBB54B636ACDC70272323792EC;
 			remoteInfo = KSAdSDK;
 		};
-		54842514DABD2CB6A2F3D6938F3E6001 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9822EC319158EDF9A392330FE643BC4E;
-			remoteInfo = "Ads-CN-Beta";
-		};
-		5B15B9D24F357E0AA7293A246F84B90B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A6854CB0F4ADAA053FCEA87B8D75AD15;
-			remoteInfo = MentaVlionSDK;
-		};
-		5DB90D9E35621A7DB0FE4681B8ED1EAB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D856865A6978DD11D0A7DC992E25512;
-			remoteInfo = MentaUnifiedSDK;
-		};
-		6A77AEABD77FEE4A6B3B683D6E91A6C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 05B2A835D60F78761395189914B88047;
-			remoteInfo = "IQKeyboardManager-IQKeyboardManager";
-		};
-		6E4248DBFAFF2DBD116E38CEE3F04F89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3294C8432378A95DD29FE26AF03C6A08;
-			remoteInfo = MentaVlionAdapter;
-		};
-		6FAFF4D5411C0002A8C1E805BBA42976 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FB8CEE15122EBA879AC9DF749058D43A;
-			remoteInfo = MSMobAdSDK;
-		};
-		79DB73AF58FC5C041140BB3A5F288445 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FBA456CB50E371584C11231929A0971E;
-			remoteInfo = IQKeyboardManager;
-		};
-		7D31891E4B6D92EA5435133595772A23 /* PBXContainerItemProxy */ = {
+		1D56B58AA3227D39C23DD071D1D31DA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DABB610A1497E6130B7B26CFBA5A246F;
 			remoteInfo = JADYunMotion;
 		};
-		7ECAE421D27D7FC1C55A67B905B85B2E /* PBXContainerItemProxy */ = {
+		250C19ABD448C41936F670C840B0558A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DB8EFBB54B636ACDC70272323792EC;
+			remoteInfo = KSAdSDK;
+		};
+		2E4D8768DD77D9689849D1F5EE48B160 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 47A48B35767B2FF26EE52EF544D5F14B;
 			remoteInfo = "SigmobAd-iOS";
 		};
-		87BE63CEB29CB9DA333CF482957A56E0 /* PBXContainerItemProxy */ = {
+		30B69F80B7537B49B76C6A68B90C95D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D856865A6978DD11D0A7DC992E25512;
-			remoteInfo = MentaUnifiedSDK;
+			remoteGlobalIDString = A6854CB0F4ADAA053FCEA87B8D75AD15;
+			remoteInfo = MentaVlionSDK;
 		};
-		8841EAA9ECF0D498FE2A1B928CDE7D31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3294C8432378A95DD29FE26AF03C6A08;
-			remoteInfo = MentaVlionAdapter;
-		};
-		8BA130CA2F5B3F6E5CAC5842583FF042 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D856865A6978DD11D0A7DC992E25512;
-			remoteInfo = MentaUnifiedSDK;
-		};
-		91A87A7CB60806E941DA701CE51C4EAA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D856865A6978DD11D0A7DC992E25512;
-			remoteInfo = MentaUnifiedSDK;
-		};
-		989BBED5BC1CDF26D79858E2A47460A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A33942C0A3A0CED25749EF27F05ED387;
-			remoteInfo = BaiduMobAdSDK;
-		};
-		A0C889F8F9B592D5DA6D183112C35CB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F2BDBDBBAD8487EF4614E1D729C5DD0;
-			remoteInfo = GDTMobSDK;
-		};
-		A47D9B4DC7E457CE47DDB74862266BDC /* PBXContainerItemProxy */ = {
+		355432FC347BB729A180456EE29B9FA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 43C7119E41ACFA59D7184DC1DA32FFFC;
 			remoteInfo = MentaVlionBaseSDK;
 		};
-		AA5D386F135F5044DEC8452E71FA1C3A /* PBXContainerItemProxy */ = {
+		40552DE9B75745777B2E2B88B1F2AE90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 47A48B35767B2FF26EE52EF544D5F14B;
-			remoteInfo = "SigmobAd-iOS";
+			remoteGlobalIDString = A6854CB0F4ADAA053FCEA87B8D75AD15;
+			remoteInfo = MentaVlionSDK;
 		};
-		AF2317A3090B9D1EDC4252857687F646 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3294C8432378A95DD29FE26AF03C6A08;
-			remoteInfo = MentaVlionAdapter;
-		};
-		B360DFB84CDB30853ABE56DD695877E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		B8BC623EA59258EB05A6D002379E38C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 43C7119E41ACFA59D7184DC1DA32FFFC;
-			remoteInfo = MentaVlionBaseSDK;
-		};
-		C4D2F84EF05EB2D38C79A37C6AA2BF85 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F2BDBDBBAD8487EF4614E1D729C5DD0;
-			remoteInfo = GDTMobSDK;
-		};
-		C6A9484F8BFF1604E0EDE809E1C09F94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FB8CEE15122EBA879AC9DF749058D43A;
-			remoteInfo = MSMobAdSDK;
-		};
-		D2A905D5C8B2776976E0478E5A71918E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
-			remoteInfo = SnapKit;
-		};
-		D31995468702B58B4D00C2BE7099DCAF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83991D7087135270E2E4B7CBD5B9489D;
-			remoteInfo = "JADYun-JADYun";
-		};
-		DA380F009BCCF220882C9BB940F762B0 /* PBXContainerItemProxy */ = {
+		43C9C27E607832C5D5903E498E60F761 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
 			remoteInfo = SDWebImage;
 		};
-		E8258DD759B2F726ECB5E3913053AC55 /* PBXContainerItemProxy */ = {
+		4E62DCBD1059B34F96A27C94F1174CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA456CB50E371584C11231929A0971E;
+			remoteInfo = IQKeyboardManager;
+		};
+		5B3940A0791BD2CEA383E3ADE06AEA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABB610A1497E6130B7B26CFBA5A246F;
+			remoteInfo = JADYunMotion;
+		};
+		5E9772FB36066C2D4F6C1C48ED4849B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C7119E41ACFA59D7184DC1DA32FFFC;
+			remoteInfo = MentaVlionBaseSDK;
+		};
+		680E5F09BB95C15220E64A41236370B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		6B5798CC157FBCFE902836AD2915BD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		6BC88D92341D2B65396C6A13A6519E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9822EC319158EDF9A392330FE643BC4E;
+			remoteInfo = "Ads-CN-Beta";
+		};
+		7DD275724429EF988CD4E02A19FF42DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940F0EDB82A2640A378CA0D36C9E53F7;
+			remoteInfo = JADYun;
+		};
+		814A581A547343B31D0A6B773CFBB68C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A48B35767B2FF26EE52EF544D5F14B;
+			remoteInfo = "SigmobAd-iOS";
+		};
+		85015BDFE536801A704FACCE86173354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8CEE15122EBA879AC9DF749058D43A;
+			remoteInfo = MSMobAdSDK;
+		};
+		876F91625DA21C20343079079639046F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D856865A6978DD11D0A7DC992E25512;
+			remoteInfo = MentaUnifiedSDK;
+		};
+		89A7775F492E148A5F641EE28ABAC069 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A6854CB0F4ADAA053FCEA87B8D75AD15;
 			remoteInfo = MentaVlionSDK;
 		};
-		F3AEC1FF60258D0BF5EE45B6D1D6DA0C /* PBXContainerItemProxy */ = {
+		8C3C7F696F2F605E8A219A39ED667FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83991D7087135270E2E4B7CBD5B9489D;
+			remoteInfo = "JADYun-JADYun";
+		};
+		8E8B5FC95635372E50758053383C82C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C7119E41ACFA59D7184DC1DA32FFFC;
+			remoteInfo = MentaVlionBaseSDK;
+		};
+		92078E7696204C860FA23E98261748AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9822EC319158EDF9A392330FE643BC4E;
+			remoteInfo = "Ads-CN-Beta";
+		};
+		93E877090E6451999227F47B55C4AC0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F2BDBDBBAD8487EF4614E1D729C5DD0;
+			remoteInfo = GDTMobSDK;
+		};
+		99317C7DF203B09ADC5568BC050A2CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3294C8432378A95DD29FE26AF03C6A08;
+			remoteInfo = MentaVlionAdapter;
+		};
+		9D3D3A30E6C74D0B22E968F81AED2A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6854CB0F4ADAA053FCEA87B8D75AD15;
+			remoteInfo = MentaVlionSDK;
+		};
+		9D9AA191418EDE44ABA700E2CD45F2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A33942C0A3A0CED25749EF27F05ED387;
+			remoteInfo = BaiduMobAdSDK;
+		};
+		A23F46B32D13108A0F00D70C1A362A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D856865A6978DD11D0A7DC992E25512;
+			remoteInfo = MentaUnifiedSDK;
+		};
+		A66FA9F34E93C7403225AD55393847D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F3EE63E360628606EA2A542CAD97FADF;
 			remoteInfo = MSMTACustomAdapter;
 		};
-		FC4185C0A1D630DEBBC268D9243C1A70 /* PBXContainerItemProxy */ = {
+		A76ADDBCBA5763E3F1933321839724AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DABB610A1497E6130B7B26CFBA5A246F;
-			remoteInfo = JADYunMotion;
+			remoteGlobalIDString = F3EE63E360628606EA2A542CAD97FADF;
+			remoteInfo = MSMTACustomAdapter;
+		};
+		B6C82D4622D4F3E622FEE7808531AA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D856865A6978DD11D0A7DC992E25512;
+			remoteInfo = MentaUnifiedSDK;
+		};
+		C056500369363C156301CF795A81AA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		C6F619A8838BE382C9F509FB3E77DB04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8CEE15122EBA879AC9DF749058D43A;
+			remoteInfo = MSMobAdSDK;
+		};
+		CBE8AA7D15C1626F72FDBF265F700FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C7119E41ACFA59D7184DC1DA32FFFC;
+			remoteInfo = MentaVlionBaseSDK;
+		};
+		CD3DF60007550FF16EED493AE87207D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940F0EDB82A2640A378CA0D36C9E53F7;
+			remoteInfo = JADYun;
+		};
+		DBA27BBE8287B116FE2F41EC2629AED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		EDF9CF8DE6A4D1DBF7FD0F3112EFE408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D856865A6978DD11D0A7DC992E25512;
+			remoteInfo = MentaUnifiedSDK;
+		};
+		EFC10DABEA1D15D54677EDA071E00DD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3294C8432378A95DD29FE26AF03C6A08;
+			remoteInfo = MentaVlionAdapter;
+		};
+		F8845C2C28F251CE59B4E15C6DF15AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3294C8432378A95DD29FE26AF03C6A08;
+			remoteInfo = MentaVlionAdapter;
+		};
+		FDBB52A50370ED649A60445302B96FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B2A835D60F78761395189914B88047;
+			remoteInfo = "IQKeyboardManager-IQKeyboardManager";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -727,10 +729,12 @@
 		05855E363CBDEE29B3BC251711F8DCDC /* Pods-MSAdSDK-Example-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSAdSDK-Example-Swift.modulemap"; sourceTree = "<group>"; };
 		05AE600CC1A51131995B8A958AD1ADA5 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
 		0689F057104DE0BF72CD08FFDBFDE3E6 /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
+		07B9A6A91B73C43751E3F0A2498CF3F4 /* MSMTACustomAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSMTACustomAdapter.debug.xcconfig; sourceTree = "<group>"; };
 		08DD75960441055BB99C5442F5A82A34 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
 		0A714E5CACCCC3C3DC46410460F37248 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/Core/SDAnimatedImageRep.h; sourceTree = "<group>"; };
 		0B0A05989A545A00C42E564B74B858F2 /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		0BCB32A00152AA0991AE4D113CE789F2 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
+		0C1EBDA62EDDA580878A8F018C7055A3 /* MSMTACustomAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSMTACustomAdapter.modulemap; sourceTree = "<group>"; };
 		0D4C67FB0DAAB69C3B74DC2E0B360706 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/Core/NSButton+WebCache.h"; sourceTree = "<group>"; };
 		0D71226A50DF840265F1CD16729B5088 /* GDTVideoAdReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTVideoAdReporter.h; path = lib/GDTVideoAdReporter.h; sourceTree = "<group>"; };
 		0F1D40A959F350BDD7906892EE85C31E /* SDImageTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageTransformer.h; path = SDWebImage/Core/SDImageTransformer.h; sourceTree = "<group>"; };
@@ -744,6 +748,7 @@
 		15AC7ACA966422774F66BB9366B6958C /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
 		15D0C5B47B2985FFD692F322FFC893E6 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
 		1716FA597D1B3936ED82377E9B6B692E /* UIColor+SDHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SDHexString.h"; path = "SDWebImage/Private/UIColor+SDHexString.h"; sourceTree = "<group>"; };
+		179976CC6B0BE61C43E255A7ADC2A107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		17C52E15542E59CE11515820518DFDA3 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/Core/SDWebImageManager.h; sourceTree = "<group>"; };
 		1894BE26244BAC0ED7E9DD9B11614A6B /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		18B8E2A75A4F3C6466196A469CC0AF55 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
@@ -752,14 +757,15 @@
 		19B29E0716D9724FF7D2FA61D1CE2B22 /* SDWebImageDownloaderConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderConfig.h; path = SDWebImage/Core/SDWebImageDownloaderConfig.h; sourceTree = "<group>"; };
 		19C52DA5FFCEDD849E43F86B82D5F6B6 /* KSAdSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSAdSDK.release.xcconfig; sourceTree = "<group>"; };
 		1B304CD2E581C8B00CE4C9D815575FA8 /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTNativeExpressAdView.h; path = lib/GDTNativeExpressAdView.h; sourceTree = "<group>"; };
-		1B900FB7754E3970897D7FE24BBFE5FC /* MSMTACustomAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSMTACustomAdapter-umbrella.h"; sourceTree = "<group>"; };
 		1D46CC00273CBB708B0669226E65AAA5 /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
 		1D4BAB9EF5D0E8F82BAA195E2B730DA6 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/Core/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		1D54A77D71773B8EC294AC209B3E26EC /* MSMTACustomAdapter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSMTACustomAdapter; path = MSMTACustomAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5B65889B5022669277CD84720A18F4 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
 		1F840A3FB18D259C2954EEE660368F00 /* JADYun-JADYun */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "JADYun-JADYun"; path = JADYun.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F872C145F3DDC9015F601C4E36C4719 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		1F97FCBC7A3A2CAFEC6E78813794BC30 /* MSMTACustomSplashAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomSplashAdapter.h; sourceTree = "<group>"; };
 		1FAEA31B7B1D52244D093313B38BE073 /* SDImageLoadersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoadersManager.m; path = SDWebImage/Core/SDImageLoadersManager.m; sourceTree = "<group>"; };
+		1FBFE29DBABE87EF947A731FED8CE8E2 /* MSMTACustomBannerAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomBannerAdapter.h; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D44CE2B73582943DCBE7FF4BC6F618 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		21DDD5D7166C007F884643E665AFC16C /* GDTAdParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTAdParams.h; path = lib/GDTAdParams.h; sourceTree = "<group>"; };
@@ -774,7 +780,7 @@
 		24DD3708C01F20682D3DD05CC91AA0F7 /* SDDeviceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDeviceHelper.m; path = SDWebImage/Private/SDDeviceHelper.m; sourceTree = "<group>"; };
 		2549BE971D31491E48E24D7BB42EC885 /* UIImage+Metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Metadata.h"; path = "SDWebImage/Core/UIImage+Metadata.h"; sourceTree = "<group>"; };
 		26AB847A00FC9C8D04CE2CBCA239C59F /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
-		2743F90E978CDB20F26CECAA06905423 /* MSMTACustomAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSMTACustomAdapter-prefix.pch"; sourceTree = "<group>"; };
+		26B2D5CDA49EDEF712DCBA58BCBEC887 /* MSMTACustomAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSMTACustomAdapter-umbrella.h"; sourceTree = "<group>"; };
 		27F05ED7D84DD64059919368BB730479 /* MSMobAdSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MSMobAdSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		27FE336FD5E3BB7C7BDB61D4053E5B81 /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/Core/SDImageLoadersManager.h; sourceTree = "<group>"; };
 		28090F28F6299503CA65737DDC20059B /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
@@ -812,10 +818,12 @@
 		36FFFDB75D1F44020B1C7058D5333F5A /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
 		373622EF4C0836F0306DC8DE9DF6159A /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		374604375EF6BBA88F76097F505D191B /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		379692FDDC95B4266E5EE4DECFC4DE51 /* MSMTACustomAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSMTACustomAdapter-prefix.pch"; sourceTree = "<group>"; };
 		37C15382E2A22373B3004C68AED10E6B /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
 		38CF40674BD72671256DB5AE12BE6446 /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
 		3964617E5C241BE3E12D8F1D88607841 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		396A2E62438DC6B4AEB68EE264048BF7 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		39A19983F92ACC35F2B956E348E7E439 /* MSMTACustomSplashDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomSplashDelegate.h; sourceTree = "<group>"; };
 		39FCB2D88ACDB9BF566FDEB109B95D4C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		3AE84B3C305B43B5A8244B282773A2D6 /* BUAdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = BUAdSDK.xcframework; path = SDK/BUAdSDK.xcframework; sourceTree = "<group>"; };
 		3B5C83C2F908DD3F6AC7151B804F2E59 /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
@@ -831,7 +839,6 @@
 		3FC93C164EABA7CE0AB2169EE52BC5FE /* SDAnimatedImagePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImagePlayer.m; path = SDWebImage/Core/SDAnimatedImagePlayer.m; sourceTree = "<group>"; };
 		41D2C52FB53CD1EE15923B25390E0F26 /* GDTSplashAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTSplashAd.h; path = lib/GDTSplashAd.h; sourceTree = "<group>"; };
 		420FD87862222EC9ECDDC46239400858 /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/Core/SDAnimatedImageRep.m; sourceTree = "<group>"; };
-		424951AABAFB5E694E9872B05D355C19 /* MSMTACustomAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSMTACustomAdapter.release.xcconfig; sourceTree = "<group>"; };
 		4266AC2F9B384266DE3219DB33F3A1FA /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
 		42E2D551D0C934EC2DFD4859C8184D2C /* GDTPrivacyConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTPrivacyConfiguration.h; path = lib/GDTPrivacyConfiguration.h; sourceTree = "<group>"; };
 		432AAD052BBC6FF98864F20E5853F975 /* SDWebImageOptionsProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOptionsProcessor.m; path = SDWebImage/Core/SDWebImageOptionsProcessor.m; sourceTree = "<group>"; };
@@ -843,7 +850,6 @@
 		45AFB661A395D079FBA54DDE1EF8FEC0 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		466E23ABA1F96362C8276C84C47635D3 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		467D88E9219F7179DBDB82FBB80E7594 /* SDWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOperation.m; path = SDWebImage/Core/SDWebImageOperation.m; sourceTree = "<group>"; };
-		46A766FDC51A77AF0E42ED35CD5A108E /* MSMTACustomBannerAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomBannerAdapter.m; sourceTree = "<group>"; };
 		48AF46C0BC2E7BA5BBBA564B35F6A2DB /* NSImage+Compatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Compatibility.m"; path = "SDWebImage/Core/NSImage+Compatibility.m"; sourceTree = "<group>"; };
 		496769BB320F595A441EE5F47A5B61F1 /* SDWebImageError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageError.h; path = SDWebImage/Core/SDWebImageError.h; sourceTree = "<group>"; };
 		4D6BBE176EC4DA990C355DCA5005DC24 /* BaiduMobAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMobAdSDK.framework; sourceTree = "<group>"; };
@@ -858,15 +864,14 @@
 		50A2B6207F1870E6BBD133CA8A14F39B /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
 		50C2D83A4E1A70749F6685B08DAF7555 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
 		50F2EE583545B4482EFC97046EC61922 /* SDAssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAssociatedObject.h; path = SDWebImage/Private/SDAssociatedObject.h; sourceTree = "<group>"; };
-		522AEEA3C3DE14FA5160E3DB7A719625 /* MSMTACustomRewardVideoAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomRewardVideoAdapter.h; sourceTree = "<group>"; };
 		529B4601362C9D4D9AD654715467C6C8 /* SDImageIOAnimatedCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoderInternal.h; path = SDWebImage/Private/SDImageIOAnimatedCoderInternal.h; sourceTree = "<group>"; };
 		52BBA93DCF11E78920C29EDC1EF4371F /* SDWebImageDownloaderResponseModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderResponseModifier.m; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.m; sourceTree = "<group>"; };
 		52C7BC5C6A8C2C18E08AD00EFD07CC9B /* SDImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOCoder.m; path = SDWebImage/Core/SDImageIOCoder.m; sourceTree = "<group>"; };
 		52EF094EE1B8E4F8DBCA60DC49165823 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
 		5313CC1E33D904B4470847FF88488DAB /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/Core/UIView+WebCache.m"; sourceTree = "<group>"; };
 		531791B12C7B83228456C51CFD9CAFEA /* Pods-MSAdSDK-Example-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSAdSDK-Example-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		541B20BE4DF3809B48E2EEC4053E7649 /* MSMTACustomNativeAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomNativeAdapter.m; sourceTree = "<group>"; };
 		54492F58950C2F4692DF517E36BDE511 /* UIImage+Metadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Metadata.m"; path = "SDWebImage/Core/UIImage+Metadata.m"; sourceTree = "<group>"; };
-		544AB6CDB337FCD15F1B4FFE740737B2 /* MSMTACustomAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSMTACustomAdapter-Info.plist"; sourceTree = "<group>"; };
 		546884EEAB80454957511A47F37DEDCB /* MentaVlionBaseSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MentaVlionBaseSDK.debug.xcconfig; sourceTree = "<group>"; };
 		5482F6063F297C579A4F718C8FDEF40C /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		556F1ED0FF00498A66E87970C9BD6AE5 /* Pods-MSAdSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSAdSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -883,7 +888,6 @@
 		5CA04BC3080DDF56D76D13C4F9D7C79A /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/Core/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
 		5F43241A64F915CDC42FE1FC1B01F133 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		5F7E69F9A6D188D2C88C48D45304696D /* JADYun-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "JADYun-xcframeworks.sh"; sourceTree = "<group>"; };
-		5F96287B9B57CA7E4E22701BB1C476AB /* MSMTACustomSplashAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomSplashAdapter.m; sourceTree = "<group>"; };
 		60632C78602BE06D3A8CBE3A0FC685F5 /* Pods-MSAdSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSAdSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		61878A6B331DED24E34C49CB601318D8 /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
 		621609D6B1948E60F887697E8DBD7672 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
@@ -900,7 +904,6 @@
 		6F1A4D53917D25AF6728B8AC576377DA /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		706A21D37AA85A0FE67D015D0FA84516 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
 		711E03C3D2728A6B615DF40A6FCE5274 /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
-		7158856053A7E25D36042A1A9494C31D /* MSMTACustomNativeAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomNativeAdapter.m; sourceTree = "<group>"; };
 		71C60771848C77192051EDEC92642432 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/Core/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		726E6FB089907FAA26E8408E9CE4FFD7 /* WindSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = WindSDK.xcframework; path = "wind-sdk-ios/WindSDK.xcframework"; sourceTree = "<group>"; };
 		738BF110AC52C446315A5FF3A7483B7D /* Ads-CN-Beta-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Ads-CN-Beta-xcframeworks.sh"; sourceTree = "<group>"; };
@@ -928,12 +931,12 @@
 		892C57057E6B8BE11BDFF253B9B5EFE8 /* Pods-MSAdSDK-Example-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSAdSDK-Example-Swift-dummy.m"; sourceTree = "<group>"; };
 		8936F04ACCB94E51AA2A5C70D7B8E2BE /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/Core/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		89A367C4BC7537C856EE2EC941FB4FBF /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/Core/SDImageFrame.h; sourceTree = "<group>"; };
-		8A527E1563A7AE192139B1458886C91A /* MSMTACustomInterstitialAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomInterstitialAdapter.h; sourceTree = "<group>"; };
 		8A9B4E0B3E4DD94A64D421AA6C8930CC /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/Core/NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		8AEDC8E9F050A93A468FFB05E8CA7BD4 /* SDImageIOAnimatedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoder.h; path = SDWebImage/Core/SDImageIOAnimatedCoder.h; sourceTree = "<group>"; };
 		8B0F3A8C3EA31C04A2DEB6C756AE905C /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
 		8B359A56EFB930758D3C10275531143B /* GDTVideoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTVideoConfig.h; path = lib/GDTVideoConfig.h; sourceTree = "<group>"; };
 		8D3DE0FC4B7F25BFCEC2DE1AC6A411E8 /* MSMobAdSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSMobAdSDK.release.xcconfig; sourceTree = "<group>"; };
+		8FC4DDD6425E37D1E2907EB5E041DF62 /* MSMTACustomAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSMTACustomAdapter.release.xcconfig; sourceTree = "<group>"; };
 		9002A4EFFF64C1C3A97D76C9D8E6D6C8 /* baidumobadsdk.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = baidumobadsdk.bundle; sourceTree = "<group>"; };
 		9045CD41F9C87B339908A35BC3A58BFE /* SDImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoderHelper.m; path = SDWebImage/Core/SDImageCoderHelper.m; sourceTree = "<group>"; };
 		90DD7C531837E463118A6EC6A2D9D488 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
@@ -955,9 +958,10 @@
 		985AADDAC0807998B2996F2A1D687DEF /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
 		98B6D0FB5279726F9963FA675E9FA37B /* Pods-MSAdSDK-Example-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MSAdSDK-Example-Swift"; path = Pods_MSAdSDK_Example_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DC1F235532ED326A473C2080C10BAE /* MentaVlionBaseSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MentaVlionBaseSDK.xcframework; sourceTree = "<group>"; };
-		9929F3FDDC94D1D13F796D8C15B2D733 /* MSMTACustomAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSMTACustomAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9968BFB1E1A69CEAF75F92C42FC437BE /* SDImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOCoder.h; path = SDWebImage/Core/SDImageIOCoder.h; sourceTree = "<group>"; };
+		99DC2304DD24C9724DFDB660FB315CEB /* MSMTACustomSplashAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomSplashAdapter.m; sourceTree = "<group>"; };
 		9AA951B4EB35F31EDF902CCF631A23CB /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
+		9AEE1B03A282088507F0674BF8926862 /* MSMTACustomAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSMTACustomAdapter-dummy.m"; sourceTree = "<group>"; };
 		9B8682C54636E103BDB12952372BEA66 /* SDAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDAnimatedImageView+WebCache.m"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
 		9C5214C734D66D3FAB75A012D690E519 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/Core/UIView+WebCache.h"; sourceTree = "<group>"; };
 		9CC4A5E0A942767EBC153E6F21D22471 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
@@ -984,28 +988,29 @@
 		A9023061212434FDA966F6E3C2A2DB47 /* SDWebImageTransitionInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransitionInternal.h; path = SDWebImage/Private/SDWebImageTransitionInternal.h; sourceTree = "<group>"; };
 		AAB0CB5E42081A7D7DC9443A7AA03532 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/Core/SDWebImageManager.m; sourceTree = "<group>"; };
 		AAF5C74B4B367EF97474F7E32791A30F /* Pods-MSAdSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSAdSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AB27568325C56713CB5F8AD2D8CAD88A /* MSMTACustomAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSMTACustomAdapter.debug.xcconfig; sourceTree = "<group>"; };
 		AC74EED679D1EA5483549FC0E22B6B25 /* Pods-MSAdSDK-Example-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSAdSDK-Example-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		ADF4A9BED49E0FE1319AF2F30B458FFB /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Sources/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		ADF804692E3E598E474B3280E0D50451 /* MSAdSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MSAdSDK.bundle; path = MSMobAdSDK/MSAdSDK.bundle; sourceTree = "<group>"; };
-		AFB566D5FEB3759BE23330D1ABB24711 /* MSMTACustomBannerAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomBannerAdapter.h; sourceTree = "<group>"; };
+		AF3C9E3CA0782A63B441334C868613CB /* MSMTACustomSplashDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomSplashDelegate.m; sourceTree = "<group>"; };
 		B066B9850D1DD245C0164E802B5CFF36 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F14243C745B43FB9EE8D506A3256C8 /* GDTUnifiedNativeAdDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedNativeAdDataObject.h; path = lib/GDTUnifiedNativeAdDataObject.h; sourceTree = "<group>"; };
 		B4AA5B08EB5B49AF2D3CDD0608C85B26 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
 		B5067C5D0B695F962AA640B42DC9CAF7 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
 		B5355715291426506A0915284ED530F8 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		B67F924C4FA4A9DAE3796C4FD9C9AC11 /* MSMTACustomInterstitialAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomInterstitialAdapter.h; sourceTree = "<group>"; };
 		B933520F7AA60F660253F47555D712FB /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/Core/SDWebImageCompat.m; sourceTree = "<group>"; };
 		B96E247B666CCF829C797257C2866000 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		B9F0C37D31DEB90C55DC75851927465E /* MentaUnifiedSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MentaUnifiedSDK.debug.xcconfig; sourceTree = "<group>"; };
+		BA0C2A16DEB3F41B3601B0DA1A2A1B3E /* MSMTACustomAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSMTACustomAdapter-Info.plist"; sourceTree = "<group>"; };
 		BAAE94E27AB1D385E82C018DF4EBE1A7 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
 		BAE5BBE005F1A33244AAF6283145D00F /* GDTMobSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDTMobSDK.debug.xcconfig; sourceTree = "<group>"; };
 		BB0CF1392D9F4AB5584E57F64A87ED6D /* SDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDeviceHelper.h; path = SDWebImage/Private/SDDeviceHelper.h; sourceTree = "<group>"; };
 		BBA4F1D241C47DDD3278ED34CC6C031A /* MentaVlionAdapter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MentaVlionAdapter-xcframeworks.sh"; sourceTree = "<group>"; };
 		BC0CA71DCFD81F01F72F0FED467A27F3 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/Core/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		BC92CD4C759FCE7D1C2234FE1AA24D31 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		BE93560E19919990BADF8868C582750A /* MSMTACustomAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSMTACustomAdapter-dummy.m"; sourceTree = "<group>"; };
-		BEC2C6D12C2F631FA64C4DBF969871DA /* MSMTACustomAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSMTACustomAdapter.modulemap; sourceTree = "<group>"; };
+		BD3AE0B3ECFCA4D59BFF6C0FD6E12862 /* MSMTACustomBannerAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomBannerAdapter.m; sourceTree = "<group>"; };
+		BDC44692528B74518E8628515ADF4880 /* MSMTACustomNativeAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomNativeAdapter.h; sourceTree = "<group>"; };
 		BF0708F60903E44B19216F3BF5CBA925 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
 		C09E8D80A42D9267A92489DBF21E0EE7 /* UIImage+ExtendedCacheData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ExtendedCacheData.h"; path = "SDWebImage/Core/UIImage+ExtendedCacheData.h"; sourceTree = "<group>"; };
 		C38A303D1982C6B8B7205024B7CDA618 /* MentaVlionSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MentaVlionSDK-xcframeworks.sh"; sourceTree = "<group>"; };
@@ -1045,12 +1050,12 @@
 		DBF8A0B99A8C19F2D9AA6D07D070AD9C /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		DBF95F3A66A1735EAA8F9EC0B3C92ECE /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
 		DCCCE909DA9199BBB75997DD78BAE6FE /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
-		DCE6F2F1B6C8E679B30CA25A90A3207C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DD9AB69EA003477C4DDB338CFAAC93F4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		DDE3FEF505E2308027CB44F5703931F3 /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/Core/SDImageCacheDefine.m; sourceTree = "<group>"; };
 		DF38B1A876A337D8D4E1A41A8A6FBE5B /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/Core/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		DF86566A02542812115369CC9EFB250E /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		DF96B90B8653D2DCC2935B2684A329BA /* JADYun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JADYun.debug.xcconfig; sourceTree = "<group>"; };
+		DFD456DC3F2B3E7C348A35EB809607A5 /* MSMTACustomRewardVideoAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomRewardVideoAdapter.m; sourceTree = "<group>"; };
 		E00AB8AD1CBC4FECC1ED39FEBD117D8F /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
 		E02E77098AB88880952634836CB52955 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/Core/SDWebImageOperation.h; sourceTree = "<group>"; };
 		E08D1BF316F4D5402FE6C8E65B89BEA2 /* JADYun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JADYun.release.xcconfig; sourceTree = "<group>"; };
@@ -1059,6 +1064,7 @@
 		E1C6E56D056C368D596EB9BD0727E691 /* KSAdSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "KSAdSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		E1DF8BF780A4AD9606856AB857CA1D86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E241BE33FF4724F55EED3BE34A91E9CB /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		E264A6E565CC7835B2C2F3866C5B8A8E /* MSMTACustomRewardVideoAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomRewardVideoAdapter.h; sourceTree = "<group>"; };
 		E2692A353723444F1236E5E721BB370B /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
 		E3B77EF6C4D162FA1922A7EFD31D3B3D /* GDTMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTMediaView.h; path = lib/GDTMediaView.h; sourceTree = "<group>"; };
 		E4699A8CF030F0D314104204A4EC232E /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/Core/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
@@ -1066,7 +1072,6 @@
 		E4D276B20EF27625EC9686D4A1611456 /* MSAdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MSAdSDK.xcframework; path = MSMobAdSDK/MSAdSDK.xcframework; sourceTree = "<group>"; };
 		E5F66D3E0612D2727413966FA78877D4 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		E71A44FE2094DA714EF17CFE6A5A8C6E /* Pods-MSAdSDK-Example-Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSAdSDK-Example-Swift-resources.sh"; sourceTree = "<group>"; };
-		E79858075967AE38B1B482E669B86401 /* MSMTACustomRewardVideoAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomRewardVideoAdapter.m; sourceTree = "<group>"; };
 		E7A77C344FAE09CBBA368D2FF7C6F349 /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/Core/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
 		E7C0C576A262D9B5E4D4FE842F1FDF3D /* SDImageCacheDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDefine.h; path = SDWebImage/Core/SDImageCacheDefine.h; sourceTree = "<group>"; };
 		E7C7249B9E6170D309B19E665B5221B0 /* GDTMobSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDTMobSDK.release.xcconfig; sourceTree = "<group>"; };
@@ -1097,15 +1102,14 @@
 		F3CD3E1CA31DB3D485F4858E97806BC0 /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTNativeExpressAd.h; path = lib/GDTNativeExpressAd.h; sourceTree = "<group>"; };
 		F484DDA6680F8BE4E5452A0BD5B6EA54 /* Pods-MSAdSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSAdSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		F4C3CABC0FF9A30965C2A34986FFAA32 /* SDAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAssociatedObject.m; path = SDWebImage/Private/SDAssociatedObject.m; sourceTree = "<group>"; };
-		F51CAF061E607625D5216052723EA1DB /* MSMTACustomSplashAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomSplashAdapter.h; sourceTree = "<group>"; };
 		F6F16540F9A62D244CBF46E0BCA04740 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/Core/NSButton+WebCache.m"; sourceTree = "<group>"; };
 		F6F6B5E2144C301D29DC8AE6D3FF95B5 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		F70B2C42E52AD89129FF5E23BD11AED1 /* MSMTACustomNativeAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSMTACustomNativeAdapter.h; sourceTree = "<group>"; };
+		F72731F6CBE8D1C555F58D1660391027 /* MSMTACustomAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSMTACustomAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F7C08AAD173AB61CF91D88B9A8CE31A7 /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
+		F8FE0EFE3E16E575E884149C7C30F312 /* MSMTACustomInterstitialAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomInterstitialAdapter.m; sourceTree = "<group>"; };
 		F981CD81E61127238F269846BB666F79 /* SDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.release.xcconfig; sourceTree = "<group>"; };
 		FA5D751282278A23BCCFE3A7F85FA920 /* SDImageHEICCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoder.h; path = SDWebImage/Core/SDImageHEICCoder.h; sourceTree = "<group>"; };
 		FB71FDAB4989C2B6951562F54525399B /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
-		FC06CCAE9648AEA52156B5D387D92302 /* MSMTACustomInterstitialAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSMTACustomInterstitialAdapter.m; sourceTree = "<group>"; };
 		FC248301F8FF5EF4B6981B3E9C3251ED /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
 		FC47139FFA08FEB835F03EBB2BD9FF4A /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/Core/SDWebImageDownloader.m; sourceTree = "<group>"; };
 		FC90A35559C5562518B7AE59157B08D2 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
@@ -1145,21 +1149,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		365C7325B0E78512F73C9196D66533CD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50D60D73BA82B69A127CBBE8894D2700 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				346D7D24472CA0616CEBAEF29B4B1F2E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7F025C68D7AB2CBEAA20335DC4A82BD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1179,7 +1168,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB3CD7CA7D1A3E5913C8CB146797BCA3 /* Frameworks */ = {
+		A2D7CD08BD00594F6D9371D013519487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D5BF4175490BD7CA5A4F071546C14B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32DB2694683E5432AFC1D0910E4EE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20DE55D5A95E97700D7A03E8DFA9852 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1275,6 +1279,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0F0283EBABF0A3B455811A59C9D47CE6 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				BDC44692528B74518E8628515ADF4880 /* MSMTACustomNativeAdapter.h */,
+				541B20BE4DF3809B48E2EEC4053E7649 /* MSMTACustomNativeAdapter.m */,
+			);
+			name = Native;
+			path = MSMTACustomAdapter/Classes/Native;
+			sourceTree = "<group>";
+		};
 		1133E002B345C8442A9DEFD1FAA989C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1365,12 +1379,59 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		21699253CBEDD22791C277D8778230A0 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				1F97FCBC7A3A2CAFEC6E78813794BC30 /* MSMTACustomSplashAdapter.h */,
+				99DC2304DD24C9724DFDB660FB315CEB /* MSMTACustomSplashAdapter.m */,
+				39A19983F92ACC35F2B956E348E7E439 /* MSMTACustomSplashDelegate.h */,
+				AF3C9E3CA0782A63B441334C868613CB /* MSMTACustomSplashDelegate.m */,
+			);
+			name = Splash;
+			path = MSMTACustomAdapter/Classes/Splash;
+			sourceTree = "<group>";
+		};
+		24C88CCB69D2DFA5EC78249ED431C49E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C1EBDA62EDDA580878A8F018C7055A3 /* MSMTACustomAdapter.modulemap */,
+				9AEE1B03A282088507F0674BF8926862 /* MSMTACustomAdapter-dummy.m */,
+				BA0C2A16DEB3F41B3601B0DA1A2A1B3E /* MSMTACustomAdapter-Info.plist */,
+				379692FDDC95B4266E5EE4DECFC4DE51 /* MSMTACustomAdapter-prefix.pch */,
+				26B2D5CDA49EDEF712DCBA58BCBEC887 /* MSMTACustomAdapter-umbrella.h */,
+				07B9A6A91B73C43751E3F0A2498CF3F4 /* MSMTACustomAdapter.debug.xcconfig */,
+				8FC4DDD6425E37D1E2907EB5E041DF62 /* MSMTACustomAdapter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "MSAdSDK/Example/Pods/Target Support Files/MSMTACustomAdapter";
+			sourceTree = "<group>";
+		};
 		2524B31EBE1D53DC8EE74B450EFCCDFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D320F8BC03391CBB3BE290220194C433 /* KSAdSDK.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25B704E761940225563C95C681F95B65 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				B67F924C4FA4A9DAE3796C4FD9C9AC11 /* MSMTACustomInterstitialAdapter.h */,
+				F8FE0EFE3E16E575E884149C7C30F312 /* MSMTACustomInterstitialAdapter.m */,
+			);
+			name = Interstitial;
+			path = MSMTACustomAdapter/Classes/Interstitial;
+			sourceTree = "<group>";
+		};
+		27A8F529ABB3DC576F3104D861027BBF /* RewardVideo */ = {
+			isa = PBXGroup;
+			children = (
+				E264A6E565CC7835B2C2F3866C5B8A8E /* MSMTACustomRewardVideoAdapter.h */,
+				DFD456DC3F2B3E7C348A35EB809607A5 /* MSMTACustomRewardVideoAdapter.m */,
+			);
+			name = RewardVideo;
+			path = MSMTACustomAdapter/Classes/RewardVideo;
 			sourceTree = "<group>";
 		};
 		2B2F4126FD175B42B126894B93D20748 /* Resources */ = {
@@ -1398,21 +1459,6 @@
 				24428E02BADFE978E022EA1E0CBDA519 /* JADYun.bundle */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		34E5B91748FCC9262FAD96798DAEA958 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BEC2C6D12C2F631FA64C4DBF969871DA /* MSMTACustomAdapter.modulemap */,
-				BE93560E19919990BADF8868C582750A /* MSMTACustomAdapter-dummy.m */,
-				544AB6CDB337FCD15F1B4FFE740737B2 /* MSMTACustomAdapter-Info.plist */,
-				2743F90E978CDB20F26CECAA06905423 /* MSMTACustomAdapter-prefix.pch */,
-				1B900FB7754E3970897D7FE24BBFE5FC /* MSMTACustomAdapter-umbrella.h */,
-				AB27568325C56713CB5F8AD2D8CAD88A /* MSMTACustomAdapter.debug.xcconfig */,
-				424951AABAFB5E694E9872B05D355C19 /* MSMTACustomAdapter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "MSAdSDK/Example/Pods/Target Support Files/MSMTACustomAdapter";
 			sourceTree = "<group>";
 		};
 		35A712C273B0741C303EA40BEF0F65E7 /* Products */ = {
@@ -1444,16 +1490,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		42E56534FDAC362A0F72DA462725EEBC /* Splash */ = {
-			isa = PBXGroup;
-			children = (
-				F51CAF061E607625D5216052723EA1DB /* MSMTACustomSplashAdapter.h */,
-				5F96287B9B57CA7E4E22701BB1C476AB /* MSMTACustomSplashAdapter.m */,
-			);
-			name = Splash;
-			path = MSMTACustomAdapter/Classes/Splash;
 			sourceTree = "<group>";
 		};
 		43A4557C9978A057E1EB943438B134F4 /* BUAdSDK */ = {
@@ -1508,7 +1544,7 @@
 		62EE776CB0190557E99FEBF0E1A58C1B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F867C4EDF17BCC86119DC1C7FE3EBCFF /* MSMTACustomAdapter */,
+				ADE87A70CCBA04A678E802845801581D /* MSMTACustomAdapter */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -1770,16 +1806,6 @@
 			path = JADYun;
 			sourceTree = "<group>";
 		};
-		907243FA10BED017C2EF32A98EFF5F45 /* Interstitial */ = {
-			isa = PBXGroup;
-			children = (
-				8A527E1563A7AE192139B1458886C91A /* MSMTACustomInterstitialAdapter.h */,
-				FC06CCAE9648AEA52156B5D387D92302 /* MSMTACustomInterstitialAdapter.m */,
-			);
-			name = Interstitial;
-			path = MSMTACustomAdapter/Classes/Interstitial;
-			sourceTree = "<group>";
-		};
 		9123E87C0B326A5846C10781F4EBB23D /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -1841,16 +1867,6 @@
 			);
 			name = "Ads-CN-Beta";
 			path = "Ads-CN-Beta";
-			sourceTree = "<group>";
-		};
-		9F21A07FB1083A62B32D6251991128BB /* Native */ = {
-			isa = PBXGroup;
-			children = (
-				F70B2C42E52AD89129FF5E23BD11AED1 /* MSMTACustomNativeAdapter.h */,
-				7158856053A7E25D36042A1A9494C31D /* MSMTACustomNativeAdapter.m */,
-			);
-			name = Native;
-			path = MSMTACustomAdapter/Classes/Native;
 			sourceTree = "<group>";
 		};
 		9F8B976D4E0E6390279561FD05ABC0D7 /* Support Files */ = {
@@ -1924,6 +1940,21 @@
 			);
 			name = "Pods-MSAdSDK-Example-Swift";
 			path = "Target Support Files/Pods-MSAdSDK-Example-Swift";
+			sourceTree = "<group>";
+		};
+		ADE87A70CCBA04A678E802845801581D /* MSMTACustomAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DAACD980367347D3B4124DADEB201 /* Banner */,
+				25B704E761940225563C95C681F95B65 /* Interstitial */,
+				0F0283EBABF0A3B455811A59C9D47CE6 /* Native */,
+				CB902388EEE0D447DD8631F79789E17D /* Pod */,
+				27A8F529ABB3DC576F3104D861027BBF /* RewardVideo */,
+				21699253CBEDD22791C277D8778230A0 /* Splash */,
+				24C88CCB69D2DFA5EC78249ED431C49E /* Support Files */,
+			);
+			name = MSMTACustomAdapter;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		B3B970E8A3B22CB34C7AD7268356765D /* SDWebImage */ = {
@@ -2024,6 +2055,15 @@
 			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
+		CB902388EEE0D447DD8631F79789E17D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F72731F6CBE8D1C555F58D1660391027 /* MSMTACustomAdapter.podspec */,
+				179976CC6B0BE61C43E255A7ADC2A107 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -2046,25 +2086,6 @@
 			path = "../Target Support Files/BaiduMobAdSDK";
 			sourceTree = "<group>";
 		};
-		D29393949A5E77417A662874621820B2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9929F3FDDC94D1D13F796D8C15B2D733 /* MSMTACustomAdapter.podspec */,
-				DCE6F2F1B6C8E679B30CA25A90A3207C /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D5C2AC29CC9C82907E3FAEAA62116391 /* Banner */ = {
-			isa = PBXGroup;
-			children = (
-				AFB566D5FEB3759BE23330D1ABB24711 /* MSMTACustomBannerAdapter.h */,
-				46A766FDC51A77AF0E42ED35CD5A108E /* MSMTACustomBannerAdapter.m */,
-			);
-			name = Banner;
-			path = MSMTACustomAdapter/Classes/Banner;
-			sourceTree = "<group>";
-		};
 		D86FC61C88E7248726416A2957F5E5C8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -2078,6 +2099,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		DA2DAACD980367347D3B4124DADEB201 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				1FBFE29DBABE87EF947A731FED8CE8E2 /* MSMTACustomBannerAdapter.h */,
+				BD3AE0B3ECFCA4D59BFF6C0FD6E12862 /* MSMTACustomBannerAdapter.m */,
+			);
+			name = Banner;
+			path = MSMTACustomAdapter/Classes/Banner;
 			sourceTree = "<group>";
 		};
 		DF215903A36EC3EA69D52B71A4D37683 /* Frameworks */ = {
@@ -2132,16 +2163,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC93C24ABEA50F55F228CF031F6279AE /* RewardVideo */ = {
-			isa = PBXGroup;
-			children = (
-				522AEEA3C3DE14FA5160E3DB7A719625 /* MSMTACustomRewardVideoAdapter.h */,
-				E79858075967AE38B1B482E669B86401 /* MSMTACustomRewardVideoAdapter.m */,
-			);
-			name = RewardVideo;
-			path = MSMTACustomAdapter/Classes/RewardVideo;
-			sourceTree = "<group>";
-		};
 		EF346CD090D1AF51DC6E2AA9D32B0EF2 /* MentaVlionSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -2189,21 +2210,6 @@
 			);
 			name = JADYunMotion;
 			path = JADYunMotion;
-			sourceTree = "<group>";
-		};
-		F867C4EDF17BCC86119DC1C7FE3EBCFF /* MSMTACustomAdapter */ = {
-			isa = PBXGroup;
-			children = (
-				D5C2AC29CC9C82907E3FAEAA62116391 /* Banner */,
-				907243FA10BED017C2EF32A98EFF5F45 /* Interstitial */,
-				9F21A07FB1083A62B32D6251991128BB /* Native */,
-				D29393949A5E77417A662874621820B2 /* Pod */,
-				EC93C24ABEA50F55F228CF031F6279AE /* RewardVideo */,
-				42E56534FDAC362A0F72DA462725EEBC /* Splash */,
-				34E5B91748FCC9262FAD96798DAEA958 /* Support Files */,
-			);
-			name = MSMTACustomAdapter;
-			path = ../../..;
 			sourceTree = "<group>";
 		};
 		F923F10ACB6A4CE7425A5E9B45806BA5 /* Frameworks */ = {
@@ -2374,6 +2380,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77BD20CC1F3B0741506A2A2BD56099BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F1781511266BCDC4B88AB2F7B56945 /* MSMTACustomAdapter-umbrella.h in Headers */,
+				F7784DDC97D24343645B7033A3B1F20D /* MSMTACustomBannerAdapter.h in Headers */,
+				4906888697FCFE61F80A1DF4021AFA5B /* MSMTACustomInterstitialAdapter.h in Headers */,
+				7BE8634FC881C8E389A91EE6EB3CEE0F /* MSMTACustomNativeAdapter.h in Headers */,
+				8FB214F2AC38380FEA8D3EB525EB287A /* MSMTACustomRewardVideoAdapter.h in Headers */,
+				7272490EDA008950E8CD644E7924131C /* MSMTACustomSplashAdapter.h in Headers */,
+				53E6634A407FCF6DE91C81B7005B124E /* MSMTACustomSplashDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		878258E2AF40F19E7B8456E944465482 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2387,19 +2407,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F77899E2D4F363684325999FD01E750C /* Pods-MSAdSDK_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B527E08F9B91EEEDF87E985A4D49FB63 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				824ADF6775A3AFBEB721D83C421C2281 /* MSMTACustomAdapter-umbrella.h in Headers */,
-				5BB57E78BA73FE32D512E5443B68B49F /* MSMTACustomBannerAdapter.h in Headers */,
-				A4685AEAE4B0A44017924F2C13E68C52 /* MSMTACustomInterstitialAdapter.h in Headers */,
-				4F883746E71BD5235DC2E7572794D743 /* MSMTACustomNativeAdapter.h in Headers */,
-				892E5EE3A02F8018678E3A1B6DEDDE66 /* MSMTACustomRewardVideoAdapter.h in Headers */,
-				9E3A103A0F87AF07897064951DD932F1 /* MSMTACustomSplashAdapter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2431,11 +2438,11 @@
 /* Begin PBXNativeTarget section */
 		05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C12393A037CF45D41E2FA0F0D89EE25 /* Build configuration list for PBXNativeTarget "IQKeyboardManager-IQKeyboardManager" */;
+			buildConfigurationList = E525E06C1B1AAFF1D1FF69322237D152 /* Build configuration list for PBXNativeTarget "IQKeyboardManager-IQKeyboardManager" */;
 			buildPhases = (
-				6E479916845FCB64A86029AA75270DE0 /* Sources */,
-				BB3CD7CA7D1A3E5913C8CB146797BCA3 /* Frameworks */,
-				39B00D3731C4CD897934484ABD0B87BD /* Resources */,
+				A1DDE1A6C9DE7F1BED23EDC4E3892506 /* Sources */,
+				B32DB2694683E5432AFC1D0910E4EE3E /* Frameworks */,
+				C56A84E3D1808641CEB9407C72905D0E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2512,21 +2519,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				5C43EDC10C19BE1C48702917735C515A /* PBXTargetDependency */,
-				4DB443483768FA992C6F7A3462F8AD5E /* PBXTargetDependency */,
-				A2ACB19F8114ABF5023F51C9E8226F0A /* PBXTargetDependency */,
-				358210C6F986CB7EABE39D7C7946BD3E /* PBXTargetDependency */,
-				7F453834C643F84F4DC189F8C84DB92D /* PBXTargetDependency */,
-				D4CDE33F9522D855D238E10C501B80CB /* PBXTargetDependency */,
-				BD1E3BB996850F33264D2BDB46245113 /* PBXTargetDependency */,
-				5DA9434289EB4FE34B101FC3828EDFCF /* PBXTargetDependency */,
-				1F2DBC8CE9576FEDF4CC3AC0237DE31A /* PBXTargetDependency */,
-				112DDE420B21384358EBFFED0FB60901 /* PBXTargetDependency */,
-				C116DC742E110335063095D67E4002D9 /* PBXTargetDependency */,
-				6359EFF50C08DA2536E217D3E94EC73B /* PBXTargetDependency */,
-				69515D36F8E8C5D4D10FA2311FDCDA16 /* PBXTargetDependency */,
-				8F61BF52FFE7D996FD505837A0DD89CA /* PBXTargetDependency */,
-				4B01299FA4BD6E959BA29C956BCFDE8D /* PBXTargetDependency */,
+				97D9CCF0F2F1DF21A7FCF154D19D44D4 /* PBXTargetDependency */,
+				5520D2AE027695B2198D032E63D045A2 /* PBXTargetDependency */,
+				115AAECF16D085AC1336C2F16F29E1B1 /* PBXTargetDependency */,
+				9A20B30388F30BDD4A9BB9B9EE96AAD7 /* PBXTargetDependency */,
+				B71E97E6DFF555E231FDC4350FFAC803 /* PBXTargetDependency */,
+				17F5FFEC34377FE2F7148B52EC785120 /* PBXTargetDependency */,
+				35AB8668930EDACB7CF4DE107199715F /* PBXTargetDependency */,
+				6747CCD63C7852E84C0F0CFC6E9AE609 /* PBXTargetDependency */,
+				49AC378DB3DB9E5D012A8B286FD5FDC3 /* PBXTargetDependency */,
+				BEF87A6F934121D806CB423A58C2E404 /* PBXTargetDependency */,
+				F3171B814EC466D4368B79F814678228 /* PBXTargetDependency */,
+				E01438CE9ED55678E9DF6F8FB6093269 /* PBXTargetDependency */,
+				82542BBFA44B73F1BFABB1377AC89F01 /* PBXTargetDependency */,
+				E74377B9B2D9E0EE54FC66B83D9C0DDC /* PBXTargetDependency */,
+				9B1C8CCE68AC5FEA5AD3F086001BDFB1 /* PBXTargetDependency */,
 			);
 			name = "Pods-MSAdSDK-Example-Swift";
 			productName = Pods_MSAdSDK_Example_Swift;
@@ -2535,11 +2542,11 @@
 		};
 		83991D7087135270E2E4B7CBD5B9489D /* JADYun-JADYun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3315E1428E2E53E14396C076203ABC54 /* Build configuration list for PBXNativeTarget "JADYun-JADYun" */;
+			buildConfigurationList = 5427E48FD9F3EF6BD57EAFEEE35D644D /* Build configuration list for PBXNativeTarget "JADYun-JADYun" */;
 			buildPhases = (
-				5C112102B2A3A797772151AA62CEAD5D /* Sources */,
-				365C7325B0E78512F73C9196D66533CD /* Frameworks */,
-				5D7E37691A3AA90E27E2D9902F7CD2CE /* Resources */,
+				29B66D288F7F2C115CBA8D8DA7BCDA0E /* Sources */,
+				C20DE55D5A95E97700D7A03E8DFA9852 /* Frameworks */,
+				5CE8CC1BADA734BD96AFFCEE3C25D764 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2562,23 +2569,23 @@
 			buildRules = (
 			);
 			dependencies = (
-				7BC845BF346F2C376A01BC9D72D26A80 /* PBXTargetDependency */,
-				2559EABCE7AF64EE24547A3025916152 /* PBXTargetDependency */,
-				B64CABF63AB1FBA263FA675C5AC62FE8 /* PBXTargetDependency */,
-				FC138FB3E37EF48391297CA14BBDD13F /* PBXTargetDependency */,
-				7FC3DF7CEA2315C1173FC0B6BC2307C6 /* PBXTargetDependency */,
-				E5D091CA0BEE935F2A98742233260604 /* PBXTargetDependency */,
-				0D8CFF822CC7DB0B286ABB8EA583542B /* PBXTargetDependency */,
-				4422849F82BDFA4348A9EA13078B4070 /* PBXTargetDependency */,
-				C27B3F378F5C8448C1AB4335E6075315 /* PBXTargetDependency */,
-				67BBBBD304E8F043055DB2D3DD6EEDA9 /* PBXTargetDependency */,
-				C3ADA74CC072284C4C9A8892E4FDF7CE /* PBXTargetDependency */,
-				07466AA6E533571F7D2B42ED21255444 /* PBXTargetDependency */,
-				9D3778C829B4AA2FCFC7B31744C4BD14 /* PBXTargetDependency */,
-				5688AF63DAB4F161EA50065ABE21D768 /* PBXTargetDependency */,
-				7EB56B66EEF023D8756024761E219600 /* PBXTargetDependency */,
-				D5DA61CC12E8E020153E932674681AF6 /* PBXTargetDependency */,
-				606CA76B2B1D0BC156D57D36C7EB1A77 /* PBXTargetDependency */,
+				2FA12CA21C7A2611534BDDE64423A076 /* PBXTargetDependency */,
+				E8EBF532C076B3D19F3EFB5AEA822957 /* PBXTargetDependency */,
+				FD97F2ABCCAF116622CB3BF32C0D6DA3 /* PBXTargetDependency */,
+				01D7E727C7E5F8991B2D4F6E999406EB /* PBXTargetDependency */,
+				CC97C16477401BF2F4DABB1EABF2369F /* PBXTargetDependency */,
+				232C2ECCE8036BC84180E3FFC3E48F6F /* PBXTargetDependency */,
+				9BF8173425220221D9DE5B60B076D228 /* PBXTargetDependency */,
+				F25777AE6DAA94935743A4A6DD37E739 /* PBXTargetDependency */,
+				97FC5435DCE4A529AE7277D93F35DD3D /* PBXTargetDependency */,
+				48F315355A440BEF90CC823A3D4082F8 /* PBXTargetDependency */,
+				55FD28D1F93FA0EE21F34FBA630A6076 /* PBXTargetDependency */,
+				1A000F82814321820F2D6C5B935E2C0F /* PBXTargetDependency */,
+				F1800431F6C81A3558F48B308D758693 /* PBXTargetDependency */,
+				5205A47791D112E9C40A435FF5BD6693 /* PBXTargetDependency */,
+				C7B511D4F7A4EDCF9DAC221407DBE8E0 /* PBXTargetDependency */,
+				611B2D0FD9B974E80B675855B45A2149 /* PBXTargetDependency */,
+				F7F4343AF428946DAFB2A22D896363DF /* PBXTargetDependency */,
 			);
 			name = "Pods-MSAdSDK_Example";
 			productName = Pods_MSAdSDK_Example;
@@ -2587,21 +2594,21 @@
 		};
 		F3EE63E360628606EA2A542CAD97FADF /* MSMTACustomAdapter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 949154E97AF2C17168B21CE43521E8D4 /* Build configuration list for PBXNativeTarget "MSMTACustomAdapter" */;
+			buildConfigurationList = 1FBD66C542A06FFB0ED1DDFF424DE416 /* Build configuration list for PBXNativeTarget "MSMTACustomAdapter" */;
 			buildPhases = (
-				B527E08F9B91EEEDF87E985A4D49FB63 /* Headers */,
-				7D723A5071A997F2C4005EA1B5222C73 /* Sources */,
-				50D60D73BA82B69A127CBBE8894D2700 /* Frameworks */,
-				B012A47155DB5D62B88BACC4944D6421 /* Resources */,
+				77BD20CC1F3B0741506A2A2BD56099BD /* Headers */,
+				00322E985AA64690357BBF2CDA4E1D4D /* Sources */,
+				A2D7CD08BD00594F6D9371D013519487 /* Frameworks */,
+				84152D2297E1E5243C554092E8B9A3F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BD9A6A7003539504A5B535F987C87B5F /* PBXTargetDependency */,
-				B2663AB186AAED3B7A6779F2235CEB44 /* PBXTargetDependency */,
-				FBA7BF50BDCB9AF718A60137528892A4 /* PBXTargetDependency */,
-				D5EB0C45BF78441958670FEDE99F2BCC /* PBXTargetDependency */,
-				F867452734FBA3E9D2D30835BD8DF29C /* PBXTargetDependency */,
+				A5D9BBFC7F894DAB00868CA8BB51638D /* PBXTargetDependency */,
+				DF37BB7B8CC17044B02F1DAE3BFC547F /* PBXTargetDependency */,
+				E22636157B6CD56A43D00DC901878A63 /* PBXTargetDependency */,
+				82AE95C5BBF8628E01560B53ECA53298 /* PBXTargetDependency */,
+				7D899307A0B6F805A94FA817ABACB8F0 /* PBXTargetDependency */,
 			);
 			name = MSMTACustomAdapter;
 			productName = MSMTACustomAdapter;
@@ -2620,7 +2627,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				ED04A84747173CCBE8AC3249FF05403A /* PBXTargetDependency */,
+				E8E9DD1421D59EF8CB64C3B6202C151F /* PBXTargetDependency */,
 			);
 			name = IQKeyboardManager;
 			productName = IQKeyboardManager;
@@ -2678,19 +2685,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39B00D3731C4CD897934484ABD0B87BD /* Resources */ = {
+		5CE8CC1BADA734BD96AFFCEE3C25D764 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B986191F06CD6E44E05AE2C7F0A15F /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D7E37691A3AA90E27E2D9902F7CD2CE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42BEC10ECC9FA0B9AE61D042674F6FB3 /* JADYun.bundle in Resources */,
+				3881A35A0A2589B246F36EAC8A3C956E /* JADYun.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2715,6 +2714,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84152D2297E1E5243C554092E8B9A3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88C2DF2A6B9C747F781316841BBED901 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2722,10 +2728,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B012A47155DB5D62B88BACC4944D6421 /* Resources */ = {
+		C56A84E3D1808641CEB9407C72905D0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A050F35FA57A0CA35EBC05F2DDB5E1 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2785,22 +2792,22 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/JADYunMotion/JADYunMotion-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		273B1DD921E3D29A916AAB50E88437C9 /* [CP] Copy XCFrameworks */ = {
+		3E33C0D220942646794288BBD459D54F /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/MentaVlionAdapter/MentaVlionAdapter-xcframeworks.sh",
-				"${PODS_ROOT}/MentaVlionAdapter/MentaVlionAdapter.xcframework",
+				"${PODS_ROOT}/Target Support Files/MentaVlionSDK/MentaVlionSDK-xcframeworks.sh",
+				"${PODS_ROOT}/MentaVlionSDK/MentaVlionSDK.xcframework",
 			);
 			name = "[CP] Copy XCFrameworks";
 			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MentaVlionAdapter/MentaVlionAdapter.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MentaVlionSDK/MentaVlionSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/MentaVlionAdapter/MentaVlionAdapter-xcframeworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MentaVlionSDK/MentaVlionSDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5A8259F6757B3ADD322D7FAEB90C60B6 /* [CP] Copy XCFrameworks */ = {
@@ -2841,7 +2848,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Ads-CN-Beta/Ads-CN-Beta-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		71F9A370FB0E1EF81D093B3AF2CD725A /* [CP] Copy XCFrameworks */ = {
+		6961317C7941CF33491689505CFBD6F1 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2859,25 +2866,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/MentaUnifiedSDK/MentaUnifiedSDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		84FD145710CE04432B078D256FC583B8 /* [CP] Copy XCFrameworks */ = {
+		B0B36BA4883623C222BDF26270A4FA86 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/MentaVlionSDK/MentaVlionSDK-xcframeworks.sh",
-				"${PODS_ROOT}/MentaVlionSDK/MentaVlionSDK.xcframework",
+				"${PODS_ROOT}/Target Support Files/MentaVlionAdapter/MentaVlionAdapter-xcframeworks.sh",
+				"${PODS_ROOT}/MentaVlionAdapter/MentaVlionAdapter.xcframework",
 			);
 			name = "[CP] Copy XCFrameworks";
 			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MentaVlionSDK/MentaVlionSDK.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MentaVlionAdapter/MentaVlionAdapter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/MentaVlionSDK/MentaVlionSDK-xcframeworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MentaVlionAdapter/MentaVlionAdapter-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8B2A19A17DB642BDEB8414734FD0AF04 /* [CP] Copy XCFrameworks */ = {
+		E04CA63412A4BFC462998F1BF4349FDB /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2895,24 +2902,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/MSMobAdSDK/MSMobAdSDK-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A38F0604214DD42949AEC77095AA0AF9 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/MentaVlionBaseSDK/MentaVlionBaseSDK-xcframeworks.sh",
-				"${PODS_ROOT}/MentaVlionBaseSDK/MentaVlionBaseSDK.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MentaVlionBaseSDK/MentaVlionBaseSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/MentaVlionBaseSDK/MentaVlionBaseSDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F7E5B12641174EFC1D5DE61C4BBE42F4 /* [CP] Copy XCFrameworks */ = {
@@ -2933,9 +2922,48 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/JADYun/JADYun-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FF0898ECD303A2B27410D2E50DDD770E /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/MentaVlionBaseSDK/MentaVlionBaseSDK-xcframeworks.sh",
+				"${PODS_ROOT}/MentaVlionBaseSDK/MentaVlionBaseSDK.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MentaVlionBaseSDK/MentaVlionBaseSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MentaVlionBaseSDK/MentaVlionBaseSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		00322E985AA64690357BBF2CDA4E1D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1304489540A4879C09F11A50065577 /* MSMTACustomAdapter-dummy.m in Sources */,
+				92F19A583C57DBC388AF42E00ADB6B46 /* MSMTACustomBannerAdapter.m in Sources */,
+				21790FA9014DA845227D5F921DB8A1D2 /* MSMTACustomInterstitialAdapter.m in Sources */,
+				7201951B71D98058B001F084E3D50A0B /* MSMTACustomNativeAdapter.m in Sources */,
+				D94B6AB2DC8E9850E98173D31FED2CD5 /* MSMTACustomRewardVideoAdapter.m in Sources */,
+				9E0A57B1309557D3F550F1ACB5EDE90B /* MSMTACustomSplashAdapter.m in Sources */,
+				418C6A0E7734D421293844011197C8F9 /* MSMTACustomSplashDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B66D288F7F2C115CBA8D8DA7BCDA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2D923C7F1B6E130C45B9DDCFD4239F49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3028,33 +3056,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C112102B2A3A797772151AA62CEAD5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E479916845FCB64A86029AA75270DE0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D723A5071A997F2C4005EA1B5222C73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CF826F2FC6E6D6C24E2B28E2389370C /* MSMTACustomAdapter-dummy.m in Sources */,
-				C138E48BC3A350B32A53E57DB0E0D9FD /* MSMTACustomBannerAdapter.m in Sources */,
-				AB1EBB51C4E15420AED13E73EBA6620F /* MSMTACustomInterstitialAdapter.m in Sources */,
-				D807B5641D7A37B214DC645526C058A8 /* MSMTACustomNativeAdapter.m in Sources */,
-				7F32D5A5F9DB7D214E103C4D0561142F /* MSMTACustomRewardVideoAdapter.m in Sources */,
-				84E6021D93FC882841A9F6E1ED645FD7 /* MSMTACustomSplashAdapter.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		999E67DEAE136C6148DE887F3AE19712 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3100,6 +3101,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1DDE1A6C9DE7F1BED23EDC4E3892506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA0B6A6F9B3EDF226BF081DAC7E777E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3142,267 +3150,282 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07466AA6E533571F7D2B42ED21255444 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionAdapter;
-			target = 3294C8432378A95DD29FE26AF03C6A08 /* MentaVlionAdapter */;
-			targetProxy = AF2317A3090B9D1EDC4252857687F646 /* PBXContainerItemProxy */;
-		};
-		0D8CFF822CC7DB0B286ABB8EA583542B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KSAdSDK;
-			target = 53DB8EFBB54B636ACDC70272323792EC /* KSAdSDK */;
-			targetProxy = 4C5163DC1D9EEC5525D1A3C66C43EF45 /* PBXContainerItemProxy */;
-		};
-		112DDE420B21384358EBFFED0FB60901 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionAdapter;
-			target = 3294C8432378A95DD29FE26AF03C6A08 /* MentaVlionAdapter */;
-			targetProxy = 8841EAA9ECF0D498FE2A1B928CDE7D31 /* PBXContainerItemProxy */;
-		};
-		1F2DBC8CE9576FEDF4CC3AC0237DE31A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaUnifiedSDK;
-			target = 6D856865A6978DD11D0A7DC992E25512 /* MentaUnifiedSDK */;
-			targetProxy = 8BA130CA2F5B3F6E5CAC5842583FF042 /* PBXContainerItemProxy */;
-		};
-		2559EABCE7AF64EE24547A3025916152 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BaiduMobAdSDK;
-			target = A33942C0A3A0CED25749EF27F05ED387 /* BaiduMobAdSDK */;
-			targetProxy = 1E5356B469C1DD3C9244BFD627CEB544 /* PBXContainerItemProxy */;
-		};
-		358210C6F986CB7EABE39D7C7946BD3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JADYun;
-			target = 940F0EDB82A2640A378CA0D36C9E53F7 /* JADYun */;
-			targetProxy = 313E1FD34AB5238B4CDC3540387CC3C7 /* PBXContainerItemProxy */;
-		};
-		35DD8A07AD1CD28557E4CC200470A13A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionBaseSDK;
-			target = 43C7119E41ACFA59D7184DC1DA32FFFC /* MentaVlionBaseSDK */;
-			targetProxy = 1F66B23D25391CA8402C409950F20911 /* PBXContainerItemProxy */;
-		};
-		4422849F82BDFA4348A9EA13078B4070 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MSMTACustomAdapter;
-			target = F3EE63E360628606EA2A542CAD97FADF /* MSMTACustomAdapter */;
-			targetProxy = 4897A22CFEAC665E45E68510A633F614 /* PBXContainerItemProxy */;
-		};
-		4B01299FA4BD6E959BA29C956BCFDE8D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WechatOpenSDK;
-			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
-			targetProxy = 4BEFFAB5103F850F9CE6385CCF410E04 /* PBXContainerItemProxy */;
-		};
-		4DB443483768FA992C6F7A3462F8AD5E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BaiduMobAdSDK;
-			target = A33942C0A3A0CED25749EF27F05ED387 /* BaiduMobAdSDK */;
-			targetProxy = 989BBED5BC1CDF26D79858E2A47460A2 /* PBXContainerItemProxy */;
-		};
-		5688AF63DAB4F161EA50065ABE21D768 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionSDK;
-			target = A6854CB0F4ADAA053FCEA87B8D75AD15 /* MentaVlionSDK */;
-			targetProxy = 3822BE6F1FE574776EFB11FE529B6D8B /* PBXContainerItemProxy */;
-		};
-		5C43EDC10C19BE1C48702917735C515A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Ads-CN-Beta";
-			target = 9822EC319158EDF9A392330FE643BC4E /* Ads-CN-Beta */;
-			targetProxy = 37394CB1BA23BA2A2A5AC5CCF68B38F9 /* PBXContainerItemProxy */;
-		};
-		5DA9434289EB4FE34B101FC3828EDFCF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MSMobAdSDK;
-			target = FB8CEE15122EBA879AC9DF749058D43A /* MSMobAdSDK */;
-			targetProxy = 6FAFF4D5411C0002A8C1E805BBA42976 /* PBXContainerItemProxy */;
-		};
-		606CA76B2B1D0BC156D57D36C7EB1A77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WechatOpenSDK;
-			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
-			targetProxy = 3F1AF0005B52649132FABDA9F5DAC3EE /* PBXContainerItemProxy */;
-		};
-		6359EFF50C08DA2536E217D3E94EC73B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionSDK;
-			target = A6854CB0F4ADAA053FCEA87B8D75AD15 /* MentaVlionSDK */;
-			targetProxy = 5B15B9D24F357E0AA7293A246F84B90B /* PBXContainerItemProxy */;
-		};
-		67BBBBD304E8F043055DB2D3DD6EEDA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = B360DFB84CDB30853ABE56DD695877E5 /* PBXContainerItemProxy */;
-		};
-		69515D36F8E8C5D4D10FA2311FDCDA16 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SigmobAd-iOS";
-			target = 47A48B35767B2FF26EE52EF544D5F14B /* SigmobAd-iOS */;
-			targetProxy = 7ECAE421D27D7FC1C55A67B905B85B2E /* PBXContainerItemProxy */;
-		};
-		7169858F73AACC33C23821A2B23C7AEB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionSDK;
-			target = A6854CB0F4ADAA053FCEA87B8D75AD15 /* MentaVlionSDK */;
-			targetProxy = 01BF8191BEF614E7599C090AEF06091F /* PBXContainerItemProxy */;
-		};
-		7BC845BF346F2C376A01BC9D72D26A80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Ads-CN-Beta";
-			target = 9822EC319158EDF9A392330FE643BC4E /* Ads-CN-Beta */;
-			targetProxy = 54842514DABD2CB6A2F3D6938F3E6001 /* PBXContainerItemProxy */;
-		};
-		7EB56B66EEF023D8756024761E219600 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SDWebImage;
-			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
-			targetProxy = DA380F009BCCF220882C9BB940F762B0 /* PBXContainerItemProxy */;
-		};
-		7F453834C643F84F4DC189F8C84DB92D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JADYunMotion;
-			target = DABB610A1497E6130B7B26CFBA5A246F /* JADYunMotion */;
-			targetProxy = FC4185C0A1D630DEBBC268D9243C1A70 /* PBXContainerItemProxy */;
-		};
-		7FC3DF7CEA2315C1173FC0B6BC2307C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JADYun;
-			target = 940F0EDB82A2640A378CA0D36C9E53F7 /* JADYun */;
-			targetProxy = 24D213C20F8A210A4C7BD78D6E5C3A2C /* PBXContainerItemProxy */;
-		};
-		8A555F40B11128C06EC54293759A2A23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaUnifiedSDK;
-			target = 6D856865A6978DD11D0A7DC992E25512 /* MentaUnifiedSDK */;
-			targetProxy = 5DB90D9E35621A7DB0FE4681B8ED1EAB /* PBXContainerItemProxy */;
-		};
-		8F61BF52FFE7D996FD505837A0DD89CA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = D2A905D5C8B2776976E0478E5A71918E /* PBXContainerItemProxy */;
-		};
-		9D3778C829B4AA2FCFC7B31744C4BD14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionBaseSDK;
-			target = 43C7119E41ACFA59D7184DC1DA32FFFC /* MentaVlionBaseSDK */;
-			targetProxy = 34212BA9329078D09BE8372CD113263F /* PBXContainerItemProxy */;
-		};
-		A2ACB19F8114ABF5023F51C9E8226F0A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GDTMobSDK;
-			target = 6F2BDBDBBAD8487EF4614E1D729C5DD0 /* GDTMobSDK */;
-			targetProxy = C4D2F84EF05EB2D38C79A37C6AA2BF85 /* PBXContainerItemProxy */;
-		};
-		B2663AB186AAED3B7A6779F2235CEB44 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaUnifiedSDK;
-			target = 6D856865A6978DD11D0A7DC992E25512 /* MentaUnifiedSDK */;
-			targetProxy = 91A87A7CB60806E941DA701CE51C4EAA /* PBXContainerItemProxy */;
-		};
-		B64CABF63AB1FBA263FA675C5AC62FE8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GDTMobSDK;
-			target = 6F2BDBDBBAD8487EF4614E1D729C5DD0 /* GDTMobSDK */;
-			targetProxy = A0C889F8F9B592D5DA6D183112C35CB7 /* PBXContainerItemProxy */;
-		};
-		BD1E3BB996850F33264D2BDB46245113 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MSMTACustomAdapter;
-			target = F3EE63E360628606EA2A542CAD97FADF /* MSMTACustomAdapter */;
-			targetProxy = F3AEC1FF60258D0BF5EE45B6D1D6DA0C /* PBXContainerItemProxy */;
-		};
-		BD9A6A7003539504A5B535F987C87B5F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MSMobAdSDK;
-			target = FB8CEE15122EBA879AC9DF749058D43A /* MSMobAdSDK */;
-			targetProxy = C6A9484F8BFF1604E0EDE809E1C09F94 /* PBXContainerItemProxy */;
-		};
-		C116DC742E110335063095D67E4002D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionBaseSDK;
-			target = 43C7119E41ACFA59D7184DC1DA32FFFC /* MentaVlionBaseSDK */;
-			targetProxy = B8BC623EA59258EB05A6D002379E38C4 /* PBXContainerItemProxy */;
-		};
-		C27B3F378F5C8448C1AB4335E6075315 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MSMobAdSDK;
-			target = FB8CEE15122EBA879AC9DF749058D43A /* MSMobAdSDK */;
-			targetProxy = 35DC7EC9A00A1B4B4FE21F083EF0BC5E /* PBXContainerItemProxy */;
-		};
-		C3ADA74CC072284C4C9A8892E4FDF7CE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaUnifiedSDK;
-			target = 6D856865A6978DD11D0A7DC992E25512 /* MentaUnifiedSDK */;
-			targetProxy = 87BE63CEB29CB9DA333CF482957A56E0 /* PBXContainerItemProxy */;
-		};
-		D4CDE33F9522D855D238E10C501B80CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KSAdSDK;
-			target = 53DB8EFBB54B636ACDC70272323792EC /* KSAdSDK */;
-			targetProxy = 2442AFFD3239D30210B49B1BD34EDA02 /* PBXContainerItemProxy */;
-		};
-		D5DA61CC12E8E020153E932674681AF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SigmobAd-iOS";
-			target = 47A48B35767B2FF26EE52EF544D5F14B /* SigmobAd-iOS */;
-			targetProxy = AA5D386F135F5044DEC8452E71FA1C3A /* PBXContainerItemProxy */;
-		};
-		D5EB0C45BF78441958670FEDE99F2BCC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionBaseSDK;
-			target = 43C7119E41ACFA59D7184DC1DA32FFFC /* MentaVlionBaseSDK */;
-			targetProxy = A47D9B4DC7E457CE47DDB74862266BDC /* PBXContainerItemProxy */;
-		};
-		E5D091CA0BEE935F2A98742233260604 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JADYunMotion;
-			target = DABB610A1497E6130B7B26CFBA5A246F /* JADYunMotion */;
-			targetProxy = 7D31891E4B6D92EA5435133595772A23 /* PBXContainerItemProxy */;
-		};
-		ED04A84747173CCBE8AC3249FF05403A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "IQKeyboardManager-IQKeyboardManager";
-			target = 05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */;
-			targetProxy = 6A77AEABD77FEE4A6B3B683D6E91A6C6 /* PBXContainerItemProxy */;
-		};
-		F11FA191A69DB072C89DA5ED901B0C8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "JADYun-JADYun";
-			target = 83991D7087135270E2E4B7CBD5B9489D /* JADYun-JADYun */;
-			targetProxy = D31995468702B58B4D00C2BE7099DCAF /* PBXContainerItemProxy */;
-		};
-		F867452734FBA3E9D2D30835BD8DF29C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionSDK;
-			target = A6854CB0F4ADAA053FCEA87B8D75AD15 /* MentaVlionSDK */;
-			targetProxy = E8258DD759B2F726ECB5E3913053AC55 /* PBXContainerItemProxy */;
-		};
-		FBA7BF50BDCB9AF718A60137528892A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MentaVlionAdapter;
-			target = 3294C8432378A95DD29FE26AF03C6A08 /* MentaVlionAdapter */;
-			targetProxy = 6E4248DBFAFF2DBD116E38CEE3F04F89 /* PBXContainerItemProxy */;
-		};
-		FC138FB3E37EF48391297CA14BBDD13F /* PBXTargetDependency */ = {
+		01D7E727C7E5F8991B2D4F6E999406EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IQKeyboardManager;
 			target = FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */;
-			targetProxy = 79DB73AF58FC5C041140BB3A5F288445 /* PBXContainerItemProxy */;
+			targetProxy = 4E62DCBD1059B34F96A27C94F1174CFC /* PBXContainerItemProxy */;
 		};
-		FF26AB018F05FEB1EA6CC57517F499D4 /* PBXTargetDependency */ = {
+		02284ACEFAA1AEBDABA8DF47E5058CDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MentaVlionBaseSDK;
 			target = 43C7119E41ACFA59D7184DC1DA32FFFC /* MentaVlionBaseSDK */;
-			targetProxy = 215B3866AE29C7193C778DE435649177 /* PBXContainerItemProxy */;
+			targetProxy = 5E9772FB36066C2D4F6C1C48ED4849B2 /* PBXContainerItemProxy */;
+		};
+		0B8EF5A147814B8F72DB504731098933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionBaseSDK;
+			target = 43C7119E41ACFA59D7184DC1DA32FFFC /* MentaVlionBaseSDK */;
+			targetProxy = 355432FC347BB729A180456EE29B9FA1 /* PBXContainerItemProxy */;
+		};
+		115AAECF16D085AC1336C2F16F29E1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GDTMobSDK;
+			target = 6F2BDBDBBAD8487EF4614E1D729C5DD0 /* GDTMobSDK */;
+			targetProxy = 93E877090E6451999227F47B55C4AC0A /* PBXContainerItemProxy */;
+		};
+		17F5FFEC34377FE2F7148B52EC785120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KSAdSDK;
+			target = 53DB8EFBB54B636ACDC70272323792EC /* KSAdSDK */;
+			targetProxy = 1D4DF3C9E6FBD7A9D58E2AB22EFD3294 /* PBXContainerItemProxy */;
+		};
+		1A000F82814321820F2D6C5B935E2C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionAdapter;
+			target = 3294C8432378A95DD29FE26AF03C6A08 /* MentaVlionAdapter */;
+			targetProxy = 99317C7DF203B09ADC5568BC050A2CB3 /* PBXContainerItemProxy */;
+		};
+		232C2ECCE8036BC84180E3FFC3E48F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JADYunMotion;
+			target = DABB610A1497E6130B7B26CFBA5A246F /* JADYunMotion */;
+			targetProxy = 5B3940A0791BD2CEA383E3ADE06AEA76 /* PBXContainerItemProxy */;
+		};
+		2DD56D4F0A2379F2F441530C1C48CD9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JADYun-JADYun";
+			target = 83991D7087135270E2E4B7CBD5B9489D /* JADYun-JADYun */;
+			targetProxy = 8C3C7F696F2F605E8A219A39ED667FF3 /* PBXContainerItemProxy */;
+		};
+		2FA12CA21C7A2611534BDDE64423A076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Ads-CN-Beta";
+			target = 9822EC319158EDF9A392330FE643BC4E /* Ads-CN-Beta */;
+			targetProxy = 92078E7696204C860FA23E98261748AE /* PBXContainerItemProxy */;
+		};
+		35AB8668930EDACB7CF4DE107199715F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSMTACustomAdapter;
+			target = F3EE63E360628606EA2A542CAD97FADF /* MSMTACustomAdapter */;
+			targetProxy = A76ADDBCBA5763E3F1933321839724AF /* PBXContainerItemProxy */;
+		};
+		48F315355A440BEF90CC823A3D4082F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = DBA27BBE8287B116FE2F41EC2629AED6 /* PBXContainerItemProxy */;
+		};
+		49AC378DB3DB9E5D012A8B286FD5FDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaUnifiedSDK;
+			target = 6D856865A6978DD11D0A7DC992E25512 /* MentaUnifiedSDK */;
+			targetProxy = A23F46B32D13108A0F00D70C1A362A30 /* PBXContainerItemProxy */;
+		};
+		5205A47791D112E9C40A435FF5BD6693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionSDK;
+			target = A6854CB0F4ADAA053FCEA87B8D75AD15 /* MentaVlionSDK */;
+			targetProxy = 30B69F80B7537B49B76C6A68B90C95D3 /* PBXContainerItemProxy */;
+		};
+		5520D2AE027695B2198D032E63D045A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaiduMobAdSDK;
+			target = A33942C0A3A0CED25749EF27F05ED387 /* BaiduMobAdSDK */;
+			targetProxy = 9D9AA191418EDE44ABA700E2CD45F2DA /* PBXContainerItemProxy */;
+		};
+		55FD28D1F93FA0EE21F34FBA630A6076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaUnifiedSDK;
+			target = 6D856865A6978DD11D0A7DC992E25512 /* MentaUnifiedSDK */;
+			targetProxy = EDF9CF8DE6A4D1DBF7FD0F3112EFE408 /* PBXContainerItemProxy */;
+		};
+		611B2D0FD9B974E80B675855B45A2149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SigmobAd-iOS";
+			target = 47A48B35767B2FF26EE52EF544D5F14B /* SigmobAd-iOS */;
+			targetProxy = 2E4D8768DD77D9689849D1F5EE48B160 /* PBXContainerItemProxy */;
+		};
+		6747CCD63C7852E84C0F0CFC6E9AE609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSMobAdSDK;
+			target = FB8CEE15122EBA879AC9DF749058D43A /* MSMobAdSDK */;
+			targetProxy = 85015BDFE536801A704FACCE86173354 /* PBXContainerItemProxy */;
+		};
+		7C4CB2F481C379BDDAF57B219E5A5FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaUnifiedSDK;
+			target = 6D856865A6978DD11D0A7DC992E25512 /* MentaUnifiedSDK */;
+			targetProxy = 876F91625DA21C20343079079639046F /* PBXContainerItemProxy */;
+		};
+		7D899307A0B6F805A94FA817ABACB8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionSDK;
+			target = A6854CB0F4ADAA053FCEA87B8D75AD15 /* MentaVlionSDK */;
+			targetProxy = 9D3D3A30E6C74D0B22E968F81AED2A14 /* PBXContainerItemProxy */;
+		};
+		82542BBFA44B73F1BFABB1377AC89F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SigmobAd-iOS";
+			target = 47A48B35767B2FF26EE52EF544D5F14B /* SigmobAd-iOS */;
+			targetProxy = 814A581A547343B31D0A6B773CFBB68C /* PBXContainerItemProxy */;
+		};
+		82AE95C5BBF8628E01560B53ECA53298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionBaseSDK;
+			target = 43C7119E41ACFA59D7184DC1DA32FFFC /* MentaVlionBaseSDK */;
+			targetProxy = CBE8AA7D15C1626F72FDBF265F700FF4 /* PBXContainerItemProxy */;
+		};
+		88533A271465657751C11AA12A1C8121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionSDK;
+			target = A6854CB0F4ADAA053FCEA87B8D75AD15 /* MentaVlionSDK */;
+			targetProxy = 89A7775F492E148A5F641EE28ABAC069 /* PBXContainerItemProxy */;
+		};
+		97D9CCF0F2F1DF21A7FCF154D19D44D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Ads-CN-Beta";
+			target = 9822EC319158EDF9A392330FE643BC4E /* Ads-CN-Beta */;
+			targetProxy = 6BC88D92341D2B65396C6A13A6519E3D /* PBXContainerItemProxy */;
+		};
+		97FC5435DCE4A529AE7277D93F35DD3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSMobAdSDK;
+			target = FB8CEE15122EBA879AC9DF749058D43A /* MSMobAdSDK */;
+			targetProxy = 0D65AA71B3F2A4426A9D15ECECB668B2 /* PBXContainerItemProxy */;
+		};
+		9A20B30388F30BDD4A9BB9B9EE96AAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JADYun;
+			target = 940F0EDB82A2640A378CA0D36C9E53F7 /* JADYun */;
+			targetProxy = 7DD275724429EF988CD4E02A19FF42DD /* PBXContainerItemProxy */;
+		};
+		9B1C8CCE68AC5FEA5AD3F086001BDFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = C056500369363C156301CF795A81AA95 /* PBXContainerItemProxy */;
+		};
+		9BF8173425220221D9DE5B60B076D228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KSAdSDK;
+			target = 53DB8EFBB54B636ACDC70272323792EC /* KSAdSDK */;
+			targetProxy = 250C19ABD448C41936F670C840B0558A /* PBXContainerItemProxy */;
+		};
+		A5D9BBFC7F894DAB00868CA8BB51638D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSMobAdSDK;
+			target = FB8CEE15122EBA879AC9DF749058D43A /* MSMobAdSDK */;
+			targetProxy = C6F619A8838BE382C9F509FB3E77DB04 /* PBXContainerItemProxy */;
+		};
+		B71E97E6DFF555E231FDC4350FFAC803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JADYunMotion;
+			target = DABB610A1497E6130B7B26CFBA5A246F /* JADYunMotion */;
+			targetProxy = 1D56B58AA3227D39C23DD071D1D31DA1 /* PBXContainerItemProxy */;
+		};
+		BEF87A6F934121D806CB423A58C2E404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionAdapter;
+			target = 3294C8432378A95DD29FE26AF03C6A08 /* MentaVlionAdapter */;
+			targetProxy = F8845C2C28F251CE59B4E15C6DF15AFD /* PBXContainerItemProxy */;
+		};
+		C7B511D4F7A4EDCF9DAC221407DBE8E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
+			targetProxy = 43C9C27E607832C5D5903E498E60F761 /* PBXContainerItemProxy */;
+		};
+		CC97C16477401BF2F4DABB1EABF2369F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JADYun;
+			target = 940F0EDB82A2640A378CA0D36C9E53F7 /* JADYun */;
+			targetProxy = CD3DF60007550FF16EED493AE87207D1 /* PBXContainerItemProxy */;
+		};
+		DF37BB7B8CC17044B02F1DAE3BFC547F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaUnifiedSDK;
+			target = 6D856865A6978DD11D0A7DC992E25512 /* MentaUnifiedSDK */;
+			targetProxy = B6C82D4622D4F3E622FEE7808531AA8C /* PBXContainerItemProxy */;
+		};
+		E01438CE9ED55678E9DF6F8FB6093269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionSDK;
+			target = A6854CB0F4ADAA053FCEA87B8D75AD15 /* MentaVlionSDK */;
+			targetProxy = 40552DE9B75745777B2E2B88B1F2AE90 /* PBXContainerItemProxy */;
+		};
+		E22636157B6CD56A43D00DC901878A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionAdapter;
+			target = 3294C8432378A95DD29FE26AF03C6A08 /* MentaVlionAdapter */;
+			targetProxy = EFC10DABEA1D15D54677EDA071E00DD6 /* PBXContainerItemProxy */;
+		};
+		E74377B9B2D9E0EE54FC66B83D9C0DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 680E5F09BB95C15220E64A41236370B2 /* PBXContainerItemProxy */;
+		};
+		E8E9DD1421D59EF8CB64C3B6202C151F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IQKeyboardManager-IQKeyboardManager";
+			target = 05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */;
+			targetProxy = FDBB52A50370ED649A60445302B96FA5 /* PBXContainerItemProxy */;
+		};
+		E8EBF532C076B3D19F3EFB5AEA822957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaiduMobAdSDK;
+			target = A33942C0A3A0CED25749EF27F05ED387 /* BaiduMobAdSDK */;
+			targetProxy = 0C54FE61B878A1776D35145E97E72927 /* PBXContainerItemProxy */;
+		};
+		F1800431F6C81A3558F48B308D758693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionBaseSDK;
+			target = 43C7119E41ACFA59D7184DC1DA32FFFC /* MentaVlionBaseSDK */;
+			targetProxy = 11C1F89785BA1D9070BCBF5333FC5AD0 /* PBXContainerItemProxy */;
+		};
+		F25777AE6DAA94935743A4A6DD37E739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSMTACustomAdapter;
+			target = F3EE63E360628606EA2A542CAD97FADF /* MSMTACustomAdapter */;
+			targetProxy = A66FA9F34E93C7403225AD55393847D0 /* PBXContainerItemProxy */;
+		};
+		F3171B814EC466D4368B79F814678228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentaVlionBaseSDK;
+			target = 43C7119E41ACFA59D7184DC1DA32FFFC /* MentaVlionBaseSDK */;
+			targetProxy = 8E8B5FC95635372E50758053383C82C3 /* PBXContainerItemProxy */;
+		};
+		F7F4343AF428946DAFB2A22D896363DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 6B5798CC157FBCFE902836AD2915BD36 /* PBXContainerItemProxy */;
+		};
+		FD97F2ABCCAF116622CB3BF32C0D6DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GDTMobSDK;
+			target = 6F2BDBDBBAD8487EF4614E1D729C5DD0 /* GDTMobSDK */;
+			targetProxy = 0A911460A0CEEAD2671877825E260ABD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		03D2D914C34257657139400D1F370D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28248C9823B2E172180ED377BCC30E4 /* MentaVlionAdapter.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		080AA94C2E6F03268D44D657AD73762B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D619F45A9652D5CC6251E713BF9E03FF /* BaiduMobAdSDK.release.xcconfig */;
@@ -3483,39 +3506,6 @@
 			};
 			name = Release;
 		};
-		10EFC95179F730DCC3272D762FB002E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB27568325C56713CB5F8AD2D8CAD88A /* MSMTACustomAdapter.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter.modulemap";
-				PRODUCT_MODULE_NAME = MSMTACustomAdapter;
-				PRODUCT_NAME = MSMTACustomAdapter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1ABC1020C81FDFEE96B10995D17DBC12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 226A38BC0C2DFC8FE9A59DE33219357F /* Pods-MSAdSDK_Example.release.xcconfig */;
@@ -3550,36 +3540,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		1E5EFAA23F3F82FD61A1E6A8BF9C12E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9F0C37D31DEB90C55DC75851927465E /* MentaUnifiedSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1F75094AAD67C90360DDF60770CDE95F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F28248C9823B2E172180ED377BCC30E4 /* MentaVlionAdapter.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		20548EC90F0B239D050A1F2357C1972C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3695,7 +3655,7 @@
 			};
 			name = Release;
 		};
-		3E46634C66E363CA82FD7CC1DD6A5BBD /* Debug */ = {
+		3EDE455AFABE83595FBDBCDAB4D24D82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF96B90B8653D2DCC2935B2684A329BA /* JADYun.debug.xcconfig */;
 			buildSettings = {
@@ -3744,21 +3704,38 @@
 			};
 			name = Debug;
 		};
-		452442811BD850838956092F7F29C161 /* Release */ = {
+		43CE7E2F09F99702EF771E9EAF5E49B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B432114FCA944D11756539630065B35 /* MentaVlionAdapter.release.xcconfig */;
+			baseConfigurationReference = 07B9A6A91B73C43751E3F0A2498CF3F4 /* MSMTACustomAdapter.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter.modulemap";
+				PRODUCT_MODULE_NAME = MSMTACustomAdapter;
+				PRODUCT_NAME = MSMTACustomAdapter;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		46577E11FC73242E63CDDB0BBF11AED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3791,22 +3768,6 @@
 			};
 			name = Debug;
 		};
-		4EAA8F5092D0F460E97C527B317A93DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D3DE0FC4B7F25BFCEC2DE1AC6A411E8 /* MSMobAdSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4F645DC0705F1CB7F4C62FF99135E9AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19C52DA5FFCEDD849E43F86B82D5F6B6 /* KSAdSDK.release.xcconfig */;
@@ -3819,6 +3780,40 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51FFC7A5A268F60DE8EF1C7E70806C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC4DDD6425E37D1E2907EB5E041DF62 /* MSMTACustomAdapter.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter.modulemap";
+				PRODUCT_MODULE_NAME = MSMTACustomAdapter;
+				PRODUCT_NAME = MSMTACustomAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -3866,7 +3861,23 @@
 			};
 			name = Debug;
 		};
-		61BEB4C3242544AC1D10D0E3553C0F5C /* Debug */ = {
+		63EA1B99E8DB27D3A3F45A74B65F96FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B432114FCA944D11756539630065B35 /* MentaVlionAdapter.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		654A45AB94089EC3C13388FE215C5936 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DC6804C47A848F49956B18D08B86FB0 /* MSMobAdSDK.debug.xcconfig */;
 			buildSettings = {
@@ -3914,6 +3925,21 @@
 			};
 			name = Release;
 		};
+		683652F638126528F0660DA33D1C0CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CDC1636F074CF16995C14A8A0DB6BF /* MentaVlionSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		6B19E7FBD5F4BAF3BB5C9E8E022A7C3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC74EED679D1EA5483549FC0E22B6B25 /* Pods-MSAdSDK-Example-Swift.debug.xcconfig */;
@@ -3947,40 +3973,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		703318A97B0A9D9A45446732887E526A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E08D1BF316F4D5402FE6C8E65B89BEA2 /* JADYun.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JADYun";
-				IBSC_MODULE = JADYun;
-				INFOPLIST_FILE = "Target Support Files/JADYun/ResourceBundle-JADYun-JADYun-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = JADYun;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		754D9AE91648584FE9F98F99C7B9954F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE655F5BAD971BD1B5C79D3C2D255428 /* IQKeyboardManager.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManager";
-				IBSC_MODULE = IQKeyboardManager;
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = IQKeyboardManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		7A56CE9DD8F25972608426E24EF63965 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4028,6 +4020,55 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7E0D500F5078673F97D856B1FB7C4EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3DE0FC4B7F25BFCEC2DE1AC6A411E8 /* MSMobAdSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8182DDB8215B8B5B7EFE3F80BA778D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE655F5BAD971BD1B5C79D3C2D255428 /* IQKeyboardManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManager";
+				IBSC_MODULE = IQKeyboardManager;
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		864AB1509E31EBE429A68236F20726C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0E91208DB3FFC285BD3A0FCB8E4523 /* MentaVlionSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		8DA050FCB52E146FA3DD0EA685C6D6BD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -4137,22 +4178,6 @@
 			};
 			name = Debug;
 		};
-		9E98A43C179CED9A4F0998FF490BEA57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8296E0BBE1EBADA8E46F8DA44A6574F1 /* MentaVlionBaseSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		9F2BC9C4A7503F4A030E067C339535D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BAE5BBE005F1A33244AAF6283145D00F /* GDTMobSDK.debug.xcconfig */;
@@ -4167,58 +4192,26 @@
 			};
 			name = Debug;
 		};
-		9FE3867037E16EC9A531C10B3619B4C0 /* Debug */ = {
+		AACB8CAE4E076DA7623D036840E38E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 546884EEAB80454957511A47F37DEDCB /* MentaVlionBaseSDK.debug.xcconfig */;
+			baseConfigurationReference = E155FB5B16D0B883BE3935B10B9CF02A /* IQKeyboardManager.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManager";
+				IBSC_MODULE = IQKeyboardManager;
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = IQKeyboardManager;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		A524B2517D196E1B44596221E40A104C /* Release */ = {
+		B36C9BB0ACDFBC1ED056058AFCE027D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 424951AABAFB5E694E9872B05D355C19 /* MSMTACustomAdapter.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/MSMTACustomAdapter/MSMTACustomAdapter.modulemap";
-				PRODUCT_MODULE_NAME = MSMTACustomAdapter;
-				PRODUCT_NAME = MSMTACustomAdapter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B143F85A08C853DB20598F7D2982D956 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32CDC1636F074CF16995C14A8A0DB6BF /* MentaVlionSDK.debug.xcconfig */;
+			baseConfigurationReference = 546884EEAB80454957511A47F37DEDCB /* MentaVlionBaseSDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -4297,22 +4290,6 @@
 			};
 			name = Debug;
 		};
-		BB718B0BA10983B0B1414A21F3D66E80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0CBBA473A2612843B2914502D40146F /* MentaUnifiedSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		C81B6E3BF21FBC640755DBF13D50C00E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E493F8D72A92C1AACB59A3479A81B4F9 /* JADYunMotion.release.xcconfig */;
@@ -4336,6 +4313,22 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5C527AE651F2185586F7DC81CDE1153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0CBBA473A2612843B2914502D40146F /* MentaUnifiedSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
@@ -4390,23 +4383,6 @@
 			};
 			name = Release;
 		};
-		E8DE32B9483CF82A7E77CBF3ED12C79E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E155FB5B16D0B883BE3935B10B9CF02A /* IQKeyboardManager.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManager";
-				IBSC_MODULE = IQKeyboardManager;
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = IQKeyboardManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		EC8774BC71BEE24CC568983FA702FAAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E83809ADFC1FC978536FDC89903C5002 /* JADYunMotion.debug.xcconfig */;
@@ -4422,9 +4398,9 @@
 			};
 			name = Debug;
 		};
-		F277E1D043E56FBA08941A7AC635D6D1 /* Release */ = {
+		EF7B9ECEE84A7426FFD9B7E90939CA6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB0E91208DB3FFC285BD3A0FCB8E4523 /* MentaVlionSDK.release.xcconfig */;
+			baseConfigurationReference = 8296E0BBE1EBADA8E46F8DA44A6574F1 /* MentaVlionBaseSDK.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -4438,9 +4414,41 @@
 			};
 			name = Release;
 		};
+		F4A6B6A81723AB6DD474C2F6E3EAFFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08D1BF316F4D5402FE6C8E65B89BEA2 /* JADYun.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JADYun";
+				IBSC_MODULE = JADYun;
+				INFOPLIST_FILE = "Target Support Files/JADYun/ResourceBundle-JADYun-JADYun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = JADYun;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		F7EB276205C857FBA7CFC9BF6EFD071A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF96B90B8653D2DCC2935B2684A329BA /* JADYun.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F929B76DDC9E5038356693E77EA8F9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F0C37D31DEB90C55DC75851927465E /* MentaUnifiedSDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -4465,20 +4473,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31620CB76C6C2D739456B1E0B7DB8F3D /* Build configuration list for PBXAggregateTarget "MentaVlionSDK" */ = {
+		1FBD66C542A06FFB0ED1DDFF424DE416 /* Build configuration list for PBXNativeTarget "MSMTACustomAdapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B143F85A08C853DB20598F7D2982D956 /* Debug */,
-				F277E1D043E56FBA08941A7AC635D6D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3315E1428E2E53E14396C076203ABC54 /* Build configuration list for PBXNativeTarget "JADYun-JADYun" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3E46634C66E363CA82FD7CC1DD6A5BBD /* Debug */,
-				703318A97B0A9D9A45446732887E526A /* Release */,
+				43CE7E2F09F99702EF771E9EAF5E49B5 /* Debug */,
+				51FFC7A5A268F60DE8EF1C7E70806C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4510,20 +4509,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C12393A037CF45D41E2FA0F0D89EE25 /* Build configuration list for PBXNativeTarget "IQKeyboardManager-IQKeyboardManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8DE32B9483CF82A7E77CBF3ED12C79E /* Debug */,
-				754D9AE91648584FE9F98F99C7B9954F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4C520112CBE951086C70C7E7454E1E8D /* Build configuration list for PBXAggregateTarget "KSAdSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E17A1274EF538CDE25E4BDB29E42D5B5 /* Debug */,
 				4F645DC0705F1CB7F4C62FF99135E9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5427E48FD9F3EF6BD57EAFEEE35D644D /* Build configuration list for PBXNativeTarget "JADYun-JADYun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDE455AFABE83595FBDBCDAB4D24D82 /* Debug */,
+				F4A6B6A81723AB6DD474C2F6E3EAFFE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4537,6 +4536,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		67E4CD48382E3CDF36E5406ABFAC9A8C /* Build configuration list for PBXAggregateTarget "MentaVlionSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683652F638126528F0660DA33D1C0CDE /* Debug */,
+				864AB1509E31EBE429A68236F20726C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8617F94D4F7C16452B728591BBAA3F10 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4546,47 +4554,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BD25758BEC0AAC8929EF04114B79F9D /* Build configuration list for PBXAggregateTarget "MentaVlionBaseSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FE3867037E16EC9A531C10B3619B4C0 /* Debug */,
-				9E98A43C179CED9A4F0998FF490BEA57 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8F8F8923702744FF4AD70690EAE6486F /* Build configuration list for PBXNativeTarget "Pods-MSAdSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F3F7895674A2B7503A9890BA9763648 /* Debug */,
 				1ABC1020C81FDFEE96B10995D17DBC12 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		949154E97AF2C17168B21CE43521E8D4 /* Build configuration list for PBXNativeTarget "MSMTACustomAdapter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10EFC95179F730DCC3272D762FB002E0 /* Debug */,
-				A524B2517D196E1B44596221E40A104C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A3BBCDD961A60C7E5F565E91F22170E /* Build configuration list for PBXAggregateTarget "MSMobAdSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				61BEB4C3242544AC1D10D0E3553C0F5C /* Debug */,
-				4EAA8F5092D0F460E97C527B317A93DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A238FE160B91CBA956EC3289611709DA /* Build configuration list for PBXAggregateTarget "MentaVlionAdapter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F75094AAD67C90360DDF60770CDE95F /* Debug */,
-				452442811BD850838956092F7F29C161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4609,6 +4581,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		B6F60F781D0F9BFB6BA642170CBF94CB /* Build configuration list for PBXAggregateTarget "MSMobAdSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654A45AB94089EC3C13388FE215C5936 /* Debug */,
+				7E0D500F5078673F97D856B1FB7C4EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D82FD3AEF040D068A263E041491CD838 /* Build configuration list for PBXAggregateTarget "SigmobAd-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4627,20 +4608,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE5F3FC89AA300E2F4B135FE9F3BD649 /* Build configuration list for PBXAggregateTarget "MentaUnifiedSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E5EFAA23F3F82FD61A1E6A8BF9C12E9 /* Debug */,
-				BB718B0BA10983B0B1414A21F3D66E80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DED68B9161730A44451713486024968F /* Build configuration list for PBXNativeTarget "Pods-MSAdSDK-Example-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B19E7FBD5F4BAF3BB5C9E8E022A7C3D /* Debug */,
 				0FF757DAB577CC106E708722F07313F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E525E06C1B1AAFF1D1FF69322237D152 /* Build configuration list for PBXNativeTarget "IQKeyboardManager-IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACB8CAE4E076DA7623D036840E38E36 /* Debug */,
+				8182DDB8215B8B5B7EFE3F80BA778D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4654,11 +4635,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		EC8257176142BA1C08F3AAD3FBE78062 /* Build configuration list for PBXAggregateTarget "MentaVlionBaseSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36C9BB0ACDFBC1ED056058AFCE027D6 /* Debug */,
+				EF7B9ECEE84A7426FFD9B7E90939CA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F1862C45C09AE512944738FE17B51A8E /* Build configuration list for PBXAggregateTarget "BaiduMobAdSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A3CC31021513428365FA5459FF8A084 /* Debug */,
 				080AA94C2E6F03268D44D657AD73762B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82BFF6AC38C35F43D7A5FB7D604A6FC /* Build configuration list for PBXAggregateTarget "MentaVlionAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D2D914C34257657139400D1F370D13 /* Debug */,
+				63EA1B99E8DB27D3A3F45A74B65F96FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC02D85BD615B1B770E4AAF3C7443347 /* Build configuration list for PBXAggregateTarget "MentaUnifiedSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F929B76DDC9E5038356693E77EA8F9D2 /* Debug */,
+				D5C527AE651F2185586F7DC81CDE1153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
