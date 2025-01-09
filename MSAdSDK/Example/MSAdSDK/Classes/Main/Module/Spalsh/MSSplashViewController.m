@@ -79,7 +79,7 @@
         self.splash = nil;
     }
     MSSplashAdConfigParams *adParam = nil;
-    NSString *pid = self.defaultPid;
+    NSString *pid = @"1061834";
     if (self.pidTF.text.length > 0) {
         pid = self.pidTF.text;
     }

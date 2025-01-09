@@ -27,7 +27,7 @@
     return YES;
 }
 - (void)setUpSDK{
-    NSString *appid = @"101647";
+    NSString *appid = @"113436";
     [MSAdSDK startSDKWithAppid:appid configBlock:^{
         [MSAdSDK setLogLevel:MSLogNone];
         [MSConfig setYob:@"2000"];
