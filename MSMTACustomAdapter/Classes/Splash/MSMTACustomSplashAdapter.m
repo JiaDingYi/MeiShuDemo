@@ -11,9 +11,10 @@
 
 @interface MSMTACustomSplashAdapter ()
 
-@property (nonatomic,strong) MentaUnifiedSplashAd *splash;
-@property (nonatomic,assign) CGSize bottomSize;
-@property (nonatomic,strong) MSMTACustomSplashDelegate *splashDelegate;
+@property (nonatomic, strong) MentaUnifiedSplashAd *splash;
+@property (nonatomic, assign) CGSize bottomSize;
+@property (nonatomic, strong) UIView *splashBottom;
+@property (nonatomic, strong) MSMTACustomSplashDelegate *splashDelegate;
 
 @end
 
@@ -31,9 +32,8 @@
         config.slotId = pid;
         config.tolerateTime = 5;
 //        config.viewController = self;
-//        UIView *bottomView = [self returnBottomView];
-//        config.bottomView = bottomView;
-        config.adSize = CGSizeMake(UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height);
+        config.bottomView = self.splashBottom;
+        config.adSize = adSize;
         self.splash = [[MentaUnifiedSplashAd alloc] initWithConfig:config];
     }
     self.splash.delegate = self.splashDelegate;
@@ -44,6 +44,9 @@
  展示开屏广告
  */
 - (void)showSplashAd:(UIWindow *)window bottomView:(UIView *)bottomView {
+    if (bottomView && self.splashBottom) {
+        [self.splashBottom addSubview:bottomView];
+    }
     [self.splash showInWindow:window];
 }
 /**
@@ -82,9 +85,15 @@
  获取MS平台上配置的个性化参数
  */
 - (void)configMediaParamsOnPlatform:(NSDictionary *)mediaParams {
-    if ([mediaParams.allKeys containsObject:@"bottomSize"]) {
-        self.bottomSize = [[mediaParams valueForKey:@"bottomSize"] CGSizeValue];
-    }
+    self.bottomSize = [[mediaParams valueForKey:@"bottomSize"] CGSizeValue];
+        //不存在bottom view
+        if (CGSizeEqualToSize(self.bottomSize, CGSizeZero)) {
+            
+        } else {
+            //存在bottom view
+            //新建一个bottom view 容器
+            self.splashBottom = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.bottomSize.width, self.bottomSize.height)];
+        }
 }
 //发送竞胜结果
 - (void)sendWinNotification:(NSInteger)price {

@@ -112,7 +112,7 @@
         self.splash = nil;
     }
     MSSplashAdConfigParams *adParam = nil;
-    NSString *pid = self.defaultPid;
+    NSString *pid = @"1061834";
     if (self.pidTF.text.length > 0) {
         pid = self.pidTF.text;
     }
@@ -139,7 +139,7 @@
 -(UIView *)bottomView{
     if (!_bottomView) {
         CGFloat screenWidth  = [UIScreen mainScreen].bounds.size.width;
-        UIView * bottomView  = [[UIView alloc] initWithFrame:CGRectMake(0, 0, screenWidth, 0)];
+        UIView * bottomView  = [[UIView alloc] initWithFrame:CGRectMake(0, 0, screenWidth, 120)];
         bottomView.backgroundColor = UIColor.whiteColor;
         [bottomView addSubview:self.logoView];
         [self.logoView mas_remakeConstraints:^(MASConstraintMaker *make) {
