@@ -33,7 +33,7 @@
 -(void)loadAd:(id)sender {
     self.statusLabel.text = @"正在加载....";
     self.playBtn.enabled  = NO;
-    NSString *pid = self.defaultPidTF.text ?:self.defaultPid;
+    NSString *pid = @"1061836";
     MSRewardAdConfigParams *adParam = [[MSRewardAdConfigParams alloc]init];
     adParam.userId = @"ms";
     adParam.videoMuted = self.muteBtn.selected;
