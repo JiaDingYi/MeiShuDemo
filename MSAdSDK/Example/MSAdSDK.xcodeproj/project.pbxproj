@@ -725,9 +725,9 @@
 			isa = PBXGroup;
 			children = (
 				F69F8D7428C98862007AB51E /* MediaCustomRewardAdapterDelegate.h */,
-				F69F8D7528C98862007AB51E /* MediaCustomRewardAdapter.m */,
 				F69F8D7628C98862007AB51E /* MediaCustomRewardAdapterDelegate.m */,
 				F69F8D7728C98862007AB51E /* MediaCustomRewardAdapter.h */,
+				F69F8D7528C98862007AB51E /* MediaCustomRewardAdapter.m */,
 			);
 			path = MediaCustomRewardAdapter;
 			sourceTree = "<group>";
