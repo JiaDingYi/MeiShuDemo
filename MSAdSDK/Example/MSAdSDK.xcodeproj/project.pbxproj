@@ -736,9 +736,9 @@
 			isa = PBXGroup;
 			children = (
 				F69F8D7928C98862007AB51E /* MediaCustomBannerAdapterDelegate.h */,
-				F69F8D7A28C98862007AB51E /* MediaCustomBannerAdapter.m */,
 				F69F8D7B28C98862007AB51E /* MediaCustomBannerAdapterDelegate.m */,
 				F69F8D7C28C98862007AB51E /* MediaCustomBannerAdapter.h */,
+				F69F8D7A28C98862007AB51E /* MediaCustomBannerAdapter.m */,
 			);
 			path = MediaCustomBannerAdapter;
 			sourceTree = "<group>";

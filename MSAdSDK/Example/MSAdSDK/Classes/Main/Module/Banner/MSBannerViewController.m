@@ -76,7 +76,7 @@
     return _bannerView;
 }
 - (void)showBannerAd:(id)sender {
-    NSString *pid = self.defaultPidTF.text.length ? self.defaultPidTF.text : self.defaultPid;
+    NSString *pid = @"1061833";
     MSBannerAdConfigParams *adParam = [[MSBannerAdConfigParams alloc]init];
     adParam.showCloseBtn = YES;
     self.bannerView.delegate = self;
