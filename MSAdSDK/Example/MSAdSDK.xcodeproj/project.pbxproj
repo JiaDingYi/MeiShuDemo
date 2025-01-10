@@ -680,10 +680,10 @@
 		F69F8D5E28C98862007AB51E /* MediaCustomPrerenderAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				F69F8D5F28C98862007AB51E /* MediaCustomPrerenderAdapterDelegate.m */,
-				F69F8D6028C98862007AB51E /* MediaCustomPrerenderAdapter.m */,
 				F69F8D6128C98862007AB51E /* MediaCustomPrerenderAdapterDelegate.h */,
+				F69F8D5F28C98862007AB51E /* MediaCustomPrerenderAdapterDelegate.m */,
 				F69F8D6228C98862007AB51E /* MediaCustomPrerenderAdapter.h */,
+				F69F8D6028C98862007AB51E /* MediaCustomPrerenderAdapter.m */,
 			);
 			path = MediaCustomPrerenderAdapter;
 			sourceTree = "<group>";
