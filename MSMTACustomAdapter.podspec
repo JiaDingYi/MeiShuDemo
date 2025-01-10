@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'MSMTACustomAdapter'
-    s.version          = '6.00.23'
+    s.version          = '6.00.24'
     s.summary          = 'MSMTACustomAdapter'
     s.description      = 'This is the MSMTACustomAdapter. Please proceed to https://www.mta.com for more information.'
     s.homepage         = 'https://www.mta.com/'
@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   
     s.source_files = 'MSMTACustomAdapter/**/*'
 
-    s.dependency 'MentaVlionBaseSDK', '~> 6.00.23'
-    s.dependency 'MentaUnifiedSDK',   '~> 6.00.23'
-    s.dependency 'MentaVlionSDK',     '~> 6.00.23'
-    s.dependency 'MentaVlionAdapter', '~> 6.00.23'
+    s.dependency 'MentaVlionBaseSDK', '~> 6.00.24'
+    s.dependency 'MentaUnifiedSDK',   '~> 6.00.24'
+    s.dependency 'MentaVlionSDK',     '~> 6.00.24'
+    s.dependency 'MentaVlionAdapter', '~> 6.00.24'
     s.dependency 'MSMobAdSDK/MS',     '~> 2.5.1.2'
   
   end
