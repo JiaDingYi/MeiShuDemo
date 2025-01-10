@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MSMTACustomNativeAdapter : NSObject
+@interface MSMTACustomNativeAdapter : NSObject 
 
 @end
 

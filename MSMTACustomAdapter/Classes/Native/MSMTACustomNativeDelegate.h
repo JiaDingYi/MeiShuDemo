@@ -6,10 +6,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MSAdSDK/MSAdSDK.h>
+#import <MentaUnifiedSDK/MentaUnifiedSDK-umbrella.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MSMTACustomNativeDelegate : NSObject
+@interface MSMTACustomNativeDelegate : NSObject <MentaUnifiedNativeAdDelegate>
+
+@property (nonatomic,weak) id<MSCustomNativeEventProtocol> event;
+@property (nonatomic,weak) UIViewController *presentVC;
+@property (nonatomic,assign) double ecpm;
 
 @end
 
