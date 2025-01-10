@@ -44,7 +44,7 @@
     [self loadNativeFeedAd];
 }
 -(void)loadNativeFeedAd{
-    NSString *pid = self.defaultPidTF.text;
+    NSString *pid = @"1061831";
     MSNativeFeedAdConfigParams *adParam = [[MSNativeFeedAdConfigParams alloc]init];
     adParam.adCount = 1;
     adParam.edgeInsets = UIEdgeInsetsMake(20, 20, 20, 20);

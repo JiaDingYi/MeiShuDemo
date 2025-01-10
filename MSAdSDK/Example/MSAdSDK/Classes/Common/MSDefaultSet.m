@@ -31,7 +31,8 @@
         @(MSAdTypePaster):@"MSVideoAdViewController",
         @(MSAdTypeFeed)   :@"MSFeedViewController",
         @(MSAdTypeFeedPreRender)   :@"MSPreRenderViewController",
-        @(MSAdTypeNativeExpressAd) :@"MSNativeFeedAdSimpleViewController",
+//        @(MSAdTypeNativeExpressAd) :@"MSNativeFeedAdSimpleViewController",
+        @(MSAdTypeNativeExpressAd) :@"MSNativeFeedAdViewController",
         @(MSAdTypeFullScreenVideo) :@"MSFullScreenVideoViewController",
         @(MSAdTypeDraw):@"MSDrawAdViewController"
     };

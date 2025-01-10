@@ -13,6 +13,7 @@
 #import <UIImage+GIF.h>
 #import <MSAdSDK/MSFeedVideoConfig.h>
 #import "MediaCustomFeedVideoView.h"
+#import <MSMTACustomAdapter/MSMTACustomAdapter-umbrella.h>
 
 @interface FeedVideoView()
 @property(nonatomic,strong) UILabel *titleLabel;//标题
@@ -25,7 +26,7 @@
 @property (nonatomic,strong) UIButton    *CTAButton;
 @property(nonatomic,strong) UIImageView *iconImageView;
 @property(nonatomic,strong) UILabel *videoDurationLabel;//描述
-@property(nonatomic,strong) MediaCustomFeedVideoView *customFeedVideoView;
+@property(nonatomic,strong) UIView<MSFeedVideoInterface> *customFeedVideoView;
 @end
 
 @implementation FeedVideoView
@@ -83,7 +84,9 @@
 -(void)registerDataObject{
     [self updateCustomView];
     if (self.nativeFeedAdModel.adMaterialMeta.metaPlatform == MSPlatformCP) {
-        if (!self.customFeedVideoView) {
+        if ([[self.nativeFeedAdModel.adMaterialMeta metaCustomPlatformIdentifier] isEqualToString:@"MTA"]) {
+            self.customFeedVideoView = [[MSMTACustomFeedVideoView alloc] initWithFrame:self.mediaView.bounds];
+        } else if (!self.customFeedVideoView) {
             self.customFeedVideoView = [[MediaCustomFeedVideoView alloc]initWithFrame:self.mediaView.bounds];
         }
         [self.mediaView setMediaCustomFeedVideoView:self.customFeedVideoView];
