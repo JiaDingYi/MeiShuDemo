@@ -13,6 +13,10 @@ def common_pods
   pod 'SigmobAd-iOS','4.11.1'
   pod 'WechatOpenSDK', '~> 1.8.6'
   pod 'MSMTACustomAdapter', :path => '../../MSMTACustomAdapter.podspec'
+#  pod 'MentaUnifiedSDK',    :path => '/Users/jdy/Desktop/Menta-iOS/MentaUnifiedSDK.podspec'
+#  pod 'MentaVlionBaseSDK',  :path => '/Users/jdy/Desktop/Menta-iOS/MentaVlionBaseSDK.podspec'
+#  pod 'MentaVlionSDK',      :path => '/Users/jdy/Desktop/Menta-iOS/MentaVlionSDK.podspec'
+#  pod 'MentaVlionAdapter',  :path => '/Users/jdy/Desktop/Menta-iOS/MentaVlionAdapter.podspec'
 end
 
 target 'MSAdSDK_Example' do
