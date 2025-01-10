@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://www.mta.com/'
     s.license          = "Custom"
     s.author           = { 'wzy' => 'wangzeyong@mta.com' }
-    s.source           = { :git => "https://github.com/mta/mta-sdk-ios.git", :tag => "#{s.version}" }
+    s.source           = { :git => "https://github.com/JiaDingYi/MeiShuDemo.git", :tag => "#{s.version}" }
   
     s.ios.deployment_target = '11.0'
     s.frameworks = 'UIKit', 'MapKit', 'MediaPlayer', 'CoreLocation', 'AdSupport', 'CoreMedia', 'AVFoundation', 'CoreTelephony', 'StoreKit', 'SystemConfiguration', 'MobileCoreServices', 'CoreMotion', 'Accelerate','AudioToolbox','JavaScriptCore','Security','CoreImage','AudioToolbox','ImageIO','QuartzCore','CoreGraphics','CoreText'
