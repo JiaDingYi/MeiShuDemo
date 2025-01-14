@@ -970,6 +970,7 @@
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 8XJQRXQM72;
+						ProvisioningStyle = Automatic;
 					};
 					F6CFE97E2A67B575001A0040 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -1056,7 +1057,8 @@
 				"${PODS_ROOT}/BaiduMobAdSDK/baidumobadsdk.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
 				"${PODS_ROOT}/MSMobAdSDK/MSMobAdSDK/MSAdSDK.bundle",
-				"${PODS_ROOT}/MentaVlionBaseSDK/MVBaseSDK.bundle",
+				"${PODS_ROOT}/MentaIFLYSDK/IFLYPlayer.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MentaVlionBaseSDK/MVBaseSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -1064,6 +1066,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/baidumobadsdk.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MSAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IFLYPlayer.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MVBaseSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1082,7 +1085,8 @@
 				"${PODS_ROOT}/BaiduMobAdSDK/baidumobadsdk.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
 				"${PODS_ROOT}/MSMobAdSDK/MSMobAdSDK/MSAdSDK.bundle",
-				"${PODS_ROOT}/MentaVlionBaseSDK/MVBaseSDK.bundle",
+				"${PODS_ROOT}/MentaIFLYSDK/IFLYPlayer.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MentaVlionBaseSDK/MVBaseSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -1090,6 +1094,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/baidumobadsdk.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MSAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IFLYPlayer.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MVBaseSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1415,6 +1420,8 @@
 			baseConfigurationReference = 499A5AD24DE9B7933490D0DF /* Pods-MSAdSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8XJQRXQM72;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1425,8 +1432,9 @@
 				GCC_PREFIX_HEADER = "${SRCROOT}/MSAdSDK/Classes/Header/MSPrefixHeader.pch";
 				INFOPLIST_FILE = "MSAdSDK/MSAdSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "demo.MSAdSDK-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.menta.ad.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1437,6 +1445,8 @@
 			baseConfigurationReference = 1B8A64E5423569EBD618FCAE /* Pods-MSAdSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8XJQRXQM72;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1447,8 +1457,9 @@
 				GCC_PREFIX_HEADER = "${SRCROOT}/MSAdSDK/Classes/Header/MSPrefixHeader.pch";
 				INFOPLIST_FILE = "MSAdSDK/MSAdSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "demo.MSAdSDK-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.menta.ad.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

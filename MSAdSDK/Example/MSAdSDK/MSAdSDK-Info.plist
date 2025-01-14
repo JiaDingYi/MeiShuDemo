@@ -67,7 +67,7 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>打开定位权限</string>
 	<key>NSUserTrackingUsageDescription</key>
-	<string>选择接受您将会收到基于您兴趣的广告，选择拒绝您仍会 收到同等数量的广告，但广告相关性会降低。</string>
+	<string>请允许跟踪</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

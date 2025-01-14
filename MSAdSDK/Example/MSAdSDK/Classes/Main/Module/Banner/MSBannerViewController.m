@@ -40,7 +40,7 @@
     BOOL isScreenH = self.view.bounds.size.width > self.view.bounds.size.height;
     [self.containView mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.top.offset(isScreenH ? 64 : 100);
-        make.width.equalTo(@300);
+        make.width.equalTo(@320);
         make.height.equalTo(@75);
         make.centerX.offset(0);
     }];

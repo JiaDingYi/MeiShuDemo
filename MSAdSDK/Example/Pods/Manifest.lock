@@ -7,24 +7,31 @@ PODS:
   - IQKeyboardManager (6.5.19)
   - JADYun (2.6.4)
   - JADYunMotion (2.6.4)
-  - KSAdSDK (3.3.69)
+  - KSAdSDK (3.3.71)
   - Masonry (1.1.0)
-  - MentaUnifiedSDK (6.00.23):
-    - MentaVlionBaseSDK (~> 6.00.23)
-  - MentaVlionAdapter (6.00.23):
-    - MentaUnifiedSDK (~> 6.00.23)
-    - MentaVlionSDK (~> 6.00.23)
-  - MentaVlionBaseSDK (6.00.23)
-  - MentaVlionSDK (6.00.23):
-    - MentaVlionBaseSDK (~> 6.00.23)
+  - MentaIFLYAdapter (6.00.24):
+    - MentaIFLYSDK
+    - MentaUnifiedSDK (~> 6.00.24)
+  - MentaIFLYSDK (4.5.0)
+  - MentaKSAdapter (6.00.24):
+    - KSAdSDK (= 3.3.71)
+    - MentaUnifiedSDK (~> 6.00.24)
+  - MentaUnifiedSDK (6.00.24):
+    - MentaVlionBaseSDK (~> 6.00.24)
+  - MentaVlionAdapter (6.00.24):
+    - MentaUnifiedSDK (~> 6.00.24)
+    - MentaVlionSDK (~> 6.00.24)
+  - MentaVlionBaseSDK (6.00.24)
+  - MentaVlionSDK (6.00.24):
+    - MentaVlionBaseSDK (~> 6.00.24)
   - MSMobAdSDK/MotionLess (2.5.1.2)
   - MSMobAdSDK/MS (2.5.1.2):
     - MSMobAdSDK/MotionLess
-  - MSMTACustomAdapter (6.00.23):
-    - MentaUnifiedSDK (~> 6.00.23)
-    - MentaVlionAdapter (~> 6.00.23)
-    - MentaVlionBaseSDK (~> 6.00.23)
-    - MentaVlionSDK (~> 6.00.23)
+  - MSMTACustomAdapter (6.00.24):
+    - MentaUnifiedSDK (~> 6.00.24)
+    - MentaVlionAdapter (~> 6.00.24)
+    - MentaVlionBaseSDK (~> 6.00.24)
+    - MentaVlionSDK (~> 6.00.24)
     - MSMobAdSDK/MS (~> 2.5.1.2)
   - SDWebImage (5.8.4):
     - SDWebImage/Core (= 5.8.4)
@@ -43,8 +50,14 @@ DEPENDENCIES:
   - IQKeyboardManager
   - JADYun (= 2.6.4)
   - JADYunMotion (= 2.6.4)
-  - KSAdSDK (= 3.3.69)
+  - KSAdSDK (= 3.3.71)
   - Masonry
+  - MentaIFLYAdapter (from `/Users/jdy/Desktop/Menta-iOS/MentaIFLYAdapter.podspec`)
+  - MentaKSAdapter (from `/Users/jdy/Desktop/Menta-iOS/MentaKSAdapter.podspec`)
+  - MentaUnifiedSDK (from `/Users/jdy/Desktop/Menta-iOS/MentaUnifiedSDK.podspec`)
+  - MentaVlionAdapter (from `/Users/jdy/Desktop/Menta-iOS/MentaVlionAdapter.podspec`)
+  - MentaVlionBaseSDK (from `/Users/jdy/Desktop/Menta-iOS/MentaVlionBaseSDK.podspec`)
+  - MentaVlionSDK (from `/Users/jdy/Desktop/Menta-iOS/MentaVlionSDK.podspec`)
   - MSMobAdSDK/MS (= 2.5.1.2)
   - MSMTACustomAdapter (from `../../MSMTACustomAdapter.podspec`)
   - SDWebImage (= 5.8.4)
@@ -61,19 +74,27 @@ SPEC REPOS:
     - JADYun
     - JADYunMotion
     - KSAdSDK
-    - MentaUnifiedSDK
-    - MentaVlionAdapter
-    - MentaVlionBaseSDK
-    - MentaVlionSDK
+    - Masonry
+    - MentaIFLYSDK
     - MSMobAdSDK
     - SDWebImage
     - SigmobAd-iOS
     - SnapKit
     - WechatOpenSDK
-  trunk:
-    - Masonry
 
 EXTERNAL SOURCES:
+  MentaIFLYAdapter:
+    :path: "/Users/jdy/Desktop/Menta-iOS/MentaIFLYAdapter.podspec"
+  MentaKSAdapter:
+    :path: "/Users/jdy/Desktop/Menta-iOS/MentaKSAdapter.podspec"
+  MentaUnifiedSDK:
+    :path: "/Users/jdy/Desktop/Menta-iOS/MentaUnifiedSDK.podspec"
+  MentaVlionAdapter:
+    :path: "/Users/jdy/Desktop/Menta-iOS/MentaVlionAdapter.podspec"
+  MentaVlionBaseSDK:
+    :path: "/Users/jdy/Desktop/Menta-iOS/MentaVlionBaseSDK.podspec"
+  MentaVlionSDK:
+    :path: "/Users/jdy/Desktop/Menta-iOS/MentaVlionSDK.podspec"
   MSMTACustomAdapter:
     :path: "../../MSMTACustomAdapter.podspec"
 
@@ -84,19 +105,22 @@ SPEC CHECKSUMS:
   IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
   JADYun: aebe6e9ee5d65258ea2b68d8babc2e7667fa1c94
   JADYunMotion: 8582f2bc21fd1ca6c5f57f0d47d4e182cdca11cd
-  KSAdSDK: 6567620e4ebe6064b9a1a3c8de111c4842a31160
+  KSAdSDK: df15bb4ed94d2c8fdf1b7b290a7635a3dbbb3885
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MentaUnifiedSDK: 2e31a5a86bed45676fb34866920efbe7a21b45af
-  MentaVlionAdapter: fd8719d57ca95ec0d5d8f98a30902268d455547d
-  MentaVlionBaseSDK: 9510b2694b3534803cc1fbadaea1fa7b305ab3af
-  MentaVlionSDK: 5ccf926bc126e0666292bcdc63e0851d91b1bde0
+  MentaIFLYAdapter: f933e8aa665a0b0fc98a26b4474a2528c409d849
+  MentaIFLYSDK: 3926e959d5fd34734755340a21c28ea0a62c696f
+  MentaKSAdapter: 23ceab0b5a7d1a0242e1bf1896bd18efe5b13468
+  MentaUnifiedSDK: cfa1e5747c748f5d62d291151d5e5b30e227af54
+  MentaVlionAdapter: 6b6217f3f622f10eafb10039fb198e354541efa0
+  MentaVlionBaseSDK: a4361cf28bce78237fb29061bfe083799118c026
+  MentaVlionSDK: e1c5a956ad6ca38c330df6ebb572c0d27455bdef
   MSMobAdSDK: 10e4c8ad6ded56f5a1280b2c940248d5a0f598ba
-  MSMTACustomAdapter: 00da53327554ee7bac46fe92aac6e72d0b89de60
+  MSMTACustomAdapter: 0d286bf0a0fb3fb71db5d076915d2c65a86fd052
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
   SigmobAd-iOS: bf8f8f6c504fbf2f1150646dd160de42fb0164bb
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
 
-PODFILE CHECKSUM: 8632f3db848616de9919c00406916521d6f01f8e
+PODFILE CHECKSUM: 5c99ac687cd21765bcf9b8d3a337775d8b1c80d0
 
 COCOAPODS: 1.15.2

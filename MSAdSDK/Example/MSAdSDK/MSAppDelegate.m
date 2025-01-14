@@ -21,6 +21,8 @@
 @implementation MSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // ATT 权限获取
+    [self getAdvertisingTrackingAuthority];
     [self setUpSDK];
     [self setUpMainVc];
     [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
@@ -92,4 +94,46 @@
     [self.locationManager stopUpdatingLocation];
     NSLog(@"当前位置%@",locations.lastObject);
 }
+
+- (void)getAdvertisingTrackingAuthority {
+    if (@available(iOS 14, *)) {
+        // 在 iOS 14 及更新版本中，使用 App Tracking Transparency 框架请求用户授权
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            // 在这里处理用户的授权结果
+            switch (status) {
+                case ATTrackingManagerAuthorizationStatusAuthorized:
+                    // 用户已授权，可以获取 IDFA
+                    [self getIDFA];
+                    break;
+                case ATTrackingManagerAuthorizationStatusDenied:
+                    [self getIDFA];
+                    // 用户拒绝授权，处理相应逻辑
+                    break;
+                case ATTrackingManagerAuthorizationStatusNotDetermined:
+                    [self getIDFA];
+                    // 用户还未作出选择，可以继续等待或提示用户进行授权
+                    break;
+                case ATTrackingManagerAuthorizationStatusRestricted:
+                    [self getIDFA];
+                    // 授权受到限制，可能是由于家长控制等原因
+                    break;
+            }
+        }];
+    } else {
+        // 在 iOS 14 以下版本，可以直接获取 IDFA
+        [self getIDFA];
+    }
+}
+
+- (void)getIDFA {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        // do something
+        // 获取 IDFA
+        NSUUID *IDFA = [[ASIdentifierManager sharedManager] advertisingIdentifier];
+        NSString *idfaString = [IDFA UUIDString];
+        NSLog(@"idfaString : %@", idfaString);
+    });
+
+}
+
 @end
